@@ -1,0 +1,300 @@
+About to start 100
+Each job with have 150
+There are 14787 jobs in total
+last Job is 150
+bsub -o %I.out -e %I.err -J myArray[1-150] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[1-150] myJob
+last Job is 300
+bsub -o %I.out -e %I.err -J myArray[151-300] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[151-300] myJob
+last Job is 450
+bsub -o %I.out -e %I.err -J myArray[301-450] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[301-450] myJob
+last Job is 600
+bsub -o %I.out -e %I.err -J myArray[451-600] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[451-600] myJob
+last Job is 750
+bsub -o %I.out -e %I.err -J myArray[601-750] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[601-750] myJob
+last Job is 900
+bsub -o %I.out -e %I.err -J myArray[751-900] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[751-900] myJob
+last Job is 1050
+bsub -o %I.out -e %I.err -J myArray[901-1050] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[901-1050] myJob
+last Job is 1200
+bsub -o %I.out -e %I.err -J myArray[1051-1200] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[1051-1200] myJob
+last Job is 1350
+bsub -o %I.out -e %I.err -J myArray[1201-1350] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[1201-1350] myJob
+last Job is 1500
+bsub -o %I.out -e %I.err -J myArray[1351-1500] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[1351-1500] myJob
+last Job is 1650
+bsub -o %I.out -e %I.err -J myArray[1501-1650] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[1501-1650] myJob
+last Job is 1800
+bsub -o %I.out -e %I.err -J myArray[1651-1800] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[1651-1800] myJob
+last Job is 1950
+bsub -o %I.out -e %I.err -J myArray[1801-1950] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[1801-1950] myJob
+last Job is 2100
+bsub -o %I.out -e %I.err -J myArray[1951-2100] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[1951-2100] myJob
+last Job is 2250
+bsub -o %I.out -e %I.err -J myArray[2101-2250] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[2101-2250] myJob
+last Job is 2400
+bsub -o %I.out -e %I.err -J myArray[2251-2400] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[2251-2400] myJob
+last Job is 2550
+bsub -o %I.out -e %I.err -J myArray[2401-2550] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[2401-2550] myJob
+last Job is 2700
+bsub -o %I.out -e %I.err -J myArray[2551-2700] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[2551-2700] myJob
+last Job is 2850
+bsub -o %I.out -e %I.err -J myArray[2701-2850] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[2701-2850] myJob
+last Job is 3000
+bsub -o %I.out -e %I.err -J myArray[2851-3000] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[2851-3000] myJob
+last Job is 3150
+bsub -o %I.out -e %I.err -J myArray[3001-3150] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[3001-3150] myJob
+last Job is 3300
+bsub -o %I.out -e %I.err -J myArray[3151-3300] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[3151-3300] myJob
+last Job is 3450
+bsub -o %I.out -e %I.err -J myArray[3301-3450] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[3301-3450] myJob
+last Job is 3600
+bsub -o %I.out -e %I.err -J myArray[3451-3600] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[3451-3600] myJob
+last Job is 3750
+bsub -o %I.out -e %I.err -J myArray[3601-3750] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[3601-3750] myJob
+last Job is 3900
+bsub -o %I.out -e %I.err -J myArray[3751-3900] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[3751-3900] myJob
+last Job is 4050
+bsub -o %I.out -e %I.err -J myArray[3901-4050] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[3901-4050] myJob
+last Job is 4200
+bsub -o %I.out -e %I.err -J myArray[4051-4200] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[4051-4200] myJob
+last Job is 4350
+bsub -o %I.out -e %I.err -J myArray[4201-4350] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[4201-4350] myJob
+last Job is 4500
+bsub -o %I.out -e %I.err -J myArray[4351-4500] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[4351-4500] myJob
+last Job is 4650
+bsub -o %I.out -e %I.err -J myArray[4501-4650] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[4501-4650] myJob
+last Job is 4800
+bsub -o %I.out -e %I.err -J myArray[4651-4800] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[4651-4800] myJob
+last Job is 4950
+bsub -o %I.out -e %I.err -J myArray[4801-4950] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[4801-4950] myJob
+last Job is 5100
+bsub -o %I.out -e %I.err -J myArray[4951-5100] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[4951-5100] myJob
+last Job is 5250
+bsub -o %I.out -e %I.err -J myArray[5101-5250] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[5101-5250] myJob
+last Job is 5400
+bsub -o %I.out -e %I.err -J myArray[5251-5400] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[5251-5400] myJob
+last Job is 5550
+bsub -o %I.out -e %I.err -J myArray[5401-5550] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[5401-5550] myJob
+last Job is 5700
+bsub -o %I.out -e %I.err -J myArray[5551-5700] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[5551-5700] myJob
+last Job is 5850
+bsub -o %I.out -e %I.err -J myArray[5701-5850] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[5701-5850] myJob
+last Job is 6000
+bsub -o %I.out -e %I.err -J myArray[5851-6000] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[5851-6000] myJob
+last Job is 6150
+bsub -o %I.out -e %I.err -J myArray[6001-6150] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[6001-6150] myJob
+last Job is 6300
+bsub -o %I.out -e %I.err -J myArray[6151-6300] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[6151-6300] myJob
+last Job is 6450
+bsub -o %I.out -e %I.err -J myArray[6301-6450] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[6301-6450] myJob
+last Job is 6600
+bsub -o %I.out -e %I.err -J myArray[6451-6600] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[6451-6600] myJob
+last Job is 6750
+bsub -o %I.out -e %I.err -J myArray[6601-6750] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[6601-6750] myJob
+last Job is 6900
+bsub -o %I.out -e %I.err -J myArray[6751-6900] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[6751-6900] myJob
+last Job is 7050
+bsub -o %I.out -e %I.err -J myArray[6901-7050] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[6901-7050] myJob
+last Job is 7200
+bsub -o %I.out -e %I.err -J myArray[7051-7200] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[7051-7200] myJob
+last Job is 7350
+bsub -o %I.out -e %I.err -J myArray[7201-7350] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[7201-7350] myJob
+last Job is 7500
+bsub -o %I.out -e %I.err -J myArray[7351-7500] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[7351-7500] myJob
+last Job is 7650
+bsub -o %I.out -e %I.err -J myArray[7501-7650] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[7501-7650] myJob
+last Job is 7800
+bsub -o %I.out -e %I.err -J myArray[7651-7800] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[7651-7800] myJob
+last Job is 7950
+bsub -o %I.out -e %I.err -J myArray[7801-7950] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[7801-7950] myJob
+last Job is 8100
+bsub -o %I.out -e %I.err -J myArray[7951-8100] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[7951-8100] myJob
+last Job is 8250
+bsub -o %I.out -e %I.err -J myArray[8101-8250] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[8101-8250] myJob
+last Job is 8400
+bsub -o %I.out -e %I.err -J myArray[8251-8400] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[8251-8400] myJob
+last Job is 8550
+bsub -o %I.out -e %I.err -J myArray[8401-8550] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[8401-8550] myJob
+last Job is 8700
+bsub -o %I.out -e %I.err -J myArray[8551-8700] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[8551-8700] myJob
+last Job is 8850
+bsub -o %I.out -e %I.err -J myArray[8701-8850] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[8701-8850] myJob
+last Job is 9000
+bsub -o %I.out -e %I.err -J myArray[8851-9000] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[8851-9000] myJob
+last Job is 9150
+bsub -o %I.out -e %I.err -J myArray[9001-9150] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[9001-9150] myJob
+last Job is 9300
+bsub -o %I.out -e %I.err -J myArray[9151-9300] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[9151-9300] myJob
+last Job is 9450
+bsub -o %I.out -e %I.err -J myArray[9301-9450] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[9301-9450] myJob
+last Job is 9600
+bsub -o %I.out -e %I.err -J myArray[9451-9600] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[9451-9600] myJob
+last Job is 9750
+bsub -o %I.out -e %I.err -J myArray[9601-9750] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[9601-9750] myJob
+last Job is 9900
+bsub -o %I.out -e %I.err -J myArray[9751-9900] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[9751-9900] myJob
+last Job is 10050
+bsub -o %I.out -e %I.err -J myArray[9901-10050] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[9901-10050] myJob
+last Job is 10200
+bsub -o %I.out -e %I.err -J myArray[10051-10200] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[10051-10200] myJob
+last Job is 10350
+bsub -o %I.out -e %I.err -J myArray[10201-10350] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[10201-10350] myJob
+last Job is 10500
+bsub -o %I.out -e %I.err -J myArray[10351-10500] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[10351-10500] myJob
+last Job is 10650
+bsub -o %I.out -e %I.err -J myArray[10501-10650] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[10501-10650] myJob
+last Job is 10800
+bsub -o %I.out -e %I.err -J myArray[10651-10800] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[10651-10800] myJob
+last Job is 10950
+bsub -o %I.out -e %I.err -J myArray[10801-10950] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[10801-10950] myJob
+last Job is 11100
+bsub -o %I.out -e %I.err -J myArray[10951-11100] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[10951-11100] myJob
+last Job is 11250
+bsub -o %I.out -e %I.err -J myArray[11101-11250] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[11101-11250] myJob
+last Job is 11400
+bsub -o %I.out -e %I.err -J myArray[11251-11400] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[11251-11400] myJob
+last Job is 11550
+bsub -o %I.out -e %I.err -J myArray[11401-11550] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[11401-11550] myJob
+last Job is 11700
+bsub -o %I.out -e %I.err -J myArray[11551-11700] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[11551-11700] myJob
+last Job is 11850
+bsub -o %I.out -e %I.err -J myArray[11701-11850] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[11701-11850] myJob
+last Job is 12000
+bsub -o %I.out -e %I.err -J myArray[11851-12000] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[11851-12000] myJob
+last Job is 12150
+bsub -o %I.out -e %I.err -J myArray[12001-12150] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[12001-12150] myJob
+last Job is 12300
+bsub -o %I.out -e %I.err -J myArray[12151-12300] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[12151-12300] myJob
+last Job is 12450
+bsub -o %I.out -e %I.err -J myArray[12301-12450] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[12301-12450] myJob
+last Job is 12600
+bsub -o %I.out -e %I.err -J myArray[12451-12600] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[12451-12600] myJob
+last Job is 12750
+bsub -o %I.out -e %I.err -J myArray[12601-12750] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[12601-12750] myJob
+last Job is 12900
+bsub -o %I.out -e %I.err -J myArray[12751-12900] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[12751-12900] myJob
+last Job is 13050
+bsub -o %I.out -e %I.err -J myArray[12901-13050] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[12901-13050] myJob
+last Job is 13200
+bsub -o %I.out -e %I.err -J myArray[13051-13200] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[13051-13200] myJob
+last Job is 13350
+bsub -o %I.out -e %I.err -J myArray[13201-13350] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[13201-13350] myJob
+last Job is 13500
+bsub -o %I.out -e %I.err -J myArray[13351-13500] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[13351-13500] myJob
+last Job is 13650
+bsub -o %I.out -e %I.err -J myArray[13501-13650] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[13501-13650] myJob
+last Job is 13800
+bsub -o %I.out -e %I.err -J myArray[13651-13800] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[13651-13800] myJob
+last Job is 13950
+bsub -o %I.out -e %I.err -J myArray[13801-13950] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[13801-13950] myJob
+last Job is 14100
+bsub -o %I.out -e %I.err -J myArray[13951-14100] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[13951-14100] myJob
+last Job is 14250
+bsub -o %I.out -e %I.err -J myArray[14101-14250] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[14101-14250] myJob
+last Job is 14400
+bsub -o %I.out -e %I.err -J myArray[14251-14400] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[14251-14400] myJob
+last Job is 14550
+bsub -o %I.out -e %I.err -J myArray[14401-14550] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[14401-14550] myJob
+last Job is 14700
+bsub -o %I.out -e %I.err -J myArray[14551-14700] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[14551-14700] myJob
+last Job is 14850
+bsub -o %I.out -e %I.err -J myArray[14701-14850] /nfs/users/nfs_f/fs9/bin/perl_modules/ensembl_main/treefam_tools/get_HMMALING/myjob.pl input.\$LSB_JOBINDEX
+bsub -J myArray[14701-14850] myJob

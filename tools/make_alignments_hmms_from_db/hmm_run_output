@@ -1,0 +1,1965 @@
+Getting clean alignment for TF101093...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF101093
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+    1 / 7
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 7
+done.
+
+Progressive alignment ... 
+STEP     1 / 6 fSTEP     2 / 6 f
+Reallocating..done. *alloclen = 2445
+STEP     3 / 6 fSTEP     4 / 6 fSTEP     5 / 6 fSTEP     6 / 6 f
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 6
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 7
+done.
+
+Progressive alignment ... 
+STEP     1 /6 fSTEP     2 /6 fSTEP     3 /6 fSTEP     4 /6 fSTEP     5 /6 fSTEP     6 /6 f
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF101093	7
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF101093/hmmer.hmm /tmp/treefam/TF101093/TF101093.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF101093 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF101202...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF101202
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+    1 / 6
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 6
+done.
+
+Progressive alignment ... 
+STEP     1 / 5 fSTEP     2 / 5 fSTEP     3 / 5 fSTEP     4 / 5 fSTEP     5 / 5 f
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 5
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 6
+done.
+
+Progressive alignment ... 
+STEP     1 /5 fSTEP     2 /5 fSTEP     3 /5 fSTEP     4 /5 fSTEP     5 /5 f
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF101202	6
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF101202/hmmer.hmm /tmp/treefam/TF101202/TF101202.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF101202 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF101235...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF101235
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+    1 / 10
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 10
+done.
+
+Progressive alignment ... 
+STEP     1 / 9 fSTEP     2 / 9 fSTEP     3 / 9 fSTEP     4 / 9 fSTEP     5 / 9 fSTEP     6 / 9 fSTEP     7 / 9 fSTEP     8 / 9 dSTEP     9 / 9 d
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 9
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 10
+done.
+
+Progressive alignment ... 
+STEP     1 /9 fSTEP     2 /9 fSTEP     3 /9 fSTEP     4 /9 fSTEP     5 /9 fSTEP     6 /9 fSTEP     7 /9 fSTEP     8 /9 dSTEP     9 /9 d
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF101235	10
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF101235/hmmer.hmm /tmp/treefam/TF101235/TF101235.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF101235 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF101508...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF101508
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+    1 / 12   11 / 12
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 12   10 / 12
+done.
+
+Progressive alignment ... 
+STEP     1 / 11 fSTEP     2 / 11 fSTEP     3 / 11 fSTEP     4 / 11 fSTEP     5 / 11 fSTEP     6 / 11 fSTEP     7 / 11 fSTEP     8 / 11 fSTEP     9 / 11 d
+Reallocating..done. *alloclen = 2334
+STEP    10 / 11 dSTEP    11 / 11 d
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 11   10 / 11
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 12   10 / 12
+done.
+
+Progressive alignment ... 
+STEP     1 /11 fSTEP     2 /11 fSTEP     3 /11 fSTEP     4 /11 fSTEP     5 /11 fSTEP     6 /11 fSTEP     7 /11 fSTEP     8 /11 dSTEP     9 /11 dSTEP    10 /11 dSTEP    11 /11 d
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF101508	12
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF101508/hmmer.hmm /tmp/treefam/TF101508/TF101508.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF101508 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF103001...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF103001
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+    1 / 11   11 / 11
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 11
+done.
+
+Progressive alignment ... 
+STEP     1 / 10 fSTEP     2 / 10 fSTEP     3 / 10 fSTEP     4 / 10 fSTEP     5 / 10 fSTEP     6 / 10 fSTEP     7 / 10 fSTEP     8 / 10 f
+Reallocating..done. *alloclen = 4051
+STEP     9 / 10 fSTEP    10 / 10 d
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 10
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 11
+done.
+
+Progressive alignment ... 
+STEP     1 /10 fSTEP     2 /10 fSTEP     3 /10 fSTEP     4 /10 fSTEP     5 /10 fSTEP     6 /10 fSTEP     7 /10 fSTEP     8 /10 fSTEP     9 /10 fSTEP    10 /10 d
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF103001	11
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF103001/hmmer.hmm /tmp/treefam/TF103001/TF103001.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF103001 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF105122...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF105122
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+    1 / 52   11 / 52   21 / 52   31 / 52   41 / 52   51 / 52
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 52   10 / 52   20 / 52   30 / 52   40 / 52   50 / 52
+done.
+
+Progressive alignment ... 
+STEP     1 / 51 fSTEP     2 / 51 fSTEP     3 / 51 fSTEP     4 / 51 fSTEP     5 / 51 fSTEP     6 / 51 fSTEP     7 / 51 fSTEP     8 / 51 fSTEP     9 / 51 fSTEP    10 / 51 fSTEP    11 / 51 fSTEP    12 / 51 fSTEP    13 / 51 fSTEP    14 / 51 fSTEP    15 / 51 fSTEP    16 / 51 fSTEP    17 / 51 fSTEP    18 / 51 fSTEP    19 / 51 fSTEP    20 / 51 fSTEP    21 / 51 fSTEP    22 / 51 fSTEP    23 / 51 fSTEP    24 / 51 fSTEP    25 / 51 fSTEP    26 / 51 fSTEP    27 / 51 fSTEP    28 / 51 fSTEP    29 / 51 fSTEP    30 / 51 fSTEP    31 / 51 fSTEP    32 / 51 fSTEP    33 / 51 fSTEP    34 / 51 fSTEP    35 / 51 dSTEP    36 / 51 fSTEP    37 / 51 dSTEP    38 / 51 dSTEP    39 / 51 fSTEP    40 / 51 d
+Reallocating..done. *alloclen = 2401
+STEP    41 / 51 fSTEP    42 / 51 fSTEP    43 / 51 fSTEP    44 / 51 fSTEP    45 / 51 fSTEP    46 / 51 dSTEP    47 / 51 fSTEP    48 / 51 dSTEP    49 / 51 dSTEP    50 / 51 dSTEP    51 / 51 d
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 51   10 / 51   20 / 51   30 / 51   40 / 51   50 / 51
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 52   10 / 52   20 / 52   30 / 52   40 / 52   50 / 52
+done.
+
+Progressive alignment ... 
+STEP     1 /51 fSTEP     2 /51 fSTEP     3 /51 fSTEP     4 /51 fSTEP     5 /51 fSTEP     6 /51 fSTEP     7 /51 fSTEP     8 /51 fSTEP     9 /51 fSTEP    10 /51 fSTEP    11 /51 fSTEP    12 /51 fSTEP    13 /51 fSTEP    14 /51 fSTEP    15 /51 fSTEP    16 /51 fSTEP    17 /51 fSTEP    18 /51 fSTEP    19 /51 fSTEP    20 /51 fSTEP    21 /51 fSTEP    22 /51 fSTEP    23 /51 fSTEP    24 /51 fSTEP    25 /51 fSTEP    26 /51 fSTEP    27 /51 fSTEP    28 /51 fSTEP    29 /51 fSTEP    30 /51 fSTEP    31 /51 fSTEP    32 /51 dSTEP    33 /51 fSTEP    34 /51 fSTEP    35 /51 fSTEP    36 /51 fSTEP    37 /51 fSTEP    38 /51 dSTEP    39 /51 fSTEP    40 /51 fSTEP    41 /51 dSTEP    42 /51 fSTEP    43 /51 fSTEP    44 /51 fSTEP    45 /51 fSTEP    46 /51 dSTEP    47 /51 dSTEP    48 /51 dSTEP    49 /51 dSTEP    50 /51 dSTEP    51 /51 d
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF105122	52
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF105122/hmmer.hmm /tmp/treefam/TF105122/TF105122.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF105122 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF105135...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF105135
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+    1 / 41   11 / 41   21 / 41   31 / 41   41 / 41
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 41   10 / 41   20 / 41   30 / 41
+done.
+
+Progressive alignment ... 
+STEP     1 / 40 fSTEP     2 / 40 fSTEP     3 / 40 fSTEP     4 / 40 fSTEP     5 / 40 fSTEP     6 / 40 fSTEP     7 / 40 fSTEP     8 / 40 fSTEP     9 / 40 fSTEP    10 / 40 fSTEP    11 / 40 fSTEP    12 / 40 fSTEP    13 / 40 fSTEP    14 / 40 fSTEP    15 / 40 fSTEP    16 / 40 fSTEP    17 / 40 fSTEP    18 / 40 fSTEP    19 / 40 fSTEP    20 / 40 fSTEP    21 / 40 fSTEP    22 / 40 fSTEP    23 / 40 fSTEP    24 / 40 fSTEP    25 / 40 fSTEP    26 / 40 fSTEP    27 / 40 fSTEP    28 / 40 fSTEP    29 / 40 fSTEP    30 / 40 fSTEP    31 / 40 fSTEP    32 / 40 fSTEP    33 / 40 fSTEP    34 / 40 dSTEP    35 / 40 dSTEP    36 / 40 dSTEP    37 / 40 dSTEP    38 / 40 dSTEP    39 / 40 dSTEP    40 / 40 d
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 40   10 / 40   20 / 40   30 / 40
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 41   10 / 41   20 / 41   30 / 41
+done.
+
+Progressive alignment ... 
+STEP     1 /40 fSTEP     2 /40 fSTEP     3 /40 fSTEP     4 /40 fSTEP     5 /40 fSTEP     6 /40 fSTEP     7 /40 fSTEP     8 /40 fSTEP     9 /40 fSTEP    10 /40 fSTEP    11 /40 fSTEP    12 /40 fSTEP    13 /40 fSTEP    14 /40 fSTEP    15 /40 fSTEP    16 /40 fSTEP    17 /40 fSTEP    18 /40 fSTEP    19 /40 fSTEP    20 /40 fSTEP    21 /40 fSTEP    22 /40 fSTEP    23 /40 fSTEP    24 /40 fSTEP    25 /40 fSTEP    26 /40 fSTEP    27 /40 fSTEP    28 /40 fSTEP    29 /40 fSTEP    30 /40 fSTEP    31 /40 fSTEP    32 /40 fSTEP    33 /40 dSTEP    34 /40 dSTEP    35 /40 dSTEP    36 /40 dSTEP    37 /40 dSTEP    38 /40 dSTEP    39 /40 dSTEP    40 /40 d
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF105135	41
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF105135/hmmer.hmm /tmp/treefam/TF105135/TF105135.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF105135 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF105211...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF105211
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+    1 / 10
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 10
+done.
+
+Progressive alignment ... 
+STEP     1 / 9 fSTEP     2 / 9 fSTEP     3 / 9 fSTEP     4 / 9 fSTEP     5 / 9 fSTEP     6 / 9 dSTEP     7 / 9 dSTEP     8 / 9 dSTEP     9 / 9 d
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 9
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 10
+done.
+
+Progressive alignment ... 
+STEP     1 /9 fSTEP     2 /9 fSTEP     3 /9 fSTEP     4 /9 fSTEP     5 /9 fSTEP     6 /9 dSTEP     7 /9 dSTEP     8 /9 dSTEP     9 /9 d
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF105211	10
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF105211/hmmer.hmm /tmp/treefam/TF105211/TF105211.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF105211 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF105224...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF105224
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+WARNING : Unknown character X    1 / 21   11 / 21   21 / 21
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 21   10 / 21
+done.
+
+Progressive alignment ... 
+STEP     1 / 20 fSTEP     2 / 20 fSTEP     3 / 20 fSTEP     4 / 20 fSTEP     5 / 20 fSTEP     6 / 20 fSTEP     7 / 20 fSTEP     8 / 20 fSTEP     9 / 20 fSTEP    10 / 20 fSTEP    11 / 20 fSTEP    12 / 20 fSTEP    13 / 20 fSTEP    14 / 20 fSTEP    15 / 20 fSTEP    16 / 20 fSTEP    17 / 20 fSTEP    18 / 20 dSTEP    19 / 20 dSTEP    20 / 20 d
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 20   10 / 20
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 21   10 / 21
+done.
+
+Progressive alignment ... 
+STEP     1 /20 fSTEP     2 /20 fSTEP     3 /20 fSTEP     4 /20 fSTEP     5 /20 fSTEP     6 /20 fSTEP     7 /20 fSTEP     8 /20 fSTEP     9 /20 fSTEP    10 /20 fSTEP    11 /20 fSTEP    12 /20 fSTEP    13 /20 fSTEP    14 /20 fSTEP    15 /20 fSTEP    16 /20 fSTEP    17 /20 fSTEP    18 /20 dSTEP    19 /20 dSTEP    20 /20 d
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF105224	21
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF105224/hmmer.hmm /tmp/treefam/TF105224/TF105224.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF105224 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF105309...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF105309
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+    1 / 10
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 10
+done.
+
+Progressive alignment ... 
+STEP     1 / 9 fSTEP     2 / 9 fSTEP     3 / 9 fSTEP     4 / 9 fSTEP     5 / 9 fSTEP     6 / 9 fSTEP     7 / 9 fSTEP     8 / 9 d
+Reallocating..done. *alloclen = 1668
+STEP     9 / 9 d
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 9
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 10
+done.
+
+Progressive alignment ... 
+STEP     1 /9 fSTEP     2 /9 fSTEP     3 /9 fSTEP     4 /9 fSTEP     5 /9 fSTEP     6 /9 fSTEP     7 /9 fSTEP     8 /9 fSTEP     9 /9 d
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF105309	10
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF105309/hmmer.hmm /tmp/treefam/TF105309/TF105309.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF105309 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF105552...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF105552
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+    1 / 17   11 / 17
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 17   10 / 17
+done.
+
+Progressive alignment ... 
+STEP     1 / 16 fSTEP     2 / 16 fSTEP     3 / 16 fSTEP     4 / 16 fSTEP     5 / 16 fSTEP     6 / 16 fSTEP     7 / 16 fSTEP     8 / 16 fSTEP     9 / 16 fSTEP    10 / 16 fSTEP    11 / 16 fSTEP    12 / 16 fSTEP    13 / 16 fSTEP    14 / 16 fSTEP    15 / 16 fSTEP    16 / 16 d
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 16   10 / 16
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 17   10 / 17
+done.
+
+Progressive alignment ... 
+STEP     1 /16 fSTEP     2 /16 fSTEP     3 /16 fSTEP     4 /16 fSTEP     5 /16 fSTEP     6 /16 fSTEP     7 /16 fSTEP     8 /16 fSTEP     9 /16 fSTEP    10 /16 fSTEP    11 /16 fSTEP    12 /16 fSTEP    13 /16 fSTEP    14 /16 fSTEP    15 /16 dSTEP    16 /16 d
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF105552	17
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF105552/hmmer.hmm /tmp/treefam/TF105552/TF105552.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF105552 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF105663...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF105663
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+    1 / 8
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 8
+done.
+
+Progressive alignment ... 
+STEP     1 / 7 fSTEP     2 / 7 fSTEP     3 / 7 fSTEP     4 / 7 fSTEP     5 / 7 fSTEP     6 / 7 fSTEP     7 / 7 f
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 7
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 8
+done.
+
+Progressive alignment ... 
+STEP     1 /7 fSTEP     2 /7 fSTEP     3 /7 fSTEP     4 /7 fSTEP     5 /7 fSTEP     6 /7 fSTEP     7 /7 f
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF105663	8
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF105663/hmmer.hmm /tmp/treefam/TF105663/TF105663.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF105663 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF105669...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF105669
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+    1 / 10
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 10
+done.
+
+Progressive alignment ... 
+STEP     1 / 9 fSTEP     2 / 9 fSTEP     3 / 9 fSTEP     4 / 9 fSTEP     5 / 9 fSTEP     6 / 9 fSTEP     7 / 9 fSTEP     8 / 9 fSTEP     9 / 9 f
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 9
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 10
+done.
+
+Progressive alignment ... 
+STEP     1 /9 fSTEP     2 /9 fSTEP     3 /9 fSTEP     4 /9 fSTEP     5 /9 fSTEP     6 /9 fSTEP     7 /9 fSTEP     8 /9 fSTEP     9 /9 f
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF105669	10
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF105669/hmmer.hmm /tmp/treefam/TF105669/TF105669.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF105669 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF105731...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF105731
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+    1 / 11   11 / 11
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 11
+done.
+
+Progressive alignment ... 
+STEP     1 / 10 fSTEP     2 / 10 fSTEP     3 / 10 fSTEP     4 / 10 fSTEP     5 / 10 fSTEP     6 / 10 fSTEP     7 / 10 f
+Reallocating..done. *alloclen = 2479
+STEP     8 / 10 fSTEP     9 / 10 dSTEP    10 / 10 d
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 10
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 11
+done.
+
+Progressive alignment ... 
+STEP     1 /10 fSTEP     2 /10 fSTEP     3 /10 fSTEP     4 /10 fSTEP     5 /10 fSTEP     6 /10 fSTEP     7 /10 dSTEP     8 /10 dSTEP     9 /10 dSTEP    10 /10 d
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF105731	11
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF105731/hmmer.hmm /tmp/treefam/TF105731/TF105731.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF105731 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF105735...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF105735
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+    1 / 18   11 / 18
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 18   10 / 18
+done.
+
+Progressive alignment ... 
+STEP     1 / 17 fSTEP     2 / 17 fSTEP     3 / 17 fSTEP     4 / 17 fSTEP     5 / 17 fSTEP     6 / 17 fSTEP     7 / 17 fSTEP     8 / 17 f
+Reallocating..done. *alloclen = 2669
+STEP     9 / 17 fSTEP    10 / 17 fSTEP    11 / 17 fSTEP    12 / 17 fSTEP    13 / 17 fSTEP    14 / 17 fSTEP    15 / 17 fSTEP    16 / 17 fSTEP    17 / 17 d
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 17   10 / 17
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 18   10 / 18
+done.
+
+Progressive alignment ... 
+STEP     1 /17 fSTEP     2 /17 fSTEP     3 /17 fSTEP     4 /17 fSTEP     5 /17 fSTEP     6 /17 fSTEP     7 /17 fSTEP     8 /17 fSTEP     9 /17 fSTEP    10 /17 fSTEP    11 /17 fSTEP    12 /17 fSTEP    13 /17 fSTEP    14 /17 fSTEP    15 /17 fSTEP    16 /17 fSTEP    17 /17 d
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF105735	18
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF105735/hmmer.hmm /tmp/treefam/TF105735/TF105735.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF105735 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF105754...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF105754
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+    1 / 7
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 7
+done.
+
+Progressive alignment ... 
+STEP     1 / 6 fSTEP     2 / 6 fSTEP     3 / 6 fSTEP     4 / 6 f
+Reallocating..done. *alloclen = 3526
+STEP     5 / 6 dSTEP     6 / 6 d
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 6
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 7
+done.
+
+Progressive alignment ... 
+STEP     1 /6 fSTEP     2 /6 fSTEP     3 /6 fSTEP     4 /6 fSTEP     5 /6 dSTEP     6 /6 d
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF105754	7
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF105754/hmmer.hmm /tmp/treefam/TF105754/TF105754.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF105754 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF105782...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF105782
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+    1 / 10
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 10
+done.
+
+Progressive alignment ... 
+STEP     1 / 9 fSTEP     2 / 9 fSTEP     3 / 9 fSTEP     4 / 9 fSTEP     5 / 9 fSTEP     6 / 9 fSTEP     7 / 9 fSTEP     8 / 9 dSTEP     9 / 9 d
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 9
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 10
+done.
+
+Progressive alignment ... 
+STEP     1 /9 fSTEP     2 /9 fSTEP     3 /9 fSTEP     4 /9 fSTEP     5 /9 fSTEP     6 /9 fSTEP     7 /9 fSTEP     8 /9 dSTEP     9 /9 d
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF105782	10
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF105782/hmmer.hmm /tmp/treefam/TF105782/TF105782.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF105782 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF106102...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF106102
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+WARNING : Unknown character X    1 / 9
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 9
+done.
+
+Progressive alignment ... 
+STEP     1 / 8 fSTEP     2 / 8 fSTEP     3 / 8 fSTEP     4 / 8 fSTEP     5 / 8 fSTEP     6 / 8 f
+Reallocating..done. *alloclen = 2758
+STEP     7 / 8 fSTEP     8 / 8 f
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 8
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 9
+done.
+
+Progressive alignment ... 
+STEP     1 /8 fSTEP     2 /8 fSTEP     3 /8 fSTEP     4 /8 fSTEP     5 /8 fSTEP     6 /8 fSTEP     7 /8 fSTEP     8 /8 f
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF106102	9
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF106102/hmmer.hmm /tmp/treefam/TF106102/TF106102.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF106102 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF106110...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF106110
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+    1 / 12   11 / 12
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 12   10 / 12
+done.
+
+Progressive alignment ... 
+STEP     1 / 11 fSTEP     2 / 11 fSTEP     3 / 11 fSTEP     4 / 11 fSTEP     5 / 11 fSTEP     6 / 11 fSTEP     7 / 11 fSTEP     8 / 11 fSTEP     9 / 11 d
+Reallocating..done. *alloclen = 2086
+STEP    10 / 11 dSTEP    11 / 11 d
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 11   10 / 11
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 12   10 / 12
+done.
+
+Progressive alignment ... 
+STEP     1 /11 fSTEP     2 /11 fSTEP     3 /11 fSTEP     4 /11 fSTEP     5 /11 fSTEP     6 /11 fSTEP     7 /11 fSTEP     8 /11 fSTEP     9 /11 dSTEP    10 /11 dSTEP    11 /11 d
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF106110	12
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF106110/hmmer.hmm /tmp/treefam/TF106110/TF106110.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF106110 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF106157...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF106157
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+    1 / 8
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 8
+done.
+
+Progressive alignment ... 
+STEP     1 / 7 fSTEP     2 / 7 fSTEP     3 / 7 f
+Reallocating..done. *alloclen = 2936
+STEP     4 / 7 fSTEP     5 / 7 fSTEP     6 / 7 fSTEP     7 / 7 d
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 7
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 8
+done.
+
+Progressive alignment ... 
+STEP     1 /7 fSTEP     2 /7 fSTEP     3 /7 fSTEP     4 /7 fSTEP     5 /7 fSTEP     6 /7 fSTEP     7 /7 d
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF106157	8
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF106157/hmmer.hmm /tmp/treefam/TF106157/TF106157.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF106157 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF106184...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF106184
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+    1 / 14   11 / 14
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 14   10 / 14
+done.
+
+Progressive alignment ... 
+STEP     1 / 13 fSTEP     2 / 13 fSTEP     3 / 13 fSTEP     4 / 13 fSTEP     5 / 13 fSTEP     6 / 13 fSTEP     7 / 13 fSTEP     8 / 13 fSTEP     9 / 13 fSTEP    10 / 13 fSTEP    11 / 13 fSTEP    12 / 13 dSTEP    13 / 13 d
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 13   10 / 13
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 14   10 / 14
+done.
+
+Progressive alignment ... 
+STEP     1 /13 fSTEP     2 /13 fSTEP     3 /13 fSTEP     4 /13 fSTEP     5 /13 fSTEP     6 /13 fSTEP     7 /13 fSTEP     8 /13 fSTEP     9 /13 fSTEP    10 /13 fSTEP    11 /13 fSTEP    12 /13 dSTEP    13 /13 d
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF106184	14
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF106184/hmmer.hmm /tmp/treefam/TF106184/TF106184.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF106184 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF106236...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF106236
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+    1 / 17   11 / 17
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 17   10 / 17
+done.
+
+Progressive alignment ... 
+STEP     1 / 16 fSTEP     2 / 16 fSTEP     3 / 16 fSTEP     4 / 16 fSTEP     5 / 16 fSTEP     6 / 16 fSTEP     7 / 16 fSTEP     8 / 16 fSTEP     9 / 16 fSTEP    10 / 16 fSTEP    11 / 16 fSTEP    12 / 16 fSTEP    13 / 16 fSTEP    14 / 16 dSTEP    15 / 16 dSTEP    16 / 16 d
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 16   10 / 16
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 17   10 / 17
+done.
+
+Progressive alignment ... 
+STEP     1 /16 fSTEP     2 /16 fSTEP     3 /16 fSTEP     4 /16 fSTEP     5 /16 fSTEP     6 /16 fSTEP     7 /16 fSTEP     8 /16 fSTEP     9 /16 fSTEP    10 /16 fSTEP    11 /16 fSTEP    12 /16 fSTEP    13 /16 fSTEP    14 /16 fSTEP    15 /16 dSTEP    16 /16 d
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF106236	17
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF106236/hmmer.hmm /tmp/treefam/TF106236/TF106236.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF106236 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF106312...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF106312
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+    1 / 6
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 6
+done.
+
+Progressive alignment ... 
+STEP     1 / 5 fSTEP     2 / 5 dSTEP     3 / 5 f
+Reallocating..done. *alloclen = 1948
+STEP     4 / 5 dSTEP     5 / 5 d
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 5
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 6
+done.
+
+Progressive alignment ... 
+STEP     1 /5 fSTEP     2 /5 fSTEP     3 /5 dSTEP     4 /5 dSTEP     5 /5 d
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF106312	6
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF106312/hmmer.hmm /tmp/treefam/TF106312/TF106312.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF106312 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF106333...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF106333
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+    1 / 16   11 / 16
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 16   10 / 16
+done.
+
+Progressive alignment ... 
+STEP     1 / 15 fSTEP     2 / 15 fSTEP     3 / 15 fSTEP     4 / 15 fSTEP     5 / 15 fSTEP     6 / 15 fSTEP     7 / 15 fSTEP     8 / 15 fSTEP     9 / 15 fSTEP    10 / 15 fSTEP    11 / 15 fSTEP    12 / 15 fSTEP    13 / 15 fSTEP    14 / 15 f
+Reallocating..done. *alloclen = 2100
+STEP    15 / 15 f
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 15   10 / 15
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 16   10 / 16
+done.
+
+Progressive alignment ... 
+STEP     1 /15 fSTEP     2 /15 fSTEP     3 /15 fSTEP     4 /15 fSTEP     5 /15 fSTEP     6 /15 fSTEP     7 /15 fSTEP     8 /15 fSTEP     9 /15 fSTEP    10 /15 fSTEP    11 /15 fSTEP    12 /15 fSTEP    13 /15 fSTEP    14 /15 fSTEP    15 /15 f
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF106333	16
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF106333/hmmer.hmm /tmp/treefam/TF106333/TF106333.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF106333 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF106337...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF106337
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+    1 / 11   11 / 11
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 11
+done.
+
+Progressive alignment ... 
+STEP     1 / 10 fSTEP     2 / 10 fSTEP     3 / 10 fSTEP     4 / 10 fSTEP     5 / 10 fSTEP     6 / 10 f
+Reallocating..done. *alloclen = 1843
+STEP     7 / 10 fSTEP     8 / 10 dSTEP     9 / 10 fSTEP    10 / 10 d
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 10
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 11
+done.
+
+Progressive alignment ... 
+STEP     1 /10 fSTEP     2 /10 fSTEP     3 /10 fSTEP     4 /10 fSTEP     5 /10 fSTEP     6 /10 fSTEP     7 /10 fSTEP     8 /10 dSTEP     9 /10 fSTEP    10 /10 d
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF106337	11
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF106337/hmmer.hmm /tmp/treefam/TF106337/TF106337.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF106337 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+Getting clean alignment for TF106428...
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+No gene for node at /nfs/users/nfs_f/fs9/projects/TreeFamAPI/lib/TreeFam/Node.pm line 551.
+looking at family TF106428
+$VAR1 = 'treefam_8';
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+Sequences not all same length
+	seq length mismatch, error in cigar string. Realignment required.
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+
+
+
+Making a distance matrix ..
+    1 / 10
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 10
+done.
+
+Progressive alignment ... 
+STEP     1 / 9 fSTEP     2 / 9 fSTEP     3 / 9 fSTEP     4 / 9 fSTEP     5 / 9 fSTEP     6 / 9 fSTEP     7 / 9 fSTEP     8 / 9 f
+Reallocating..done. *alloclen = 3158
+STEP     9 / 9 f
+done.
+
+disttbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+blosum 62
+done.
+scoremtx = 1
+Gap Penalty = -1.53, +0.00, -0.12
+Making a distance matrix .. 
+    0 / 9
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 10
+done.
+
+Progressive alignment ... 
+STEP     1 /9 fSTEP     2 /9 fSTEP     3 /9 fSTEP     4 /9 fSTEP     5 /9 fSTEP     6 /9 fSTEP     7 /9 fSTEP     8 /9 fSTEP     9 /9 f
+done.
+tbfast (aa) Version 6.240 alg=A, model=BLOSUM62,  1.530, +0.123, -0.000
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+If long gaps are expected, try 'mafft --ep 0.0 (other options) input > output'.
+For a list of options, type 'mafft --help' or visit the mafft page.
+
+STATISTICS:TF106428	10
+building HMM
+/software/ensembl/compara/hmmer-2.3.2/src/hmmbuild --amino /tmp/treefam/TF106428/hmmer.hmm /tmp/treefam/TF106428/TF106428.sto 2>&1 > /dev/null
+copying files to lustre: /lustre/scratch109/sanger/fs9/treefam8_hmms/books
+cp -r /tmp/treefam/TF106428 /lustre/scratch109/sanger/fs9/treefam8_hmms/books
