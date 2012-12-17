@@ -1,4 +1,4 @@
-
+Welcome to the TreeFam repository
 
 Directory structure:
 	tools: directories of scripts for useful purposes:

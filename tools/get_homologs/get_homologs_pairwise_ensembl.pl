@@ -12,20 +12,7 @@ use strict;
  use JSON;
 use warnings;
 
-#my $db =
-    #new Bio::EnsEMBL::Compara::DBSQL::DBAdaptor(
-                                                 #-user   => 'root',
-                                                 #-dbname => 'treefam_homology_67x',
-                                                 #-host   => 'localhost',
-                                                 #-pass   => '123',
-                                                 #-port   => '3306'
-                                               #);
 
-#my $db = new Bio::EnsEMBL::Compara::DBSQL::DBAdaptor(-user   => 'treefam_admin',
-#-dbname => 'treefam_homology_67hmm',
-#-host   => 'web-mei-treefam',
-#-pass => 'treefam_king1982',
-#-port => '3365');
 my $db = new Bio::EnsEMBL::Compara::DBSQL::DBAdaptor(
     -user   => 'anonymous',
     -dbname => 'ensembl_compara_68',
