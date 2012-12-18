@@ -1,0 +1,6 @@
+as defined in :
+"Identifying Single Copy Orthologs in Metazoa"
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002269
+
+to extract all human protein ids:
+grep ENS journal.pcbi.1002269.s010.txt | cut -d" " -f 3  | sed 's/9606.//g' > human_proteins.txt
