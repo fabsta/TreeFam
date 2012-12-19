@@ -9,4 +9,12 @@ But this doesn't work, because some  - at least the ones tested - used ensembl I
 
 Check all TreeFam families for presence of genes in X organims.
 
+1. save all gene_tree_root_ids in /helper_files/XYZ
+2. run with
+
+	./run_all.sh
+
+3. it outputs a list of sql-insert commands that go into table "xrefID2Family"
+
+
 

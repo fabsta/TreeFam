@@ -124,6 +124,10 @@ print "Found ".$species_percentage." percent of species\n";
 
 if($species_percentage > 95 && $no_duplicated_species < 3){
 	print "SCG: $entry\n";
+	my $mysql_string = "\"NaN\"\t\"NaN\"\t\"SCG\"\t\"$entry\"\t\"$treefam_name\"\t\"\"";
+
+	print "INSERT: ".$mysql_string."\n";
+	
 }
 #---------------------------------------------------------------------------------------------------
 # Checking if all information is correct
