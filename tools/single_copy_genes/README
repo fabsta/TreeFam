@@ -7,4 +7,6 @@ grep ENS journal.pcbi.1002269.s010.txt | cut -d" " -f 3  | sed 's/9606.//g' > hu
 
 But this doesn't work, because some  - at least the ones tested - used ensembl IDs are retired.
 
+Check all TreeFam families for presence of genes in X organims.
+
 

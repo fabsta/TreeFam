@@ -192,6 +192,7 @@ sub get_sequences{
         $species_count->{$_->taxon->name} += 1;
     }
     $c->{'numSpecies'} = keys(%{$species_count});
+    $c->{'speciesHash'} = \%{$species_count};
     $c->{'numSequences'} = scalar(@{$all_leaves});
     $c->{'tree_num_leaves'} = scalar(@{$all_leaves});
     
