@@ -1,0 +1,727 @@
+
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+  <title>Ensembl Genome Browser</title>
+ <STYLE type="text/css">
+
+text.domainlabel{
+color : white;
+}
+text {
+	font-size:10px;
+}
+path.link {
+  fill: white;
+//  stroke: black;
+//  stroke-width: 2.5px;
+
+
+
+circle {
+  fill: white;
+  stroke: black;
+  stroke-width: 7.5px;
+}
+ </STYLE>
+  <link rel="stylesheet" type="text/css" media="all" href="http://static.ensembl.org/minified/6990a272251545aa139485653df180e3.css" />
+    <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+<!--    <script type="text/javascript" src="../../d3.layout.js"></script>-->
+    <script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+
+  <link rel="icon" href="http://static.ensembl.org/i/ensembl-favicon.png" type="image/png" />
+  <link rel="search" href="http://www.ensembl.org/opensearch/all.xml" title="Ensembl (All)" type="application/opensearchdescription+xml" />
+  <link rel="alternate" href="/common/rss.xml" title="Ensembl website news feed" type="application/rss+xml" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+  <meta name="google-site-verification" content="JkUnntBSntk3jlF1_o5XTV8qNjn9jksGJEpU-NsaNq8" />
+</head>
+<body class="mac no_tabs static" id="ensembl-webpage">
+  <div id="min_width_container">
+    <div id="min_width_holder">
+      <div id="masthead" class="js_panel">
+        <input type="hidden" class="panel_type" value="Masthead" />
+        <div class="logo_holder"><a href="/">
+        <img src="e-ensembl.png" alt="Ensembl Home" title="Ensembl Home"  style="width:185px;height:55px" />
+        		<div  title="Ensembl Home">&nbsp;</div></a><span class="mobile-only species-header">Ensembl</span>
+        		<img src="e-ensembl.png" alt="Ensembl Home" title="Ensembl Home" class="screen_hide_inline" style="width:185px;height:45px" /></div>
+        <div class="mh print_hide">
+          <div class="account_holder"><a class="constant modal_link" style="display:none" href="/Multi/Account/Login">Login</a>
+           &middot; <a class="constant modal_link" style="display:none" href="/Multi/Account/User/Add">Register</a></div>
+          <div class="tools_holder">
+    <ul class="tools"><li><a class="constant" href="/Multi/blastview">BLAST/BLAT</a></li>
+    <li><a class="constant" href="/biomart/martview">Analyse</a></li><li><a class="constant" href="/tools.html">Tools</a></li><li><a class="constant" href="/downloads.html">Downloads</a></li><li><a class="constant" href="/info/">Help &amp; Documentation</a></li><li><a class="constant" href="http://www.ensembl.info">Blog</a></li><li class="last"><a class="constant modal_link" href="/Help/Mirrors">Mirrors</a></li></ul>
+    <div class="more">
+      <a href="#">More <span class="arrow">&#9660;</span></a>
+    </div>
+  </div>
+          <div class="search_holder print_hide">
+    <div id="searchPanel" class="js_panel">
+      <input type="hidden" class="panel_type" value="SearchBox" />
+      <form action="/common/psychic">
+        <div class="search print_hide">
+          <div class="sites button">
+            <img class="search_image" src="http://static.ensembl.org/i/search/ensembl_all.gif" alt="" />
+            <img src="http://static.ensembl.org/i/search/down.gif" style="width:7px" alt="" />
+            <input type="hidden" name="site" value="ensembl_all" />
+          </div>
+          <div>
+            <label class="hidden" for="se_q">Search terms</label>
+            <input class="query inactive" id="se_q" type="text" name="q" value="Search all species&hellip;" />
+          </div>
+          <div class="button"><input type="image" src="http://static.ensembl.org/i/16/search.png" alt="Search&gt;&gt;" /></div>
+        </div>
+        <div class="site_menu hidden">
+          <div class="ensembl_all"><img src="http://static.ensembl.org/i/search/ensembl_all.gif" alt="Ensembl search all species"/>Ensembl search all species<input type="hidden" value="Search all species&hellip;" /></div>
+<div class="ensembl_genomes"><img src="http://static.ensembl.org/i/search/ensembl_genomes.gif" alt="Ensembl genomes search"/>Ensembl genomes search<input type="hidden" value="Search Ensembl genomes&hellip;" /></div>
+<div class="vega"><img src="http://static.ensembl.org/i/search/vega.gif" alt="Vega search"/>Vega search<input type="hidden" value="Search Vega&hellip;" /></div>
+<div class="ebi"><img src="http://static.ensembl.org/i/search/ebi.gif" alt="EBI search"/>EBI search<input type="hidden" value="Search EBI&hellip;" /></div>
+<div class="sanger"><img src="http://static.ensembl.org/i/search/sanger.gif" alt="Sanger search"/>Sanger search<input type="hidden" value="Search Sanger&hellip;" /></div>
+
+        </div>
+      </form>
+    </div>
+    <a href="/Multi/Search/New"><img src="/i/32/rev/search.png" title="Search this site" class="mobile-search mobile-only" /></a>
+  </div>
+        </div>
+        
+      </div>
+      <div id="main_holder">
+        
+        <div id="main">
+          
+          
+          
+<div id="static">
+
+<div class="column-wrapper">
+  <div class="column-two column-first">
+    <div class="column-left">
+      <div class="tinted-box no-top-margin">
+        <div id="SpeciesSearch" class="js_panel"><input type="hidden" class="panel_type" value="SearchBox" /><form action="/Multi/psychic" class="clear search-form homepage-search-form" method="get"><fieldset><input value="ensembl" name="site" type="hidden" /><div class="form-field"><label for="species" class="ff-label">Search:</label><div class="inline ff-right"><span class="inp-group"><select name="species" class="fselect input" id="species"><option value="">All species</option><option disabled="disabled" value="">---</option><optgroup label="Favourite species"><option value="Homo_sapiens">Human</option><option value="Mus_musculus">Mouse</option><option value="Danio_rerio">Zebrafish</option></optgroup><option disabled="disabled" value="">---</option><option value="Vicugna_pacos">Alpaca</option><option value="Anolis_carolinensis">Anole lizard</option><option value="Dasypus_novemcinctus">Armadillo</option><option value="Otolemur_garnettii">Bushbaby</option><option value="Ciona_intestinalis">C.intestinalis</option><option value="Ciona_savignyi">C.savignyi</option><option value="Caenorhabditis_elegans">Caenorhabditis elegans</option><option value="Felis_catus">Cat</option><option value="Gallus_gallus">Chicken</option><option value="Pan_troglodytes">Chimpanzee</option><option value="Pelodiscus_sinensis">Chinese softshell turtle</option><option value="Gadus_morhua">Cod</option><option value="Latimeria_chalumnae">Coelacanth</option><option value="Bos_taurus">Cow</option><option value="Canis_familiaris">Dog</option><option value="Tursiops_truncatus">Dolphin</option><option value="Loxodonta_africana">Elephant</option><option value="Mustela_putorius_furo">Ferret</option><option value="Drosophila_melanogaster">Fruitfly</option><option value="Takifugu_rubripes">Fugu</option><option value="Nomascus_leucogenys">Gibbon</option><option value="Gorilla_gorilla">Gorilla</option><option value="Cavia_porcellus">Guinea Pig</option><option value="Erinaceus_europaeus">Hedgehog</option><option value="Equus_caballus">Horse</option><option value="Homo_sapiens">Human</option><option value="Procavia_capensis">Hyrax</option><option value="Dipodomys_ordii">Kangaroo rat</option><option value="Petromyzon_marinus">Lamprey</option><option value="Echinops_telfairi">Lesser hedgehog tenrec</option><option value="Macaca_mulatta">Macaque</option><option value="Callithrix_jacchus">Marmoset</option><option value="Oryzias_latipes">Medaka</option><option value="Pteropus_vampyrus">Megabat</option><option value="Myotis_lucifugus">Microbat</option><option value="Mus_musculus">Mouse</option><option value="Microcebus_murinus">Mouse Lemur</option><option value="Monodelphis_domestica">Opossum</option><option value="Pongo_abelii">Orangutan</option><option value="Ailuropoda_melanoleuca">Panda</option><option value="Sus_scrofa">Pig</option><option value="Ochotona_princeps">Pika</option><option value="Xiphophorus_maculatus">Platyfish</option><option value="Ornithorhynchus_anatinus">Platypus</option><option value="Oryctolagus_cuniculus">Rabbit</option><option value="Rattus_norvegicus">Rat</option><option value="Saccharomyces_cerevisiae">Saccharomyces cerevisiae</option><option value="Sorex_araneus">Shrew</option><option value="Choloepus_hoffmanni">Sloth</option><option value="Ictidomys_tridecemlineatus">Squirrel</option><option value="Gasterosteus_aculeatus">Stickleback</option><option value="Tarsius_syrichta">Tarsier</option><option value="Sarcophilus_harrisii">Tasmanian devil</option><option value="Tetraodon_nigroviridis">Tetraodon</option><option value="Oreochromis_niloticus">Tilapia</option><option value="Tupaia_belangeri">Tree Shrew</option><option value="Meleagris_gallopavo">Turkey</option><option value="Macropus_eugenii">Wallaby</option><option value="Xenopus_tropicalis">Xenopus</option><option value="Taeniopygia_guttata">Zebra Finch</option><option value="Danio_rerio">Zebrafish</option></select><label for="q">for</label></span><wbr></wbr><span class="inp-group"><input name="q" class="_string input query optional ftext" id="q" type="text" size="30" /><input value="Go" class="fbutton" type="submit" /></span><wbr></wbr></div><div class="ff-notes"><p class="search-example">e.g. <a class="nowrap" href="/Multi/psychic?q=BRCA2">BRCA2</a> or <a class="nowrap" href="/Multi/psychic?q=rat X:100000..200000">rat X:100000..200000</a> or <a class="nowrap" href="/Multi/psychic?q=coronary heart disease">coronary heart disease</a></p></div></div></fieldset></form></div>
+      </div>
+      <div class="plain-box">
+      
+      <table border=1>
+  <tr>
+	  <th>internal node names:</th> 
+	  <th>species images:</th> 
+  </tr>
+  <tr>
+  	<td>
+			<a href="#" onclick="hide_internal_text();return false">hide</a>/
+			<a href="#" onclick="show_internal_text();return false">(all</a>
+			<a href="#" onclick="show_internal_text_important();return false">/selected)</a>
+			
+		</td>
+  	<td>
+				<a href="#" onclick="hide_images();return false">hide</a>/
+				<a href="#" onclick="show_images();return false">show</a><br>
+			</td>
+
+	</tr>
+	</table>		
+      
+      <div style="width:80%;"> 
+	  <div style="float:left;  overflow=auto" id="tree"></div>
+</div> 
+      </div>
+      <div class="plain-box">
+        <p><a href="http://www.sanger.ac.uk"><img src="http://static.ensembl.org/img/wtsi_rev.png" alt="WTSI" title="Wellcome Trust Sanger Institute" style="width:98px;height:30px" class="float-left" /></a>
+      <a href="http://www.ebi.ac.uk"><img src="http://static.ensembl.org/img/ebi_logo.png" alt="EMBL-EBI" title="European BioInformatics Institute" style="width:100px;height:31px" class="float-right" /></a>
+      Ensembl is a joint project between <a href="http://www.ebi.ac.uk/">EMBL&nbsp;-&nbsp;EBI</a> and the <a href="http://www.sanger.ac.uk/">Wellcome&nbsp;Trust&nbsp;Sanger&nbsp;Institute</a>  to develop a software system which produces and maintains automatic annotation on selected eukaryotic genomes.</p>
+<p>Ensembl receives major funding from the Wellcome Trust.
+Our <a href="/info/about/credits.html">acknowledgements page</a> includes a list of additional current and previous funding bodies.</p>
+
+
+      </div>
+    </div>
+  </div>
+  <div class="column-two column-next">
+    <div class="column-right">
+      <div class="plain-box no-top-margin">
+        <div class="info-box did-you-know float-right"><h3>Did you know&hellip;?</h3><p><a href="http://www.ensembl.info/minifeed/files/2012/10/CropperCapture5261.png"><img class="alignleft size-full wp-image-144" title="CropperCapture[526]" src="http://www.ensembl.info/minifeed/files/2012/10/CropperCapture5261.png" alt="" width="82" height="82" /></a>Adjust the width of your display.  Click <em>configure this page</em> from most <a href="http://www.ensembl.org/Homo_sapiens/Location/View?r=6:133017695-133161157" target="_blank">view</a><a href="http://www.ensembl.org/Homo_sapiens/Location/View?r=6:133017695-133161157" target="_blank">s</a>, then the <em>Display options</em> menu.</p>
+</div><h2>New to Ensembl Compara?</h2><p>Did you know you can:</p><div class="new-to-ensembl">
+<p><a href="/info/website/tutorials/">Get all orthologs for a pair/subset of species</a><span>e.g. all orthologs in primates</span></p>
+<p><a href="/info/website/help/control_panel.html#cp-panel">Use <i>ComparaScan</i> to predict orthologs</a><span>e.g. in newly sequenced genomes</span></p>
+<p><a href="/info/website/upload/index.html">Visualize our gene families</a><span> to find interesting patterns</span></p>
+<p><a href="/Multi/blastview">Predict orthologs for your gene</a><span>using our interactive pipeline</span></p>
+<p><a href="/info/data/api.html">Fetch only the data you want</a><span>from our public database, using the Perl API</span></p>
+<p><a href="/info/data/ftp/">Download our databases via FTP</a><span>in FASTA, MySQL and other formats</span></p>
+</div>
+<p>Still got questions? Try our <a href="/Help/Faq" class="popup">FAQs</a> or <a href="/Help/Glossary" class="popup">glossary</a></p>
+      </div>
+      <div class="plain-box">
+        <h2 class="box-header">What's New in Release 70 (January 2013)</h2><ul>
+  <li><a href="/info/website/news.html#change_872">Human BodyMap data reanalysed using the recently updated RNASeq pipeline</a></li>
+  <li><a href="/info/website/news.html#change_893">New assemblies for Rat (Rnor 5.0) and Cat (Felis catus 6.2)</a></li>
+  <li><a href="/info/website/news.html#change_884">Streamlined custom track upload</a></li>
+</ul>
+<p><a href="/info/website/news.html">Full details of this release</a></p><p><a href="http://www.ensembl.info/blog/category/releases/">More release news on our blog &rarr;</a></p><h3>Latest blog posts</h3><ul><li>07 Feb 2013: <a href="http://www.ensembl.info/blog/2013/02/07/ensembl-genomes-release-17/?utm_source=rss&utm_medium=rss&utm_campaign=ensembl-genomes-release-17">Ensembl Genomes release 17</a></li><li>01 Feb 2013: <a href="http://www.ensembl.info/blog/2013/02/01/ensembl-browser-workshops-in-east-coast-of-us/?utm_source=rss&utm_medium=rss&utm_campaign=ensembl-browser-workshops-in-east-coast-of-us">Ensembl browser workshops in the US East Coast</a></li><li>24 Jan 2013: <a href="http://www.ensembl.info/blog/2013/01/24/variants-in-regulatory-regions-2/?utm_source=rss&utm_medium=rss&utm_campaign=variants-in-regulatory-regions-2">Variants in regulatory regions</a></li></ul><p><a href="http://www.ensembl.info">Go to Ensembl blog &rarr;</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+          
+        </div>
+        <div id="wide-footer">
+          <div class="column-wrapper">
+    <div class="column-two left">
+      <p>Ensembl release 70 - January 2013 &copy;
+        <span class="print_hide"><a href="http://www.sanger.ac.uk/" class="nowrap constant">WTSI</a> /
+        <a href="http://www.ebi.ac.uk/" class="nowrap constant">EBI</a></span>
+        <span class="screen_hide_inline">WTSI / EBI<br />http://www.ensembl.org</span>
+      </p>
+    <p class="print_hide">
+        <a class="modal_link" id="p_link" href="/Help/Permalink?url=http%3A%2F%2FJan2013.archive.ensembl.org">Permanent link</a>
+     - <a class="modal_link" id="a_link" href="/Help/ArchiveList">View in archive site</a></p></div>
+    <div class="column-two right print_hide">
+      <p>
+        <a href="http://www.ensembl.org/info/about/intro.html" class="constant">About&nbsp;Ensembl</a> | 
+        <a href="http://www.ensembl.org/info/about/legal/privacy.html" class="constant">Privacy&nbsp;Policy</a> | 
+        <a href="http://www.ensembl.org/info/about/contact/" class="constant">Contact&nbsp;Us</a>
+      </p>
+    </div>
+    <div class="column-two right screen_hide_block">
+      <p>helpdesk@ensembl.org</p>
+    </div>
+  
+            <p class="invisible">.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <form id="core_params" action="#" style="display:none">
+    <fieldset><input type="hidden" name="db" value="core" /></fieldset>
+  </form>
+  <input type="hidden" id="species_path" name="species_path" value="" />
+  <input type="hidden" id="species_common_name" name="species_common_name" value="Human" />
+  
+  <div id="modal_bg"></div>
+  <div id="modal_panel" class="js_panel">
+    <input type="hidden" class="panel_type" value="ModalContainer" />
+    <div class="modal_title">
+      <ul class="tabs">
+        <li><a class="modal_user_data" href="UserData/ManageData?time=1360340407">Custom Data</a></li>
+      </ul>
+      <div class="modal_caption"></div>
+      <div class="modal_close"></div>
+    </div>
+    <div id="modal_user_data" class="modal_content js_panel fixed_width" style="display:none"></div>
+    <div id="modal_default" class="modal_content js_panel fixed_width" style="display:none"></div>
+    <div id="config_save_as_bg"></div>
+  </div>
+  
+  
+      <script type="text/javascript" src="http://static.ensembl.org/minified/030ff6f37af8a03c5201387853a4f9c2.js"></script>
+
+    <div id="uploadframe_div" style="display: none"><iframe name="uploadframe"></iframe></div>
+  
+  
+   <script type="text/javascript">
+  	
+	// Defined showable taxa
+	var show_taxa = new Object();
+	show_taxa['Metazoa'] = 1;
+	show_taxa['Bilateria'] = 1;
+	show_taxa['Mammalia'] = 1;
+	show_taxa['Dipteria'] = 1;
+	show_taxa['Primates'] = 1;
+	show_taxa['Arthropoda'] = 1;
+	show_taxa['Nematoda'] = 1;
+	show_taxa['Ascomycota'] = "red";
+	show_taxa['Codonosigidae'] = "red";
+
+
+// Outgroup
+	show_taxa['Arabidopsis_thaliana'] = 1;
+	var taxon_colors = new Object(); // or just {}
+	taxon_colors['Protostomia'] = "blue";
+	taxon_colors['Deuterostomia'] = "green";
+	taxon_colors['Mammalia'] = "darkgreen";
+
+	taxon_colors['Primates'] = "lightgreen";
+	taxon_colors['Homininae'] = "lightgreen";
+	taxon_colors['Hominidae'] = "lightgreen";
+	taxon_colors['Hominoidea'] = "lightgreen";
+	taxon_colors['Catarrhini'] = "lightgreen";
+	taxon_colors['Simiiformes'] = "lightgreen";
+	taxon_colors['Haplorrhini'] = "lightgreen";
+	taxon_colors['Strepsirrhini'] = "lightgreen";
+
+	taxon_colors['Arabidopsis_thaliana'] = "red";
+
+	taxon_colors['Ascomycota'] = "red";
+	taxon_colors['Codonosigidae'] = "red";
+
+	taxon_colors['Outgroup'] = "red";
+	
+	var image_path = "../../species_images";
+	
+	var id_label;
+	var w = "700",
+		h = "1450",
+		i = 0,
+		duration = 500,
+		root;
+	
+	var margin = {top: 0, right: 10, bottom: 0, left: 0},
+		width = 960 - margin.left - margin.right,
+		height = 500 - margin.top - margin.bottom;
+	
+	
+	
+ 	//var tree = d3.layout.tree()
+ 	//.separation(function(a, b) { return a.parent === b.parent ? 0.9 : 2; })
+ 	//	.size([h, w - 160]);    
+	
+	var tree = d3.layout.cluster()
+	.separation(function(a, b) { return a.parent === b.parent ? 4 : 4; })
+	//.separation(function(a, b) { return (a.parent == b.parent ? 1 : 2) / a.depth; })
+	.size([h, w - 300]);
+	
+	var domainOnlyScale = d3.scale.linear().domain([0,7]);
+	
+	var diagonal = d3.svg.diagonal()
+		.projection(function(d) { return [d.y, d.x]; });
+	
+// tree	
+	var vis = d3.select("#tree").append("svg:svg")
+		.attr("width", w)
+		.attr("height", h)
+		//.attr("viewBox","0 0 50 50")
+	  	.attr("transform", "translate(40,0)")
+		.attr("pointer-events", "all")
+	    .append('svg:g')
+    	.attr("transform", "translate(40,0)")
+		.attr("pointer-events", "all")
+        .call(d3.behavior.zoom().on("zoom", redraw))
+        .append('svg:g');
+	
+	// vis.append('svg:rect')
+//     .attr('width', w)
+//     .attr('height', h)
+//     .attr('fill', 'white');
+// 	
+	
+	 d3.json("../data/ensembl.json", function(json) {
+// 	
+	
+	function collapse(d) {
+		if (d.children) {
+		  d._children = d.children;
+		  d._children.forEach(collapse);
+		  d.children = null;
+		}
+	  }
+	
+	
+	// We can try to set the tree initially
+	
+	  //json.children.forEach(collapse);
+	  //json.x0 = 800;
+	  //json.y0 = 0;
+		//json.children.forEach(toggleAll);
+	  //click(json.children[1]);
+	  //click(json.children[1].children[2]);
+	  //click(json.children[9]);
+	  //click(json.children[9].children[0]);
+	
+	  //update(root);
+	 // json = JSON.parse( myjson );
+	  update(root = json);
+	});
+	
+	function update(source) {
+	
+	  // Compute the new tree layout.
+	  var nodes = tree.nodes(root);
+	  vis.attr({ width: 40000, height: 500});
+	  // Update the nodes…
+		var node = vis.selectAll("g.node").data(nodes, function(d) { return d.id || (d.id = ++i); });
+	
+		var nodeEnter = node.enter().append("svg:g")
+			.attr("class", "node")
+			.attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; });
+	 
+	  // Enter any new nodes at the parent's previous position.
+// CIRCLE	 
+		var circles = nodeEnter.append("svg:circle")
+		  .attr("r", function(d){
+		  	return d.children ? 5 : 0;
+		  })
+		//  .attr("fill", function(d){return d.duplication == "Y"? "red":"green"})
+		  .on("click", click)
+		  .on("contextmenu", function(data, index) {
+				console.log("well, in the context menu");
+				d3.select('#my_custom_menu')
+				  .style('position', 'absolute')
+				  .style('left', d3.event.x + "px")
+				  .style('top', d3.event.y + "px")
+				  .style('display', 'block');
+		    d3.event.preventDefault();
+});
+		
+		
+// green / red circle		
+	// 	var presence_circles = nodeEnter.append("svg:circle")
+// 			.attr("r", function(d){
+// 		  			return d.children ? 0 : 10;
+// 			  })
+// 			.attr("fill", function(d){return d.duplication == "Y"? "red":"green"})
+// 	
+// TEXT	for presence_circles
+// 		var presence_circles_texts = nodeEnter.append("svg:text")
+// 			.attr("x", function(d) { return d.children ? -50 : 2; })
+// 			.attr("y", function(d) { return d.children ? -5 : 3; })
+// 			.style("fill", "black")
+//  						.style("font-size" ,"10px;")
+//  						.attr("class", "domainlabel")
+// 			.text(function(d) { 
+// 						if(d.children){
+// 						}
+// 						else{
+// 						return 2 
+// 						}
+// 			})
+// 			;
+
+
+// TEXT		
+		var text = nodeEnter.append("svg:text")
+			.attr("x", function(d) { return d.children ? -50 : 42; })
+			.attr("y", function(d) { return d.children ? -5 : 3; })
+			.text(function(d) { 
+						if(d.children){
+							if(show_taxa.hasOwnProperty(d.name)){
+								if(d.duplication == "Y"){return "";}
+								else{return d.name;}
+							}
+						}
+						else{return d.name; }});
+// IMAGE
+	 var images = nodeEnter.append("svg:image")
+			.attr("y", -13.5)
+		   .attr("x", 15.5)
+		   .attr("width", 20)
+		   .attr("height", 20)
+		   .attr("xlink:href", function(d) { 
+				//console.log("node "+d.name+"has "+d.children+" children");
+			  return d.children == null? image_path+"/thumb_"+d.name+".png" : "";
+	//         //return "http://static.ensembl.org/i/species/48/Homo_sapiens.png"; 
+		   });
+
+
+	
+	  // Transition nodes to their new position.
+		nodeEnter.transition()
+			.duration(duration)
+			.attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; })
+			.style("opacity", 1)
+		  .select("circle");
+			//.attr("cx", function(d) { return d.x; })
+			//.attr("cy", function(d) { return d.y; })
+			//.style("fill", "lightsteelblue");
+		  
+		node.transition()
+		  .duration(duration)
+		  .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; })
+		  .style("opacity", 1);
+		
+	
+		node.exit().transition()
+		  .duration(duration)
+		  .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
+		  .style("opacity", 1e-6)
+		  .remove();
+	/*
+		var nodeTransition = node.transition()
+			.duration(duration);
+	  
+	  nodeTransition.select("circle")
+		  .attr("cx", function(d) { return d.y; })
+		  .attr("cy", function(d) { return d.x; })
+		  .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+	  
+	  nodeTransition.select("text")
+		  .attr("dx", function(d) { return d._children ? -8 : 8; })
+		  .attr("dy", 3)
+		  .style("fill", function(d) { return d._children ? "lightsteelblue" : "#5babfc"; });
+	
+	  // Transition exiting nodes to the parent's new position.
+	  var nodeExit = node.exit();
+	  
+	  nodeExit.select("circle").transition()
+		  .duration(duration)
+		  .attr("cx", function(d) { return source.y; })
+		  .attr("cy", function(d) { return source.x; })
+		  .remove();
+	  
+	  nodeExit.select("text").transition()
+		  .duration(duration)
+		  .remove();
+	*/
+	  // Update the links…
+	  var link = vis.selectAll("path.link")
+		  .data(tree.links(nodes), function(d) { return d.target.id; });
+	
+	  // Enter any new links at the parent's previous position.
+	  link.enter().insert("svg:path", "g")
+		  .attr("class", "link")
+		  .attr("stroke-width", function(d){
+				return "3.5px";
+		  })
+		  .attr("stroke", function(d){
+			  //console.log("has property for "+d.source.name);
+				return "black";
+				//return taxon_colors.hasOwnProperty(d.name)? taxon_colors[d.name]: "black";
+		  })      
+		  .attr("d", elbow)
+		  //.attr("d", diagonal)
+	     //.attr("d", function(d) {
+   		 //   var o = {x: source.x0, y: source.y0};
+		 //      return diagonal({source: o, target: o});
+	     //})
+		.transition()
+		  .duration(duration)
+		  .attr("d", elbow)
+		  //.attr("d", diagonal)
+		  ;
+	
+	  // Transition links to their new position.
+	  link.transition()
+		  .duration(duration)
+		  .attr("d", elbow)
+		  //.attr("d", diagonal)
+		  ;
+	
+	  // Transition exiting nodes to the parent's new position.
+	  link.exit().transition()
+		  .duration(duration)
+		  .attr("d", elbow)
+		  //.attr("d", diagonal)
+		  //.attr("d", function(d) {
+		 	//   var o = {x: source.x, y: source.y};
+			//	return diagonal({source: o, target: o});
+		  //})
+		  .remove();
+	
+	  // Stash the old positions for transition.
+	  nodes.forEach(function(d) {
+		d.x0 = d.x;
+		d.y0 = d.y;
+	  });
+	
+	}
+
+
+
+// External functions
+
+	function toggleAll(d) {
+		if (d.children) {
+		  d.children.forEach(toggleAll);
+		  click(d);
+		}
+	  }
+	  
+	// Internal text
+	function hide_internal_text(d) {
+		vis.selectAll("text").text(function(d){
+				return d.children ? "": d.name; 
+		});
+	}
+	function show_internal_text(d) {
+		console.log("we are here");
+		vis.selectAll("text").text(function(d) { 
+		if(d.duplication == "Y"){
+				return "";
+		}
+		else{
+					return d.name; 
+		}
+		});
+	}
+	
+	function show_internal_text_important(d) {
+		vis.selectAll("text").text(function(d) { 
+		
+			//console.log("checking: "+d.name)
+			if(d.children){
+				//	console.log("[has children]")
+				if(show_taxa.hasOwnProperty(d.name)){
+				//	console.log("[is showable]")
+					if(d.duplication == "Y"){
+					//	console.log("[is duplication]")
+						return "";
+					}
+				else{
+					//	console.log("[success]")
+					return d.name;
+				}
+			}
+		}
+		else{
+			//console.log("[is child-> success]")
+		return d.name; 
+		}
+		});
+	}
+	
+	
+	// IDS
+	function show_ids(d) {
+		vis.selectAll("text").text(function(d) { 
+			return  d.name; 
+		});
+	}
+	function show_taxa(d) {
+		vis.selectAll("text").text(function(d) { 
+			return d.name; 
+		});
+	}
+	
+	
+	// Domains
+	function hide_domains(d) {
+		vis.selectAll("rect").attr("width", 0).attr("height", 0);
+	}
+	function show_domains(d) {
+		vis.selectAll("rect")
+			.attr("width", function(d){return d.children ? "":"5";})
+			.attr("height", function(d){
+				   //var randomnumber=Math.floor(Math.random()*11)
+				   return d.children ? "":domainOnlyScale(d.seq_length);
+			});
+		
+	}
+	
+	// Images
+	function hide_images(d) {
+		console.log("we are here");
+		vis.selectAll("image").attr("width", 0).attr("height", 0);
+		vis.selectAll("text").attr("x", function(d) { return d.children ? -50 : 8; });
+	}
+	function show_images(d) {
+		console.log("we are here");
+		vis.selectAll("image").attr("width", 20).attr("height", 20);
+		vis.selectAll("text").attr("x", function(d) { return d.children ? -50 : 38; });
+	}
+	
+	// evolutionary events
+	function hide_evol_nodes(d) {
+		vis.selectAll("circle")
+		.attr("r", function(d){
+		  	return d.children ? 5 : 0;
+		  })
+		.attr("fill", "black")
+		.on("click", "");
+		//attr("width", 0).attr("height", 0);
+		//vis.selectAll("text").attr("x", function(d) { return d.children ? -50 : 8; });
+	}
+	function show_evol_nodes(d) {
+		vis.selectAll("circle")
+		.attr("r", function(d){
+				if(d.children){
+					return d.duplication == "Y"? 10:5;
+				}
+		})
+		.attr("fill", function(d){return d.duplication == "Y"? "red":"green"})
+		.on("click", click);
+	}	
+	// Taxon colors
+	function show_taxon_colors(d){
+		vis.selectAll("path").attr("stroke", function(d){
+			  console.log("has property for "+d.source.name);
+			  if(taxon_colors.hasOwnProperty(d.source.name)){
+					console.log("has property for "+d.source.name);
+					return taxon_colors[d.source.name];
+			  }
+			  else{
+				return "black";
+			  }
+				//return taxon_colors.hasOwnProperty(d.name)? taxon_colors[d.name]: "black";
+		  })
+		  .attr("stroke-width", function(d){
+			  if(taxon_colors.hasOwnProperty(d.source.name)){
+				return "6.5px";
+			  }
+			  else{
+				return "3.5px";
+			  }
+		  });    
+	}
+	function hide_taxon_colors(d){
+		vis.selectAll("path")
+		.attr("stroke","black")
+		.attr("stroke-width", function(d){
+				return "3.5px";
+		  });
+	}
+	
+	
+	function toggle_ids(d){
+		vis.selectAll("text").text(function(d){
+			if(d.children){
+				return d.name;
+			}
+			else{
+				return  id_label == "taxon_name"? d.name :d.taxon
+			}
+		});
+	}
+	
+
+	function elbow(d, i) {
+		//	console.log("use M" + d.source.y + "," + d.source.x
+		//   + "H" + d.target.y + "V" + d.target.x
+		//   + (d.target.children ? "" : "h" + margin.right));
+		   
+		   return "M" + d.source.y + "," + d.source.x
+      + "V" + d.target.x + "H" + d.target.y;
+//	  return "M" + d.source.y + "," + d.source.x
+//		   + "H" + d.target.y + "V" + d.target.x
+//		   + (d.target.children ? "" : "h" + margin.right);
+	}
+	
+	function redraw() {
+ 	 //console.log("here", d3.event.translate, d3.event.scale);
+	  vis.attr("transform",
+    	  "translate(" + d3.event.translate + ")"
+	      + " scale(" + d3.event.scale + ")");
+	}
+	// Toggle children on click.
+	function click(d) {
+	  if (d.children) {
+		d._children = d.children;
+		d.children = null;
+	  } else {
+		d.children = d._children;
+		d._children = null;
+	  }
+	  // update node
+		d3.select(this)
+			.attr("r",function(d){return d.duplication == "Y"? 15:8;})
+			.attr("class", "collapsed")	
+			.attr("fill",function(d){return d.children? "":"white";})
+			.attr("stroke",function(d){return d.children? "":"black";})
+		    .attr("stroke-width", function(d){return d.children? "":"2.5px";});
+	  
+	  
+	  
+	  update(d);
+	}
+	
+	
+	d3.select(self.frameElement).style("height", "2000px");   
+    
+    
+    
+    </script>
+  
+</body>
+</html>

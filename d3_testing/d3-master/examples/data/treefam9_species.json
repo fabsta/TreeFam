@@ -1,0 +1,1490 @@
+{
+   "seq_length" : 200,
+   "duplication" : "N",
+   "name" : "",
+   "children" : [
+      {
+         "seq_length" : 200,
+         "duplication" : "N",
+         "name" : "",
+         "children" : [
+            {
+               "seq_length" : 200,
+               "duplication" : "N",
+               "name" : "",
+               "children" : [
+                  {
+                     "seq_length" : 200,
+                     "duplication" : "N",
+                     "name" : "Saccharomyces_cerevisiae_S288c",
+                     "bootstrap" : "NaN",
+                     "taxon" : "NaN"
+                  },
+                  {
+                     "seq_length" : 200,
+                     "duplication" : "N",
+                     "name" : "Schizosaccharomyces_pombe_972h-",
+                     "bootstrap" : "NaN",
+                     "taxon" : "NaN"
+                  }
+               ],
+               "bootstrap" : "NaN",
+               "taxon" : "NaN"
+            },
+            {
+               "seq_length" : 200,
+               "duplication" : "N",
+               "name" : "",
+               "children" : [
+                  {
+                     "seq_length" : 200,
+                     "duplication" : "N",
+                     "name" : "Proterospongia",
+                     "bootstrap" : "NaN",
+                     "taxon" : "NaN"
+                  },
+                  {
+                     "seq_length" : 200,
+                     "duplication" : "N",
+                     "name" : "Monosiga_brevicollis",
+                     "bootstrap" : "NaN",
+                     "taxon" : "NaN"
+                  }
+               ],
+               "bootstrap" : "NaN",
+               "taxon" : "NaN"
+            },
+            {
+               "seq_length" : 200,
+               "duplication" : "N",
+               "name" : "",
+               "children" : [
+                  {
+                     "seq_length" : 200,
+                     "duplication" : "N",
+                     "name" : "Amphimedon_queenslandica",
+                     "bootstrap" : "NaN",
+                     "taxon" : "NaN"
+                  },
+                  {
+                     "seq_length" : 200,
+                     "duplication" : "N",
+                     "name" : "Trichoplax_adhaerens",
+                     "bootstrap" : "NaN",
+                     "taxon" : "NaN"
+                  },
+                  {
+                     "seq_length" : 200,
+                     "duplication" : "N",
+                     "name" : "",
+                     "children" : [
+                        {
+                           "seq_length" : 200,
+                           "duplication" : "N",
+                           "name" : "Nematostella_vectensis",
+                           "bootstrap" : "NaN",
+                           "taxon" : "NaN"
+                        },
+                        {
+                           "seq_length" : 200,
+                           "duplication" : "N",
+                           "name" : "",
+                           "children" : [
+                              {
+                                 "seq_length" : 200,
+                                 "duplication" : "N",
+                                 "name" : "",
+                                 "children" : [
+                                    {
+                                       "seq_length" : 200,
+                                       "duplication" : "N",
+                                       "name" : "",
+                                       "children" : [
+                                          {
+                                             "seq_length" : 200,
+                                             "duplication" : "N",
+                                             "name" : "",
+                                             "children" : [
+                                                {
+                                                   "seq_length" : 200,
+                                                   "duplication" : "N",
+                                                   "name" : "",
+                                                   "children" : [
+                                                      {
+                                                         "seq_length" : 200,
+                                                         "duplication" : "N",
+                                                         "name" : "",
+                                                         "children" : [
+                                                            {
+                                                               "seq_length" : 200,
+                                                               "duplication" : "N",
+                                                               "name" : "",
+                                                               "children" : [
+                                                                  {
+                                                                     "seq_length" : 200,
+                                                                     "duplication" : "N",
+                                                                     "name" : "",
+                                                                     "children" : [
+                                                                        {
+                                                                           "seq_length" : 200,
+                                                                           "duplication" : "N",
+                                                                           "name" : "",
+                                                                           "children" : [
+                                                                              {
+                                                                                 "seq_length" : 200,
+                                                                                 "duplication" : "N",
+                                                                                 "name" : "Tetraodon_nigroviridis",
+                                                                                 "bootstrap" : "NaN",
+                                                                                 "taxon" : "NaN"
+                                                                              },
+                                                                              {
+                                                                                 "seq_length" : 200,
+                                                                                 "duplication" : "N",
+                                                                                 "name" : "Takifugu_rubripes",
+                                                                                 "bootstrap" : "NaN",
+                                                                                 "taxon" : "NaN"
+                                                                              }
+                                                                           ],
+                                                                           "bootstrap" : "NaN",
+                                                                           "taxon" : "NaN"
+                                                                        },
+                                                                        {
+                                                                           "seq_length" : 200,
+                                                                           "duplication" : "N",
+                                                                           "name" : "Oreochromis_niloticus",
+                                                                           "bootstrap" : "NaN",
+                                                                           "taxon" : "NaN"
+                                                                        },
+                                                                        {
+                                                                           "seq_length" : 200,
+                                                                           "duplication" : "N",
+                                                                           "name" : "",
+                                                                           "children" : [
+                                                                              {
+                                                                                 "seq_length" : 200,
+                                                                                 "duplication" : "N",
+                                                                                 "name" : "Gasterosteus_aculeatus",
+                                                                                 "bootstrap" : "NaN",
+                                                                                 "taxon" : "NaN"
+                                                                              },
+                                                                              {
+                                                                                 "seq_length" : 200,
+                                                                                 "duplication" : "N",
+                                                                                 "name" : "",
+                                                                                 "children" : [
+                                                                                    {
+                                                                                       "seq_length" : 200,
+                                                                                       "duplication" : "N",
+                                                                                       "name" : "Oryzias_latipes",
+                                                                                       "bootstrap" : "NaN",
+                                                                                       "taxon" : "NaN"
+                                                                                    },
+                                                                                    {
+                                                                                       "seq_length" : 200,
+                                                                                       "duplication" : "N",
+                                                                                       "name" : "Xiphophorus_maculatus",
+                                                                                       "bootstrap" : "NaN",
+                                                                                       "taxon" : "NaN"
+                                                                                    }
+                                                                                 ],
+                                                                                 "bootstrap" : "NaN",
+                                                                                 "taxon" : "NaN"
+                                                                              }
+                                                                           ],
+                                                                           "bootstrap" : "NaN",
+                                                                           "taxon" : "NaN"
+                                                                        }
+                                                                     ],
+                                                                     "bootstrap" : "NaN",
+                                                                     "taxon" : "NaN"
+                                                                  },
+                                                                  {
+                                                                     "seq_length" : 200,
+                                                                     "duplication" : "N",
+                                                                     "name" : "Gadus_morhua",
+                                                                     "bootstrap" : "NaN",
+                                                                     "taxon" : "NaN"
+                                                                  }
+                                                               ],
+                                                               "bootstrap" : "NaN",
+                                                               "taxon" : "NaN"
+                                                            },
+                                                            {
+                                                               "seq_length" : 200,
+                                                               "duplication" : "N",
+                                                               "name" : "Danio_rerio",
+                                                               "bootstrap" : "NaN",
+                                                               "taxon" : "NaN"
+                                                            }
+                                                         ],
+                                                         "bootstrap" : "NaN",
+                                                         "taxon" : "NaN"
+                                                      },
+                                                      {
+                                                         "seq_length" : 200,
+                                                         "duplication" : "N",
+                                                         "name" : "",
+                                                         "children" : [
+                                                            {
+                                                               "seq_length" : 200,
+                                                               "duplication" : "N",
+                                                               "name" : "",
+                                                               "children" : [
+                                                                  {
+                                                                     "seq_length" : 200,
+                                                                     "duplication" : "N",
+                                                                     "name" : "",
+                                                                     "children" : [
+                                                                        {
+                                                                           "seq_length" : 200,
+                                                                           "duplication" : "N",
+                                                                           "name" : "",
+                                                                           "children" : [
+                                                                              {
+                                                                                 "seq_length" : 200,
+                                                                                 "duplication" : "N",
+                                                                                 "name" : "",
+                                                                                 "children" : [
+                                                                                    {
+                                                                                       "seq_length" : 200,
+                                                                                       "duplication" : "N",
+                                                                                       "name" : "",
+                                                                                       "children" : [
+                                                                                          {
+                                                                                             "seq_length" : 200,
+                                                                                             "duplication" : "N",
+                                                                                             "name" : "",
+                                                                                             "children" : [
+                                                                                                {
+                                                                                                   "seq_length" : 200,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "Tupaia_belangeri",
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                },
+                                                                                                {
+                                                                                                   "seq_length" : 200,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "",
+                                                                                                   "children" : [
+                                                                                                      {
+                                                                                                         "seq_length" : 200,
+                                                                                                         "duplication" : "N",
+                                                                                                         "name" : "",
+                                                                                                         "children" : [
+                                                                                                            {
+                                                                                                               "seq_length" : 200,
+                                                                                                               "duplication" : "N",
+                                                                                                               "name" : "Cavia_porcellus",
+                                                                                                               "bootstrap" : "NaN",
+                                                                                                               "taxon" : "NaN"
+                                                                                                            },
+                                                                                                            {
+                                                                                                               "seq_length" : 200,
+                                                                                                               "duplication" : "N",
+                                                                                                               "name" : "",
+                                                                                                               "children" : [
+                                                                                                                  {
+                                                                                                                     "seq_length" : 200,
+                                                                                                                     "duplication" : "N",
+                                                                                                                     "name" : "Spermophilus_tridecemlineatus",
+                                                                                                                     "bootstrap" : "NaN",
+                                                                                                                     "taxon" : "NaN"
+                                                                                                                  },
+                                                                                                                  {
+                                                                                                                     "seq_length" : 200,
+                                                                                                                     "duplication" : "N",
+                                                                                                                     "name" : "",
+                                                                                                                     "children" : [
+                                                                                                                        {
+                                                                                                                           "seq_length" : 200,
+                                                                                                                           "duplication" : "N",
+                                                                                                                           "name" : "Rattus_norvegicus",
+                                                                                                                           "bootstrap" : "NaN",
+                                                                                                                           "taxon" : "NaN"
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                           "seq_length" : 200,
+                                                                                                                           "duplication" : "N",
+                                                                                                                           "name" : "Mus_musculus",
+                                                                                                                           "bootstrap" : "NaN",
+                                                                                                                           "taxon" : "NaN"
+                                                                                                                        }
+                                                                                                                     ],
+                                                                                                                     "bootstrap" : "NaN",
+                                                                                                                     "taxon" : "NaN"
+                                                                                                                  },
+                                                                                                                  {
+                                                                                                                     "seq_length" : 200,
+                                                                                                                     "duplication" : "N",
+                                                                                                                     "name" : "Dipodomys_ordii",
+                                                                                                                     "bootstrap" : "NaN",
+                                                                                                                     "taxon" : "NaN"
+                                                                                                                  }
+                                                                                                               ],
+                                                                                                               "bootstrap" : "NaN",
+                                                                                                               "taxon" : "NaN"
+                                                                                                            }
+                                                                                                         ],
+                                                                                                         "bootstrap" : "NaN",
+                                                                                                         "taxon" : "NaN"
+                                                                                                      },
+                                                                                                      {
+                                                                                                         "seq_length" : 200,
+                                                                                                         "duplication" : "N",
+                                                                                                         "name" : "",
+                                                                                                         "children" : [
+                                                                                                            {
+                                                                                                               "seq_length" : 200,
+                                                                                                               "duplication" : "N",
+                                                                                                               "name" : "Oryctolagus_cuniculus",
+                                                                                                               "bootstrap" : "NaN",
+                                                                                                               "taxon" : "NaN"
+                                                                                                            },
+                                                                                                            {
+                                                                                                               "seq_length" : 200,
+                                                                                                               "duplication" : "N",
+                                                                                                               "name" : "Ochotona_princeps",
+                                                                                                               "bootstrap" : "NaN",
+                                                                                                               "taxon" : "NaN"
+                                                                                                            }
+                                                                                                         ],
+                                                                                                         "bootstrap" : "NaN",
+                                                                                                         "taxon" : "NaN"
+                                                                                                      }
+                                                                                                   ],
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                },
+                                                                                                {
+                                                                                                   "seq_length" : 200,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "",
+                                                                                                   "children" : [
+                                                                                                      {
+                                                                                                         "seq_length" : 200,
+                                                                                                         "duplication" : "N",
+                                                                                                         "name" : "",
+                                                                                                         "children" : [
+                                                                                                            {
+                                                                                                               "seq_length" : 200,
+                                                                                                               "duplication" : "N",
+                                                                                                               "name" : "Otolemur_garnettii",
+                                                                                                               "bootstrap" : "NaN",
+                                                                                                               "taxon" : "NaN"
+                                                                                                            },
+                                                                                                            {
+                                                                                                               "seq_length" : 200,
+                                                                                                               "duplication" : "N",
+                                                                                                               "name" : "Microcebus_murinus",
+                                                                                                               "bootstrap" : "NaN",
+                                                                                                               "taxon" : "NaN"
+                                                                                                            }
+                                                                                                         ],
+                                                                                                         "bootstrap" : "NaN",
+                                                                                                         "taxon" : "NaN"
+                                                                                                      },
+                                                                                                      {
+                                                                                                         "seq_length" : 200,
+                                                                                                         "duplication" : "N",
+                                                                                                         "name" : "",
+                                                                                                         "children" : [
+                                                                                                            {
+                                                                                                               "seq_length" : 200,
+                                                                                                               "duplication" : "N",
+                                                                                                               "name" : "",
+                                                                                                               "children" : [
+                                                                                                                  {
+                                                                                                                     "seq_length" : 200,
+                                                                                                                     "duplication" : "N",
+                                                                                                                     "name" : "",
+                                                                                                                     "children" : [
+                                                                                                                        {
+                                                                                                                           "seq_length" : 200,
+                                                                                                                           "duplication" : "N",
+                                                                                                                           "name" : "",
+                                                                                                                           "children" : [
+                                                                                                                              {
+                                                                                                                                 "seq_length" : 200,
+                                                                                                                                 "duplication" : "N",
+                                                                                                                                 "name" : "Nomascus_leucogenys",
+                                                                                                                                 "bootstrap" : "NaN",
+                                                                                                                                 "taxon" : "NaN"
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                                 "seq_length" : 200,
+                                                                                                                                 "duplication" : "N",
+                                                                                                                                 "name" : "",
+                                                                                                                                 "children" : [
+                                                                                                                                    {
+                                                                                                                                       "seq_length" : 200,
+                                                                                                                                       "duplication" : "N",
+                                                                                                                                       "name" : "Pongo_abelii",
+                                                                                                                                       "bootstrap" : "NaN",
+                                                                                                                                       "taxon" : "NaN"
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                       "seq_length" : 200,
+                                                                                                                                       "duplication" : "N",
+                                                                                                                                       "name" : "",
+                                                                                                                                       "children" : [
+                                                                                                                                          {
+                                                                                                                                             "seq_length" : 200,
+                                                                                                                                             "duplication" : "N",
+                                                                                                                                             "name" : "Homo_sapiens",
+                                                                                                                                             "bootstrap" : "NaN",
+                                                                                                                                             "taxon" : "NaN"
+                                                                                                                                          },
+                                                                                                                                          {
+                                                                                                                                             "seq_length" : 200,
+                                                                                                                                             "duplication" : "N",
+                                                                                                                                             "name" : "Pan_troglodytes",
+                                                                                                                                             "bootstrap" : "NaN",
+                                                                                                                                             "taxon" : "NaN"
+                                                                                                                                          },
+                                                                                                                                          {
+                                                                                                                                             "seq_length" : 200,
+                                                                                                                                             "duplication" : "N",
+                                                                                                                                             "name" : "Gorilla_gorilla",
+                                                                                                                                             "bootstrap" : "NaN",
+                                                                                                                                             "taxon" : "NaN"
+                                                                                                                                          }
+                                                                                                                                       ],
+                                                                                                                                       "bootstrap" : "NaN",
+                                                                                                                                       "taxon" : "NaN"
+                                                                                                                                    }
+                                                                                                                                 ],
+                                                                                                                                 "bootstrap" : "NaN",
+                                                                                                                                 "taxon" : "NaN"
+                                                                                                                              }
+                                                                                                                           ],
+                                                                                                                           "bootstrap" : "NaN",
+                                                                                                                           "taxon" : "NaN"
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                           "seq_length" : 200,
+                                                                                                                           "duplication" : "N",
+                                                                                                                           "name" : "Macaca_mulatta",
+                                                                                                                           "bootstrap" : "NaN",
+                                                                                                                           "taxon" : "NaN"
+                                                                                                                        }
+                                                                                                                     ],
+                                                                                                                     "bootstrap" : "NaN",
+                                                                                                                     "taxon" : "NaN"
+                                                                                                                  },
+                                                                                                                  {
+                                                                                                                     "seq_length" : 200,
+                                                                                                                     "duplication" : "N",
+                                                                                                                     "name" : "Callithrix_jacchus",
+                                                                                                                     "bootstrap" : "NaN",
+                                                                                                                     "taxon" : "NaN"
+                                                                                                                  }
+                                                                                                               ],
+                                                                                                               "bootstrap" : "NaN",
+                                                                                                               "taxon" : "NaN"
+                                                                                                            },
+                                                                                                            {
+                                                                                                               "seq_length" : 200,
+                                                                                                               "duplication" : "N",
+                                                                                                               "name" : "Tarsius_syrichta",
+                                                                                                               "bootstrap" : "NaN",
+                                                                                                               "taxon" : "NaN"
+                                                                                                            }
+                                                                                                         ],
+                                                                                                         "bootstrap" : "NaN",
+                                                                                                         "taxon" : "NaN"
+                                                                                                      }
+                                                                                                   ],
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                }
+                                                                                             ],
+                                                                                             "bootstrap" : "NaN",
+                                                                                             "taxon" : "NaN"
+                                                                                          },
+                                                                                          {
+                                                                                             "seq_length" : 200,
+                                                                                             "duplication" : "N",
+                                                                                             "name" : "",
+                                                                                             "children" : [
+                                                                                                {
+                                                                                                   "seq_length" : 200,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "Procavia_capensis",
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                },
+                                                                                                {
+                                                                                                   "seq_length" : 200,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "Loxodonta_africana",
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                },
+                                                                                                {
+                                                                                                   "seq_length" : 200,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "Echinops_telfairi",
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                }
+                                                                                             ],
+                                                                                             "bootstrap" : "NaN",
+                                                                                             "taxon" : "NaN"
+                                                                                          },
+                                                                                          {
+                                                                                             "seq_length" : 200,
+                                                                                             "duplication" : "N",
+                                                                                             "name" : "",
+                                                                                             "children" : [
+                                                                                                {
+                                                                                                   "seq_length" : 200,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "",
+                                                                                                   "children" : [
+                                                                                                      {
+                                                                                                         "seq_length" : 200,
+                                                                                                         "duplication" : "N",
+                                                                                                         "name" : "Pteropus_vampyrus",
+                                                                                                         "bootstrap" : "NaN",
+                                                                                                         "taxon" : "NaN"
+                                                                                                      },
+                                                                                                      {
+                                                                                                         "seq_length" : 200,
+                                                                                                         "duplication" : "N",
+                                                                                                         "name" : "Myotis_lucifugus",
+                                                                                                         "bootstrap" : "NaN",
+                                                                                                         "taxon" : "NaN"
+                                                                                                      }
+                                                                                                   ],
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                },
+                                                                                                {
+                                                                                                   "seq_length" : 200,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "Equus_caballus",
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                },
+                                                                                                {
+                                                                                                   "seq_length" : 200,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "",
+                                                                                                   "children" : [
+                                                                                                      {
+                                                                                                         "seq_length" : 200,
+                                                                                                         "duplication" : "N",
+                                                                                                         "name" : "Vicugna_pacos",
+                                                                                                         "bootstrap" : "NaN",
+                                                                                                         "taxon" : "NaN"
+                                                                                                      },
+                                                                                                      {
+                                                                                                         "seq_length" : 200,
+                                                                                                         "duplication" : "N",
+                                                                                                         "name" : "Bos_taurus",
+                                                                                                         "bootstrap" : "NaN",
+                                                                                                         "taxon" : "NaN"
+                                                                                                      },
+                                                                                                      {
+                                                                                                         "seq_length" : 200,
+                                                                                                         "duplication" : "N",
+                                                                                                         "name" : "Sus_scrofa",
+                                                                                                         "bootstrap" : "NaN",
+                                                                                                         "taxon" : "NaN"
+                                                                                                      },
+                                                                                                      {
+                                                                                                         "seq_length" : 200,
+                                                                                                         "duplication" : "N",
+                                                                                                         "name" : "Tursiops_truncatus",
+                                                                                                         "bootstrap" : "NaN",
+                                                                                                         "taxon" : "NaN"
+                                                                                                      }
+                                                                                                   ],
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                },
+                                                                                                {
+                                                                                                   "seq_length" : 200,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "",
+                                                                                                   "children" : [
+                                                                                                      {
+                                                                                                         "seq_length" : 200,
+                                                                                                         "duplication" : "N",
+                                                                                                         "name" : "Felis_catus",
+                                                                                                         "bootstrap" : "NaN",
+                                                                                                         "taxon" : "NaN"
+                                                                                                      },
+                                                                                                      {
+                                                                                                         "seq_length" : 200,
+                                                                                                         "duplication" : "N",
+                                                                                                         "name" : "",
+                                                                                                         "children" : [
+                                                                                                            {
+                                                                                                               "seq_length" : 200,
+                                                                                                               "duplication" : "N",
+                                                                                                               "name" : "Mustela_putorius_furo",
+                                                                                                               "bootstrap" : "NaN",
+                                                                                                               "taxon" : "NaN"
+                                                                                                            },
+                                                                                                            {
+                                                                                                               "seq_length" : 200,
+                                                                                                               "duplication" : "N",
+                                                                                                               "name" : "Ailuropoda_melanoleuca",
+                                                                                                               "bootstrap" : "NaN",
+                                                                                                               "taxon" : "NaN"
+                                                                                                            },
+                                                                                                            {
+                                                                                                               "seq_length" : 200,
+                                                                                                               "duplication" : "N",
+                                                                                                               "name" : "Canis_lupus_familiaris",
+                                                                                                               "bootstrap" : "NaN",
+                                                                                                               "taxon" : "NaN"
+                                                                                                            }
+                                                                                                         ],
+                                                                                                         "bootstrap" : "NaN",
+                                                                                                         "taxon" : "NaN"
+                                                                                                      }
+                                                                                                   ],
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                },
+                                                                                                {
+                                                                                                   "seq_length" : 200,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "",
+                                                                                                   "children" : [
+                                                                                                      {
+                                                                                                         "seq_length" : 200,
+                                                                                                         "duplication" : "N",
+                                                                                                         "name" : "Sorex_araneus",
+                                                                                                         "bootstrap" : "NaN",
+                                                                                                         "taxon" : "NaN"
+                                                                                                      },
+                                                                                                      {
+                                                                                                         "seq_length" : 200,
+                                                                                                         "duplication" : "N",
+                                                                                                         "name" : "Erinaceus_europaeus",
+                                                                                                         "bootstrap" : "NaN",
+                                                                                                         "taxon" : "NaN"
+                                                                                                      }
+                                                                                                   ],
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                }
+                                                                                             ],
+                                                                                             "bootstrap" : "NaN",
+                                                                                             "taxon" : "NaN"
+                                                                                          },
+                                                                                          {
+                                                                                             "seq_length" : 200,
+                                                                                             "duplication" : "N",
+                                                                                             "name" : "",
+                                                                                             "children" : [
+                                                                                                {
+                                                                                                   "seq_length" : 200,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "Dasypus_novemcinctus",
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                },
+                                                                                                {
+                                                                                                   "seq_length" : 200,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "Choloepus_hoffmanni",
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                }
+                                                                                             ],
+                                                                                             "bootstrap" : "NaN",
+                                                                                             "taxon" : "NaN"
+                                                                                          }
+                                                                                       ],
+                                                                                       "bootstrap" : "NaN",
+                                                                                       "taxon" : "NaN"
+                                                                                    },
+                                                                                    {
+                                                                                       "seq_length" : 200,
+                                                                                       "duplication" : "N",
+                                                                                       "name" : "",
+                                                                                       "children" : [
+                                                                                          {
+                                                                                             "seq_length" : 200,
+                                                                                             "duplication" : "N",
+                                                                                             "name" : "Monodelphis_domestica",
+                                                                                             "bootstrap" : "NaN",
+                                                                                             "taxon" : "NaN"
+                                                                                          },
+                                                                                          {
+                                                                                             "seq_length" : 200,
+                                                                                             "duplication" : "N",
+                                                                                             "name" : "Macropus_eugenii",
+                                                                                             "bootstrap" : "NaN",
+                                                                                             "taxon" : "NaN"
+                                                                                          },
+                                                                                          {
+                                                                                             "seq_length" : 200,
+                                                                                             "duplication" : "N",
+                                                                                             "name" : "Sarcophilus_harrisii",
+                                                                                             "bootstrap" : "NaN",
+                                                                                             "taxon" : "NaN"
+                                                                                          }
+                                                                                       ],
+                                                                                       "bootstrap" : "NaN",
+                                                                                       "taxon" : "NaN"
+                                                                                    }
+                                                                                 ],
+                                                                                 "bootstrap" : "NaN",
+                                                                                 "taxon" : "NaN"
+                                                                              },
+                                                                              {
+                                                                                 "seq_length" : 200,
+                                                                                 "duplication" : "N",
+                                                                                 "name" : "Ornithorhynchus_anatinus",
+                                                                                 "bootstrap" : "NaN",
+                                                                                 "taxon" : "NaN"
+                                                                              }
+                                                                           ],
+                                                                           "bootstrap" : "NaN",
+                                                                           "taxon" : "NaN"
+                                                                        },
+                                                                        {
+                                                                           "seq_length" : 200,
+                                                                           "duplication" : "N",
+                                                                           "name" : "",
+                                                                           "children" : [
+                                                                              {
+                                                                                 "seq_length" : 200,
+                                                                                 "duplication" : "N",
+                                                                                 "name" : "Pelodiscus_sinensis",
+                                                                                 "bootstrap" : "NaN",
+                                                                                 "taxon" : "NaN"
+                                                                              },
+                                                                              {
+                                                                                 "seq_length" : 200,
+                                                                                 "duplication" : "N",
+                                                                                 "name" : "",
+                                                                                 "children" : [
+                                                                                    {
+                                                                                       "seq_length" : 200,
+                                                                                       "duplication" : "N",
+                                                                                       "name" : "Anolis_carolinensis",
+                                                                                       "bootstrap" : "NaN",
+                                                                                       "taxon" : "NaN"
+                                                                                    },
+                                                                                    {
+                                                                                       "seq_length" : 200,
+                                                                                       "duplication" : "N",
+                                                                                       "name" : "",
+                                                                                       "children" : [
+                                                                                          {
+                                                                                             "seq_length" : 200,
+                                                                                             "duplication" : "N",
+                                                                                             "name" : "Taeniopygia_guttata",
+                                                                                             "bootstrap" : "NaN",
+                                                                                             "taxon" : "NaN"
+                                                                                          },
+                                                                                          {
+                                                                                             "seq_length" : 200,
+                                                                                             "duplication" : "N",
+                                                                                             "name" : "",
+                                                                                             "children" : [
+                                                                                                {
+                                                                                                   "seq_length" : 200,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "Meleagris_gallopavo",
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                },
+                                                                                                {
+                                                                                                   "seq_length" : 200,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "Gallus_gallus",
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                }
+                                                                                             ],
+                                                                                             "bootstrap" : "NaN",
+                                                                                             "taxon" : "NaN"
+                                                                                          }
+                                                                                       ],
+                                                                                       "bootstrap" : "NaN",
+                                                                                       "taxon" : "NaN"
+                                                                                    }
+                                                                                 ],
+                                                                                 "bootstrap" : "NaN",
+                                                                                 "taxon" : "NaN"
+                                                                              }
+                                                                           ],
+                                                                           "bootstrap" : "NaN",
+                                                                           "taxon" : "NaN"
+                                                                        }
+                                                                     ],
+                                                                     "bootstrap" : "NaN",
+                                                                     "taxon" : "NaN"
+                                                                  },
+                                                                  {
+                                                                     "seq_length" : 200,
+                                                                     "duplication" : "N",
+                                                                     "name" : "Xenopus_Silurana",
+                                                                     "bootstrap" : "NaN",
+                                                                     "taxon" : "NaN"
+                                                                  },
+                                                                  {
+                                                                     "seq_length" : 200,
+                                                                     "duplication" : "N",
+                                                                     "name" : "",
+                                                                     "bootstrap" : "NaN",
+                                                                     "taxon" : "NaN"
+                                                                  }
+                                                               ],
+                                                               "bootstrap" : "NaN",
+                                                               "taxon" : "NaN"
+                                                            },
+                                                            {
+                                                               "seq_length" : 200,
+                                                               "duplication" : "N",
+                                                               "name" : "Latimeria_chalumnae",
+                                                               "bootstrap" : "NaN",
+                                                               "taxon" : "NaN"
+                                                            }
+                                                         ],
+                                                         "bootstrap" : "NaN",
+                                                         "taxon" : "NaN"
+                                                      }
+                                                   ],
+                                                   "bootstrap" : "NaN",
+                                                   "taxon" : "NaN"
+                                                },
+                                                {
+                                                   "seq_length" : 200,
+                                                   "duplication" : "N",
+                                                   "name" : "Petromyzon_marinus",
+                                                   "bootstrap" : "NaN",
+                                                   "taxon" : "NaN"
+                                                }
+                                             ],
+                                             "bootstrap" : "NaN",
+                                             "taxon" : "NaN"
+                                          },
+                                          {
+                                             "seq_length" : 200,
+                                             "duplication" : "N",
+                                             "name" : "",
+                                             "children" : [
+                                                {
+                                                   "seq_length" : 200,
+                                                   "duplication" : "N",
+                                                   "name" : "Ciona_savignyi",
+                                                   "bootstrap" : "NaN",
+                                                   "taxon" : "NaN"
+                                                },
+                                                {
+                                                   "seq_length" : 200,
+                                                   "duplication" : "N",
+                                                   "name" : "Ciona_intestinalis",
+                                                   "bootstrap" : "NaN",
+                                                   "taxon" : "NaN"
+                                                }
+                                             ],
+                                             "bootstrap" : "NaN",
+                                             "taxon" : "NaN"
+                                          }
+                                       ],
+                                       "bootstrap" : "NaN",
+                                       "taxon" : "NaN"
+                                    },
+                                    {
+                                       "seq_length" : 200,
+                                       "duplication" : "N",
+                                       "name" : "Strongylocentrotus_purpuratus",
+                                       "bootstrap" : "NaN",
+                                       "taxon" : "NaN"
+                                    }
+                                 ],
+                                 "bootstrap" : "NaN",
+                                 "taxon" : "NaN"
+                              },
+                              {
+                                 "seq_length" : 200,
+                                 "duplication" : "N",
+                                 "name" : "",
+                                 "children" : [
+                                    {
+                                       "seq_length" : 200,
+                                       "duplication" : "N",
+                                       "name" : "",
+                                       "children" : [
+                                          {
+                                             "seq_length" : 200,
+                                             "duplication" : "N",
+                                             "name" : "Lottia_gigantea",
+                                             "bootstrap" : "NaN",
+                                             "taxon" : "NaN"
+                                          },
+                                          {
+                                             "seq_length" : 200,
+                                             "duplication" : "N",
+                                             "name" : "",
+                                             "children" : [
+                                                {
+                                                   "seq_length" : 200,
+                                                   "duplication" : "N",
+                                                   "name" : "Capitella_teleta",
+                                                   "bootstrap" : "NaN",
+                                                   "taxon" : "NaN"
+                                                },
+                                                {
+                                                   "seq_length" : 200,
+                                                   "duplication" : "N",
+                                                   "name" : "Helobdella_robusta",
+                                                   "bootstrap" : "NaN",
+                                                   "taxon" : "NaN"
+                                                }
+                                             ],
+                                             "bootstrap" : "NaN",
+                                             "taxon" : "NaN"
+                                          }
+                                       ],
+                                       "bootstrap" : "NaN",
+                                       "taxon" : "NaN"
+                                    },
+                                    {
+                                       "seq_length" : 200,
+                                       "duplication" : "N",
+                                       "name" : "",
+                                       "children" : [
+                                          {
+                                             "seq_length" : 200,
+                                             "duplication" : "N",
+                                             "name" : "",
+                                             "children" : [
+                                                {
+                                                   "seq_length" : 200,
+                                                   "duplication" : "N",
+                                                   "name" : "Ixodes_scapularis",
+                                                   "bootstrap" : "NaN",
+                                                   "taxon" : "NaN"
+                                                },
+                                                {
+                                                   "seq_length" : 200,
+                                                   "duplication" : "N",
+                                                   "name" : "",
+                                                   "children" : [
+                                                      {
+                                                         "seq_length" : 200,
+                                                         "duplication" : "N",
+                                                         "name" : "",
+                                                         "children" : [
+                                                            {
+                                                               "seq_length" : 200,
+                                                               "duplication" : "N",
+                                                               "name" : "",
+                                                               "children" : [
+                                                                  {
+                                                                     "seq_length" : 200,
+                                                                     "duplication" : "N",
+                                                                     "name" : "",
+                                                                     "children" : [
+                                                                        {
+                                                                           "seq_length" : 200,
+                                                                           "duplication" : "N",
+                                                                           "name" : "",
+                                                                           "children" : [
+                                                                              {
+                                                                                 "seq_length" : 200,
+                                                                                 "duplication" : "N",
+                                                                                 "name" : "Atta_cephalotes",
+                                                                                 "bootstrap" : "NaN",
+                                                                                 "taxon" : "NaN"
+                                                                              },
+                                                                              {
+                                                                                 "seq_length" : 200,
+                                                                                 "duplication" : "N",
+                                                                                 "name" : "Apis_mellifera",
+                                                                                 "bootstrap" : "NaN",
+                                                                                 "taxon" : "NaN"
+                                                                              }
+                                                                           ],
+                                                                           "bootstrap" : "NaN",
+                                                                           "taxon" : "NaN"
+                                                                        },
+                                                                        {
+                                                                           "seq_length" : 200,
+                                                                           "duplication" : "N",
+                                                                           "name" : "Nasonia_vitripennis",
+                                                                           "bootstrap" : "NaN",
+                                                                           "taxon" : "NaN"
+                                                                        }
+                                                                     ],
+                                                                     "bootstrap" : "NaN",
+                                                                     "taxon" : "NaN"
+                                                                  },
+                                                                  {
+                                                                     "seq_length" : 200,
+                                                                     "duplication" : "N",
+                                                                     "name" : "",
+                                                                     "children" : [
+                                                                        {
+                                                                           "seq_length" : 200,
+                                                                           "duplication" : "N",
+                                                                           "name" : "",
+                                                                           "children" : [
+                                                                              {
+                                                                                 "seq_length" : 200,
+                                                                                 "duplication" : "N",
+                                                                                 "name" : "",
+                                                                                 "children" : [
+                                                                                    {
+                                                                                       "seq_length" : 200,
+                                                                                       "duplication" : "N",
+                                                                                       "name" : "Drosophila_virilis",
+                                                                                       "bootstrap" : "NaN",
+                                                                                       "taxon" : "NaN"
+                                                                                    },
+                                                                                    {
+                                                                                       "seq_length" : 200,
+                                                                                       "duplication" : "N",
+                                                                                       "name" : "Drosophila_mojavensis",
+                                                                                       "bootstrap" : "NaN",
+                                                                                       "taxon" : "NaN"
+                                                                                    }
+                                                                                 ],
+                                                                                 "bootstrap" : "NaN",
+                                                                                 "taxon" : "NaN"
+                                                                              },
+                                                                              {
+                                                                                 "seq_length" : 200,
+                                                                                 "duplication" : "N",
+                                                                                 "name" : "Drosophila_grimshawi",
+                                                                                 "bootstrap" : "NaN",
+                                                                                 "taxon" : "NaN"
+                                                                              },
+                                                                              {
+                                                                                 "seq_length" : 200,
+                                                                                 "duplication" : "N",
+                                                                                 "name" : "",
+                                                                                 "children" : [
+                                                                                    {
+                                                                                       "seq_length" : 200,
+                                                                                       "duplication" : "N",
+                                                                                       "name" : "Drosophila_willistoni",
+                                                                                       "bootstrap" : "NaN",
+                                                                                       "taxon" : "NaN"
+                                                                                    },
+                                                                                    {
+                                                                                       "seq_length" : 200,
+                                                                                       "duplication" : "N",
+                                                                                       "name" : "",
+                                                                                       "children" : [
+                                                                                          {
+                                                                                             "seq_length" : 200,
+                                                                                             "duplication" : "N",
+                                                                                             "name" : "Drosophila_pseudoobscura_pseudoobscura",
+                                                                                             "bootstrap" : "NaN",
+                                                                                             "taxon" : "NaN"
+                                                                                          },
+                                                                                          {
+                                                                                             "seq_length" : 200,
+                                                                                             "duplication" : "N",
+                                                                                             "name" : "Drosophila_persimilis",
+                                                                                             "bootstrap" : "NaN",
+                                                                                             "taxon" : "NaN"
+                                                                                          }
+                                                                                       ],
+                                                                                       "bootstrap" : "NaN",
+                                                                                       "taxon" : "NaN"
+                                                                                    },
+                                                                                    {
+                                                                                       "seq_length" : 200,
+                                                                                       "duplication" : "N",
+                                                                                       "name" : "",
+                                                                                       "children" : [
+                                                                                          {
+                                                                                             "seq_length" : 200,
+                                                                                             "duplication" : "N",
+                                                                                             "name" : "",
+                                                                                             "children" : [
+                                                                                                {
+                                                                                                   "seq_length" : 200,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "Drosophila_yakuba",
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                },
+                                                                                                {
+                                                                                                   "seq_length" : 200,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "Drosophila_simulans",
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                },
+                                                                                                {
+                                                                                                   "seq_length" : 200,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "Drosophila_sechellia",
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                },
+                                                                                                {
+                                                                                                   "seq_length" : 200,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "Drosophila_melanogaster",
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                },
+                                                                                                {
+                                                                                                   "seq_length" : 200,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "Drosophila_erecta",
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                }
+                                                                                             ],
+                                                                                             "bootstrap" : "NaN",
+                                                                                             "taxon" : "NaN"
+                                                                                          },
+                                                                                          {
+                                                                                             "seq_length" : 200,
+                                                                                             "duplication" : "N",
+                                                                                             "name" : "Drosophila_ananassae",
+                                                                                             "bootstrap" : "NaN",
+                                                                                             "taxon" : "NaN"
+                                                                                          }
+                                                                                       ],
+                                                                                       "bootstrap" : "NaN",
+                                                                                       "taxon" : "NaN"
+                                                                                    }
+                                                                                 ],
+                                                                                 "bootstrap" : "NaN",
+                                                                                 "taxon" : "NaN"
+                                                                              }
+                                                                           ],
+                                                                           "bootstrap" : "NaN",
+                                                                           "taxon" : "NaN"
+                                                                        },
+                                                                        {
+                                                                           "seq_length" : 200,
+                                                                           "duplication" : "N",
+                                                                           "name" : "",
+                                                                           "children" : [
+                                                                              {
+                                                                                 "seq_length" : 200,
+                                                                                 "duplication" : "N",
+                                                                                 "name" : "",
+                                                                                 "children" : [
+                                                                                    {
+                                                                                       "seq_length" : 200,
+                                                                                       "duplication" : "N",
+                                                                                       "name" : "Anopheles_darlingi",
+                                                                                       "bootstrap" : "NaN",
+                                                                                       "taxon" : "NaN"
+                                                                                    },
+                                                                                    {
+                                                                                       "seq_length" : 200,
+                                                                                       "duplication" : "N",
+                                                                                       "name" : "Anopheles_gambiae",
+                                                                                       "bootstrap" : "NaN",
+                                                                                       "taxon" : "NaN"
+                                                                                    }
+                                                                                 ],
+                                                                                 "bootstrap" : "NaN",
+                                                                                 "taxon" : "NaN"
+                                                                              },
+                                                                              {
+                                                                                 "seq_length" : 200,
+                                                                                 "duplication" : "N",
+                                                                                 "name" : "",
+                                                                                 "children" : [
+                                                                                    {
+                                                                                       "seq_length" : 200,
+                                                                                       "duplication" : "N",
+                                                                                       "name" : "Culex_quinquefasciatus",
+                                                                                       "bootstrap" : "NaN",
+                                                                                       "taxon" : "NaN"
+                                                                                    },
+                                                                                    {
+                                                                                       "seq_length" : 200,
+                                                                                       "duplication" : "N",
+                                                                                       "name" : "Aedes_aegypti",
+                                                                                       "bootstrap" : "NaN",
+                                                                                       "taxon" : "NaN"
+                                                                                    }
+                                                                                 ],
+                                                                                 "bootstrap" : "NaN",
+                                                                                 "taxon" : "NaN"
+                                                                              }
+                                                                           ],
+                                                                           "bootstrap" : "NaN",
+                                                                           "taxon" : "NaN"
+                                                                        }
+                                                                     ],
+                                                                     "bootstrap" : "NaN",
+                                                                     "taxon" : "NaN"
+                                                                  },
+                                                                  {
+                                                                     "seq_length" : 200,
+                                                                     "duplication" : "N",
+                                                                     "name" : "",
+                                                                     "children" : [
+                                                                        {
+                                                                           "seq_length" : 200,
+                                                                           "duplication" : "N",
+                                                                           "name" : "",
+                                                                           "children" : [
+                                                                              {
+                                                                                 "seq_length" : 200,
+                                                                                 "duplication" : "N",
+                                                                                 "name" : "Heliconius_melpomene",
+                                                                                 "bootstrap" : "NaN",
+                                                                                 "taxon" : "NaN"
+                                                                              },
+                                                                              {
+                                                                                 "seq_length" : 200,
+                                                                                 "duplication" : "N",
+                                                                                 "name" : "Danaus_plexippus",
+                                                                                 "bootstrap" : "NaN",
+                                                                                 "taxon" : "NaN"
+                                                                              }
+                                                                           ],
+                                                                           "bootstrap" : "NaN",
+                                                                           "taxon" : "NaN"
+                                                                        },
+                                                                        {
+                                                                           "seq_length" : 200,
+                                                                           "duplication" : "N",
+                                                                           "name" : "Bombyx_mori",
+                                                                           "bootstrap" : "NaN",
+                                                                           "taxon" : "NaN"
+                                                                        }
+                                                                     ],
+                                                                     "bootstrap" : "NaN",
+                                                                     "taxon" : "NaN"
+                                                                  },
+                                                                  {
+                                                                     "seq_length" : 200,
+                                                                     "duplication" : "N",
+                                                                     "name" : "Tribolium_castaneum",
+                                                                     "bootstrap" : "NaN",
+                                                                     "taxon" : "NaN"
+                                                                  }
+                                                               ],
+                                                               "bootstrap" : "NaN",
+                                                               "taxon" : "NaN"
+                                                            },
+                                                            {
+                                                               "seq_length" : 200,
+                                                               "duplication" : "N",
+                                                               "name" : "",
+                                                               "children" : [
+                                                                  {
+                                                                     "seq_length" : 200,
+                                                                     "duplication" : "N",
+                                                                     "name" : "Pediculus_humanus_corporis",
+                                                                     "bootstrap" : "NaN",
+                                                                     "taxon" : "NaN"
+                                                                  },
+                                                                  {
+                                                                     "seq_length" : 200,
+                                                                     "duplication" : "N",
+                                                                     "name" : "Acyrthosiphon_pisum",
+                                                                     "bootstrap" : "NaN",
+                                                                     "taxon" : "NaN"
+                                                                  }
+                                                               ],
+                                                               "bootstrap" : "NaN",
+                                                               "taxon" : "NaN"
+                                                            }
+                                                         ],
+                                                         "bootstrap" : "NaN",
+                                                         "taxon" : "NaN"
+                                                      },
+                                                      {
+                                                         "seq_length" : 200,
+                                                         "duplication" : "N",
+                                                         "name" : "Daphnia_pulex",
+                                                         "bootstrap" : "NaN",
+                                                         "taxon" : "NaN"
+                                                      }
+                                                   ],
+                                                   "bootstrap" : "NaN",
+                                                   "taxon" : "NaN"
+                                                }
+                                             ],
+                                             "bootstrap" : "NaN",
+                                             "taxon" : "NaN"
+                                          },
+                                          {
+                                             "seq_length" : 200,
+                                             "duplication" : "N",
+                                             "name" : "",
+                                             "children" : [
+                                                {
+                                                   "seq_length" : 200,
+                                                   "duplication" : "N",
+                                                   "name" : "Trichinella_spiralis",
+                                                   "bootstrap" : "NaN",
+                                                   "taxon" : "NaN"
+                                                },
+                                                {
+                                                   "seq_length" : 200,
+                                                   "duplication" : "N",
+                                                   "name" : "",
+                                                   "children" : [
+                                                      {
+                                                         "seq_length" : 200,
+                                                         "duplication" : "N",
+                                                         "name" : "Pristionchus_pacificus",
+                                                         "bootstrap" : "NaN",
+                                                         "taxon" : "NaN"
+                                                      },
+                                                      {
+                                                         "seq_length" : 200,
+                                                         "duplication" : "N",
+                                                         "name" : "",
+                                                         "children" : [
+                                                            {
+                                                               "seq_length" : 200,
+                                                               "duplication" : "N",
+                                                               "name" : "Bursaphelenchus_xylophilus",
+                                                               "bootstrap" : "NaN",
+                                                               "taxon" : "NaN"
+                                                            },
+                                                            {
+                                                               "seq_length" : 200,
+                                                               "duplication" : "N",
+                                                               "name" : "Meloidogyne_hapla",
+                                                               "bootstrap" : "NaN",
+                                                               "taxon" : "NaN"
+                                                            }
+                                                         ],
+                                                         "bootstrap" : "NaN",
+                                                         "taxon" : "NaN"
+                                                      },
+                                                      {
+                                                         "seq_length" : 200,
+                                                         "duplication" : "N",
+                                                         "name" : "",
+                                                         "children" : [
+                                                            {
+                                                               "seq_length" : 200,
+                                                               "duplication" : "N",
+                                                               "name" : "Strongyloides_ratti",
+                                                               "bootstrap" : "NaN",
+                                                               "taxon" : "NaN"
+                                                            },
+                                                            {
+                                                               "seq_length" : 200,
+                                                               "duplication" : "N",
+                                                               "name" : "",
+                                                               "children" : [
+                                                                  {
+                                                                     "seq_length" : 200,
+                                                                     "duplication" : "N",
+                                                                     "name" : "Heterorhabditis_bacteriophora",
+                                                                     "bootstrap" : "NaN",
+                                                                     "taxon" : "NaN"
+                                                                  },
+                                                                  {
+                                                                     "seq_length" : 200,
+                                                                     "duplication" : "N",
+                                                                     "name" : "",
+                                                                     "children" : [
+                                                                        {
+                                                                           "seq_length" : 200,
+                                                                           "duplication" : "N",
+                                                                           "name" : "Caenorhabditis_briggsae_AF16",
+                                                                           "bootstrap" : "NaN",
+                                                                           "taxon" : "NaN"
+                                                                        },
+                                                                        {
+                                                                           "seq_length" : 200,
+                                                                           "duplication" : "N",
+                                                                           "name" : "Caenorhabditis_japonica",
+                                                                           "bootstrap" : "NaN",
+                                                                           "taxon" : "NaN"
+                                                                        },
+                                                                        {
+                                                                           "seq_length" : 200,
+                                                                           "duplication" : "N",
+                                                                           "name" : "Caenorhabditis_brenneri",
+                                                                           "bootstrap" : "NaN",
+                                                                           "taxon" : "NaN"
+                                                                        },
+                                                                        {
+                                                                           "seq_length" : 200,
+                                                                           "duplication" : "N",
+                                                                           "name" : "Caenorhabditis_remanei",
+                                                                           "bootstrap" : "NaN",
+                                                                           "taxon" : "NaN"
+                                                                        },
+                                                                        {
+                                                                           "seq_length" : 200,
+                                                                           "duplication" : "N",
+                                                                           "name" : "Caenorhabditis_elegans",
+                                                                           "bootstrap" : "NaN",
+                                                                           "taxon" : "NaN"
+                                                                        }
+                                                                     ],
+                                                                     "bootstrap" : "NaN",
+                                                                     "taxon" : "NaN"
+                                                                  }
+                                                               ],
+                                                               "bootstrap" : "NaN",
+                                                               "taxon" : "NaN"
+                                                            }
+                                                         ],
+                                                         "bootstrap" : "NaN",
+                                                         "taxon" : "NaN"
+                                                      }
+                                                   ],
+                                                   "bootstrap" : "NaN",
+                                                   "taxon" : "NaN"
+                                                }
+                                             ],
+                                             "bootstrap" : "NaN",
+                                             "taxon" : "NaN"
+                                          }
+                                       ],
+                                       "bootstrap" : "NaN",
+                                       "taxon" : "NaN"
+                                    }
+                                 ],
+                                 "bootstrap" : "NaN",
+                                 "taxon" : "NaN"
+                              },
+                              {
+                                 "seq_length" : 200,
+                                 "duplication" : "N",
+                                 "name" : "Schistosoma_mansoni",
+                                 "bootstrap" : "NaN",
+                                 "taxon" : "NaN"
+                              }
+                           ],
+                           "bootstrap" : "NaN",
+                           "taxon" : "NaN"
+                        }
+                     ],
+                     "bootstrap" : "NaN",
+                     "taxon" : "NaN"
+                  }
+               ],
+               "bootstrap" : "NaN",
+               "taxon" : "NaN"
+            }
+         ],
+         "bootstrap" : "NaN",
+         "taxon" : "NaN"
+      },
+      {
+         "seq_length" : 200,
+         "duplication" : "N",
+         "name" : "Arabidopsis_thaliana",
+         "bootstrap" : "NaN",
+         "taxon" : "NaN"
+      }
+   ],
+   "bootstrap" : "NaN",
+   "taxon" : "NaN"
+}

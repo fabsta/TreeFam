@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>TreeFam tree</title>
+    
+   <!-- <script type="text/javascript" src="../../d3.v2.min.js"></script>
+    <script type="text/javascript" src="../../d3.layout.js"></script>
+    <script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script> -->
+
+
+    <script type="text/javascript" src="../../d3.v2.min.js"></script>
+<!--    <script type="text/javascript" src="../../d3.layout.js"></script>-->
+    <script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="../../jquery.tipsy.js"></script>
+    <script type="text/javascript" src="../../underscore-min.js"></script>
+
+
+    <script type="text/javascript" src="treefam_tree.js"></script>
+ 
+ 
+ <STYLE type="text/css">
+text {
+	font-size:10px;
+}
+/* 
+path.link {
+  fill: white;
+//  stroke: black;
+  stroke-width: 2.5px;
+
+path.selected {
+            stroke: darkred;
+            fill: red;
+            stroke-width: 10px;
+        }
+ */
+
+path.link {
+            fill: none;
+            stroke: gray;
+            stroke-width: 2.5px;
+        }
+
+        path.selected {
+            stroke: darkred;
+            fill: none;
+            stroke-width: 5px;
+        }
+
+circle {
+  //fill: white;
+ // stroke: black;
+  stroke-width: 5.5px;  
+}
+
+text.domainlabel{
+color : white;
+}
+
+
+.tooltip, .tooltip-pending-removal {
+  position: absolute;
+  background-color: rgba(255,255,255,1);
+  padding: 10px;
+  border: 1px solid #ddd;
+  z-index: 10000;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 13px;
+  border-radius: 10px;
+
+  pointer-events: none;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+ </STYLE>
+ 
+  </head>
+  <body>
+  <table border=1>
+  <tr>
+	  <th>internal node names:</th> 
+	  <th>species images:</th> 
+	  <th>IDs/Taxa:</th> 
+	  <th>domains:</th> 
+	  <th>taxonomic coloring:</th> 
+	  <th>evol_events:</th> 
+	  <th>tax groups</th>
+  </tr>
+  <tr>
+  	<td>
+			<a href="#" onclick="hide_internal_text();return false">hide</a>/
+			<a href="#" onclick="show_internal_text();return false">(all</a>
+			<a href="#" onclick="show_internal_text_important();return false">/selected)</a>
+			
+		</td>
+  	<td>
+				<a href="#" onclick="hide_images();return false">hide</a>/
+				<a href="#" onclick="show_images();return false">show</a><br>
+			</td>
+  	<td>
+
+				<a href="#" onclick="show_ids();return false">IDs</a>/
+				<a href="#" onclick="show_taxa();return false">taxa</a><br>
+			</td>
+  	<td>
+				<a href="#" onclick="hide_domains();return false">hide</a>/
+				<a href="#" onclick="show_domains();return false">show</a><br>
+			</td>
+  	<td>
+				<a href="#" onclick="hide_taxon_colors();return false">hide</a>/
+				<a href="#" onclick="show_taxon_colors();return false">show</a><br>
+			</td>
+  	<td>
+				<a href="#" onclick="hide_evol_nodes();return false">hide</a>/
+				<a href="#" onclick="show_evol_nodes();return false">show</a>
+			</td>
+			<td><input type="checkbox" onclick="show_tax_group()" value="On" /></td>
+	</tr>
+	</table>			
+	<div id="my_custom_menu" style="border=1; display:none; background-color:#white; color:#2D006B; text-decoration:none;border:1px solid #12127D;">
+	collapse nodes<br>
+	highlight stuff
+	</div>
+	<div id="my_domain_menu" style="border=1; display:none; background-color:white; color:#2D006B; text-decoration:none;border:1px solid #12127D;">
+	
+	</div>
+  <div style="width:80%;"> 
+	  <div style="float:left;   border: 3px grey solid; overflow=auto" id="tree"></div>
+	</div>  
+
+	<script type="text/javascript">
+		jQuery(document).ready(function() {
+				var json_tree = "../data/test.json";
+				var no_genes = 124 * 2;
+				var image_path = "../../species_images";
+				draw_d3_tree(no_genes, json_tree, image_path);
+		});
+</script>
+</body>
+</html>

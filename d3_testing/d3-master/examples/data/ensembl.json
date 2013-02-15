@@ -1,0 +1,1340 @@
+
+      {
+         "name" : "Fungi_Metazoa_group",
+         "children" : [
+            {
+               "name" : "Bilateria",
+               "children" : [
+                  {
+                     "name" : "Coelomata",
+                     "children" : [
+                        {
+                           "name" : "Chordata",
+                           "children" : [
+                              {
+                                 "name" : "",
+                                 "children" : [
+                                    {
+                                       "name" : "",
+                                       "children" : [
+                                          {
+                                             "name" : "",
+                                             "children" : [
+                                                {
+                                                   "name" : "",
+                                                   "children" : [
+                                                      {
+                                                         "name" : "",
+                                                         "children" : [
+                                                            {
+                                                               "name" : "",
+                                                               "children" : [
+                                                                  {
+                                                                     "name" : "",
+                                                                     "children" : [
+                                                                        {
+                                                                           "name" : "",
+                                                                           "children" : [
+                                                                              {
+                                                                                 "name" : "",
+                                                                                 "children" : [
+                                                                                    {
+                                                                                       "name" : "",
+                                                                                       "children" : [
+                                                                                          {
+                                                                                             "name" : "",
+                                                                                             "children" : [
+                                                                                                {
+                                                                                                   "name" : "",
+                                                                                                   "children" : [
+                                                                                                      {
+                                                                                                         "name" : "",
+                                                                                                         "children" : [
+                                                                                                            {
+                                                                                                               "name" : "",
+                                                                                                               "children" : [
+                                                                                                                  {
+                                                                                                                     "name" : "",
+                                                                                                                     "children" : [
+                                                                                                                        {
+                                                                                                                           "name" : "",
+                                                                                                                           "children" : [
+                                                                                                                              {
+                                                                                                                                 "name" : "",
+                                                                                                                                 "children" : [
+                                                                                                                                    {
+                                                                                                                                       "name" : "",
+                                                                                                                                       "children" : [
+                                                                                                                                          {
+                                                                                                                                             "name" : "",
+                                                                                                                                             "children" : [
+                                                                                                                                                {
+                                                                                                                                                   "common_name" : "NaN",
+                                                                                                                                                   "seq_length" : 400,
+                                                                                                                                                   "duplication" : "N",
+                                                                                                                                                   "name" : "Homo_sapiens",
+                                                                                                                                                   "type" : "node",
+                                                                                                                                                   "bootstrap" : "NaN",
+                                                                                                                                                   "taxon" : "NaN"
+                                                                                                                                                },
+                                                                                                                                                {
+                                                                                                                                                   "common_name" : "NaN",
+                                                                                                                                                   "seq_length" : 400,
+                                                                                                                                                   "duplication" : "N",
+                                                                                                                                                   "name" : "Pan_troglodytes",
+                                                                                                                                                   "type" : "node",
+                                                                                                                                                   "bootstrap" : "NaN",
+                                                                                                                                                   "taxon" : "NaN"
+                                                                                                                                                }
+                                                                                                                                             ],
+                                                                                                                                             "bootstrap" : "NaN",
+                                                                                                                                             "taxon" : "NaN",
+                                                                                                                                             "common_name" : "NaN",
+                                                                                                                                             "seq_length" : 400,
+                                                                                                                                             "duplication" : "N",
+                                                                                                                                             "type" : "node"
+                                                                                                                                          },
+                                                                                                                                          {
+                                                                                                                                             "common_name" : "NaN",
+                                                                                                                                             "seq_length" : 400,
+                                                                                                                                             "duplication" : "N",
+                                                                                                                                             "name" : "Gorilla_gorilla",
+                                                                                                                                             "type" : "node",
+                                                                                                                                             "bootstrap" : "NaN",
+                                                                                                                                             "taxon" : "NaN"
+                                                                                                                                          }
+                                                                                                                                       ],
+                                                                                                                                       "bootstrap" : "NaN",
+                                                                                                                                       "taxon" : "NaN",
+                                                                                                                                       "common_name" : "NaN",
+                                                                                                                                       "seq_length" : 400,
+                                                                                                                                       "duplication" : "N",
+                                                                                                                                       "type" : "node"
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                       "common_name" : "NaN",
+                                                                                                                                       "seq_length" : 400,
+                                                                                                                                       "duplication" : "N",
+                                                                                                                                       "name" : "Pongo_abelii",
+                                                                                                                                       "type" : "node",
+                                                                                                                                       "bootstrap" : "NaN",
+                                                                                                                                       "taxon" : "NaN"
+                                                                                                                                    }
+                                                                                                                                 ],
+                                                                                                                                 "bootstrap" : "NaN",
+                                                                                                                                 "taxon" : "NaN",
+                                                                                                                                 "common_name" : "NaN",
+                                                                                                                                 "seq_length" : 400,
+                                                                                                                                 "duplication" : "N",
+                                                                                                                                 "type" : "node"
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                                 "common_name" : "NaN",
+                                                                                                                                 "seq_length" : 400,
+                                                                                                                                 "duplication" : "N",
+                                                                                                                                 "name" : "Nomascus_leucogenys",
+                                                                                                                                 "type" : "node",
+                                                                                                                                 "bootstrap" : "NaN",
+                                                                                                                                 "taxon" : "NaN"
+                                                                                                                              }
+                                                                                                                           ],
+                                                                                                                           "bootstrap" : "NaN",
+                                                                                                                           "taxon" : "NaN",
+                                                                                                                           "common_name" : "NaN",
+                                                                                                                           "seq_length" : 400,
+                                                                                                                           "duplication" : "N",
+                                                                                                                           "type" : "node"
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                           "name" : "",
+                                                                                                                           "children" : [
+                                                                                                                              {
+                                                                                                                                 "common_name" : "NaN",
+                                                                                                                                 "seq_length" : 400,
+                                                                                                                                 "duplication" : "N",
+                                                                                                                                 "name" : "Macaca_mulatta",
+                                                                                                                                 "type" : "node",
+                                                                                                                                 "bootstrap" : "NaN",
+                                                                                                                                 "taxon" : "NaN"
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                                 "common_name" : "NaN",
+                                                                                                                                 "seq_length" : 400,
+                                                                                                                                 "duplication" : "N",
+                                                                                                                                 "name" : "Papio_hamadryas",
+                                                                                                                                 "type" : "node",
+                                                                                                                                 "bootstrap" : "NaN",
+                                                                                                                                 "taxon" : "NaN"
+                                                                                                                              }
+                                                                                                                           ],
+                                                                                                                           "bootstrap" : "NaN",
+                                                                                                                           "taxon" : "NaN",
+                                                                                                                           "common_name" : "NaN",
+                                                                                                                           "seq_length" : 400,
+                                                                                                                           "duplication" : "N",
+                                                                                                                           "type" : "node"
+                                                                                                                        }
+                                                                                                                     ],
+                                                                                                                     "bootstrap" : "NaN",
+                                                                                                                     "taxon" : "NaN",
+                                                                                                                     "common_name" : "NaN",
+                                                                                                                     "seq_length" : 400,
+                                                                                                                     "duplication" : "N",
+                                                                                                                     "type" : "node"
+                                                                                                                  },
+                                                                                                                  {
+                                                                                                                     "common_name" : "NaN",
+                                                                                                                     "seq_length" : 400,
+                                                                                                                     "duplication" : "N",
+                                                                                                                     "name" : "Callithrix_jacchus",
+                                                                                                                     "type" : "node",
+                                                                                                                     "bootstrap" : "NaN",
+                                                                                                                     "taxon" : "NaN"
+                                                                                                                  }
+                                                                                                               ],
+                                                                                                               "bootstrap" : "NaN",
+                                                                                                               "taxon" : "NaN",
+                                                                                                               "common_name" : "NaN",
+                                                                                                               "seq_length" : 400,
+                                                                                                               "duplication" : "N",
+                                                                                                               "type" : "node"
+                                                                                                            },
+                                                                                                            {
+                                                                                                               "common_name" : "NaN",
+                                                                                                               "seq_length" : 400,
+                                                                                                               "duplication" : "N",
+                                                                                                               "name" : "Tarsius_syrichta",
+                                                                                                               "type" : "node",
+                                                                                                               "bootstrap" : "NaN",
+                                                                                                               "taxon" : "NaN"
+                                                                                                            }
+                                                                                                         ],
+                                                                                                         "bootstrap" : "NaN",
+                                                                                                         "taxon" : "NaN",
+                                                                                                         "common_name" : "NaN",
+                                                                                                         "seq_length" : 400,
+                                                                                                         "duplication" : "N",
+                                                                                                         "type" : "node"
+                                                                                                      },
+                                                                                                      {
+                                                                                                         "name" : "",
+                                                                                                         "children" : [
+                                                                                                            {
+                                                                                                               "common_name" : "NaN",
+                                                                                                               "seq_length" : 400,
+                                                                                                               "duplication" : "N",
+                                                                                                               "name" : "Microcebus_murinus",
+                                                                                                               "type" : "node",
+                                                                                                               "bootstrap" : "NaN",
+                                                                                                               "taxon" : "NaN"
+                                                                                                            },
+                                                                                                            {
+                                                                                                               "common_name" : "NaN",
+                                                                                                               "seq_length" : 400,
+                                                                                                               "duplication" : "N",
+                                                                                                               "name" : "Otolemur_garnettii",
+                                                                                                               "type" : "node",
+                                                                                                               "bootstrap" : "NaN",
+                                                                                                               "taxon" : "NaN"
+                                                                                                            }
+                                                                                                         ],
+                                                                                                         "bootstrap" : "NaN",
+                                                                                                         "taxon" : "NaN",
+                                                                                                         "common_name" : "NaN",
+                                                                                                         "seq_length" : 400,
+                                                                                                         "duplication" : "N",
+                                                                                                         "type" : "node"
+                                                                                                      }
+                                                                                                   ],
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN",
+                                                                                                   "common_name" : "NaN",
+                                                                                                   "seq_length" : 400,
+                                                                                                   "duplication" : "N",
+                                                                                                   "type" : "node"
+                                                                                                },
+                                                                                                {
+                                                                                                   "common_name" : "NaN",
+                                                                                                   "seq_length" : 400,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "Tupaia_belangeri",
+                                                                                                   "type" : "node",
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                }
+                                                                                             ],
+                                                                                             "bootstrap" : "NaN",
+                                                                                             "taxon" : "NaN",
+                                                                                             "common_name" : "NaN",
+                                                                                             "seq_length" : 400,
+                                                                                             "duplication" : "N",
+                                                                                             "type" : "node"
+                                                                                          },
+                                                                                          {
+                                                                                             "name" : "",
+                                                                                             "children" : [
+                                                                                                {
+                                                                                                   "name" : "",
+                                                                                                   "children" : [
+                                                                                                      {
+                                                                                                         "name" : "",
+                                                                                                         "children" : [
+                                                                                                            {
+                                                                                                               "name" : "",
+                                                                                                               "children" : [
+                                                                                                                  {
+                                                                                                                     "name" : "",
+                                                                                                                     "children" : [
+                                                                                                                        {
+                                                                                                                           "common_name" : "NaN",
+                                                                                                                           "seq_length" : 400,
+                                                                                                                           "duplication" : "N",
+                                                                                                                           "name" : "Mus_musculus",
+                                                                                                                           "type" : "node",
+                                                                                                                           "bootstrap" : "NaN",
+                                                                                                                           "taxon" : "NaN"
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                           "common_name" : "NaN",
+                                                                                                                           "seq_length" : 400,
+                                                                                                                           "duplication" : "N",
+                                                                                                                           "name" : "Rattus_norvegicus",
+                                                                                                                           "type" : "node",
+                                                                                                                           "bootstrap" : "NaN",
+                                                                                                                           "taxon" : "NaN"
+                                                                                                                        }
+                                                                                                                     ],
+                                                                                                                     "bootstrap" : "NaN",
+                                                                                                                     "taxon" : "NaN",
+                                                                                                                     "common_name" : "NaN",
+                                                                                                                     "seq_length" : 400,
+                                                                                                                     "duplication" : "N",
+                                                                                                                     "type" : "node"
+                                                                                                                  },
+                                                                                                                  {
+                                                                                                                     "common_name" : "NaN",
+                                                                                                                     "seq_length" : 400,
+                                                                                                                     "duplication" : "N",
+                                                                                                                     "name" : "Dipodomys_ordii",
+                                                                                                                     "type" : "node",
+                                                                                                                     "bootstrap" : "NaN",
+                                                                                                                     "taxon" : "NaN"
+                                                                                                                  }
+                                                                                                               ],
+                                                                                                               "bootstrap" : "NaN",
+                                                                                                               "taxon" : "NaN",
+                                                                                                               "common_name" : "NaN",
+                                                                                                               "seq_length" : 400,
+                                                                                                               "duplication" : "N",
+                                                                                                               "type" : "node"
+                                                                                                            },
+                                                                                                            {
+                                                                                                               "common_name" : "NaN",
+                                                                                                               "seq_length" : 400,
+                                                                                                               "duplication" : "N",
+                                                                                                               "name" : "Cavia_porcellus",
+                                                                                                               "type" : "node",
+                                                                                                               "bootstrap" : "NaN",
+                                                                                                               "taxon" : "NaN"
+                                                                                                            }
+                                                                                                         ],
+                                                                                                         "bootstrap" : "NaN",
+                                                                                                         "taxon" : "NaN",
+                                                                                                         "common_name" : "NaN",
+                                                                                                         "seq_length" : 400,
+                                                                                                         "duplication" : "N",
+                                                                                                         "type" : "node"
+                                                                                                      },
+                                                                                                      {
+                                                                                                         "common_name" : "NaN",
+                                                                                                         "seq_length" : 400,
+                                                                                                         "duplication" : "N",
+                                                                                                         "name" : "Ictidomys_tridecemlineatus",
+                                                                                                         "type" : "node",
+                                                                                                         "bootstrap" : "NaN",
+                                                                                                         "taxon" : "NaN"
+                                                                                                      }
+                                                                                                   ],
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN",
+                                                                                                   "common_name" : "NaN",
+                                                                                                   "seq_length" : 400,
+                                                                                                   "duplication" : "N",
+                                                                                                   "type" : "node"
+                                                                                                },
+                                                                                                {
+                                                                                                   "name" : "",
+                                                                                                   "children" : [
+                                                                                                      {
+                                                                                                         "common_name" : "NaN",
+                                                                                                         "seq_length" : 400,
+                                                                                                         "duplication" : "N",
+                                                                                                         "name" : "Oryctolagus_cuniculus",
+                                                                                                         "type" : "node",
+                                                                                                         "bootstrap" : "NaN",
+                                                                                                         "taxon" : "NaN"
+                                                                                                      },
+                                                                                                      {
+                                                                                                         "common_name" : "NaN",
+                                                                                                         "seq_length" : 400,
+                                                                                                         "duplication" : "N",
+                                                                                                         "name" : "Ochotona_princeps",
+                                                                                                         "type" : "node",
+                                                                                                         "bootstrap" : "NaN",
+                                                                                                         "taxon" : "NaN"
+                                                                                                      }
+                                                                                                   ],
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN",
+                                                                                                   "common_name" : "NaN",
+                                                                                                   "seq_length" : 400,
+                                                                                                   "duplication" : "N",
+                                                                                                   "type" : "node"
+                                                                                                }
+                                                                                             ],
+                                                                                             "bootstrap" : "NaN",
+                                                                                             "taxon" : "NaN",
+                                                                                             "common_name" : "NaN",
+                                                                                             "seq_length" : 400,
+                                                                                             "duplication" : "N",
+                                                                                             "type" : "node"
+                                                                                          }
+                                                                                       ],
+                                                                                       "bootstrap" : "NaN",
+                                                                                       "taxon" : "NaN",
+                                                                                       "common_name" : "NaN",
+                                                                                       "seq_length" : 400,
+                                                                                       "duplication" : "N",
+                                                                                       "type" : "node"
+                                                                                    },
+                                                                                    {
+                                                                                       "name" : "",
+                                                                                       "children" : [
+                                                                                          {
+                                                                                             "name" : "",
+                                                                                             "children" : [
+                                                                                                {
+                                                                                                   "name" : "",
+                                                                                                   "children" : [
+                                                                                                      {
+                                                                                                         "name" : "",
+                                                                                                         "children" : [
+                                                                                                            {
+                                                                                                               "common_name" : "NaN",
+                                                                                                               "seq_length" : 400,
+                                                                                                               "duplication" : "N",
+                                                                                                               "name" : "Vicugna_pacos",
+                                                                                                               "type" : "node",
+                                                                                                               "bootstrap" : "NaN",
+                                                                                                               "taxon" : "NaN"
+                                                                                                            },
+                                                                                                            {
+                                                                                                               "name" : "",
+                                                                                                               "children" : [
+                                                                                                                  {
+                                                                                                                     "common_name" : "NaN",
+                                                                                                                     "seq_length" : 400,
+                                                                                                                     "duplication" : "N",
+                                                                                                                     "name" : "Tursiops_truncatus",
+                                                                                                                     "type" : "node",
+                                                                                                                     "bootstrap" : "NaN",
+                                                                                                                     "taxon" : "NaN"
+                                                                                                                  },
+                                                                                                                  {
+                                                                                                                     "name" : "",
+                                                                                                                     "children" : [
+                                                                                                                        {
+                                                                                                                           "common_name" : "NaN",
+                                                                                                                           "seq_length" : 400,
+                                                                                                                           "duplication" : "N",
+                                                                                                                           "name" : "Bos_taurus",
+                                                                                                                           "type" : "node",
+                                                                                                                           "bootstrap" : "NaN",
+                                                                                                                           "taxon" : "NaN"
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                           "common_name" : "NaN",
+                                                                                                                           "seq_length" : 400,
+                                                                                                                           "duplication" : "N",
+                                                                                                                           "name" : "Ovis_aries",
+                                                                                                                           "type" : "node",
+                                                                                                                           "bootstrap" : "NaN",
+                                                                                                                           "taxon" : "NaN"
+                                                                                                                        }
+                                                                                                                     ],
+                                                                                                                     "bootstrap" : "NaN",
+                                                                                                                     "taxon" : "NaN",
+                                                                                                                     "common_name" : "NaN",
+                                                                                                                     "seq_length" : 400,
+                                                                                                                     "duplication" : "N",
+                                                                                                                     "type" : "node"
+                                                                                                                  }
+                                                                                                               ],
+                                                                                                               "bootstrap" : "NaN",
+                                                                                                               "taxon" : "NaN",
+                                                                                                               "common_name" : "NaN",
+                                                                                                               "seq_length" : 400,
+                                                                                                               "duplication" : "N",
+                                                                                                               "type" : "node"
+                                                                                                            }
+                                                                                                         ],
+                                                                                                         "bootstrap" : "NaN",
+                                                                                                         "taxon" : "NaN",
+                                                                                                         "common_name" : "NaN",
+                                                                                                         "seq_length" : 400,
+                                                                                                         "duplication" : "N",
+                                                                                                         "type" : "node"
+                                                                                                      },
+                                                                                                      {
+                                                                                                         "common_name" : "NaN",
+                                                                                                         "seq_length" : 400,
+                                                                                                         "duplication" : "N",
+                                                                                                         "name" : "Sus_scrofa",
+                                                                                                         "type" : "node",
+                                                                                                         "bootstrap" : "NaN",
+                                                                                                         "taxon" : "NaN"
+                                                                                                      }
+                                                                                                   ],
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN",
+                                                                                                   "common_name" : "NaN",
+                                                                                                   "seq_length" : 400,
+                                                                                                   "duplication" : "N",
+                                                                                                   "type" : "node"
+                                                                                                },
+                                                                                                {
+                                                                                                   "name" : "",
+                                                                                                   "children" : [
+                                                                                                      {
+                                                                                                         "name" : "",
+                                                                                                         "children" : [
+                                                                                                            {
+                                                                                                               "common_name" : "NaN",
+                                                                                                               "seq_length" : 400,
+                                                                                                               "duplication" : "N",
+                                                                                                               "name" : "Equus_caballus",
+                                                                                                               "type" : "node",
+                                                                                                               "bootstrap" : "NaN",
+                                                                                                               "taxon" : "NaN"
+                                                                                                            },
+                                                                                                            {
+                                                                                                               "name" : "",
+                                                                                                               "children" : [
+                                                                                                                  {
+                                                                                                                     "common_name" : "NaN",
+                                                                                                                     "seq_length" : 400,
+                                                                                                                     "duplication" : "N",
+                                                                                                                     "name" : "Felis_catus",
+                                                                                                                     "type" : "node",
+                                                                                                                     "bootstrap" : "NaN",
+                                                                                                                     "taxon" : "NaN"
+                                                                                                                  },
+                                                                                                                  {
+                                                                                                                     "name" : "",
+                                                                                                                     "children" : [
+                                                                                                                        {
+                                                                                                                           "name" : "",
+                                                                                                                           "children" : [
+                                                                                                                              {
+                                                                                                                                 "common_name" : "NaN",
+                                                                                                                                 "seq_length" : 400,
+                                                                                                                                 "duplication" : "N",
+                                                                                                                                 "name" : "Ailuropoda_melanoleuca",
+                                                                                                                                 "type" : "node",
+                                                                                                                                 "bootstrap" : "NaN",
+                                                                                                                                 "taxon" : "NaN"
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                                 "common_name" : "NaN",
+                                                                                                                                 "seq_length" : 400,
+                                                                                                                                 "duplication" : "N",
+                                                                                                                                 "name" : "Mustela_putorius_furo",
+                                                                                                                                 "type" : "node",
+                                                                                                                                 "bootstrap" : "NaN",
+                                                                                                                                 "taxon" : "NaN"
+                                                                                                                              }
+                                                                                                                           ],
+                                                                                                                           "bootstrap" : "NaN",
+                                                                                                                           "taxon" : "NaN",
+                                                                                                                           "common_name" : "NaN",
+                                                                                                                           "seq_length" : 400,
+                                                                                                                           "duplication" : "N",
+                                                                                                                           "type" : "node"
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                           "common_name" : "NaN",
+                                                                                                                           "seq_length" : 400,
+                                                                                                                           "duplication" : "N",
+                                                                                                                           "name" : "Canis_familiaris",
+                                                                                                                           "type" : "node",
+                                                                                                                           "bootstrap" : "NaN",
+                                                                                                                           "taxon" : "NaN"
+                                                                                                                        }
+                                                                                                                     ],
+                                                                                                                     "bootstrap" : "NaN",
+                                                                                                                     "taxon" : "NaN",
+                                                                                                                     "common_name" : "NaN",
+                                                                                                                     "seq_length" : 400,
+                                                                                                                     "duplication" : "N",
+                                                                                                                     "type" : "node"
+                                                                                                                  }
+                                                                                                               ],
+                                                                                                               "bootstrap" : "NaN",
+                                                                                                               "taxon" : "NaN",
+                                                                                                               "common_name" : "NaN",
+                                                                                                               "seq_length" : 400,
+                                                                                                               "duplication" : "N",
+                                                                                                               "type" : "node"
+                                                                                                            }
+                                                                                                         ],
+                                                                                                         "bootstrap" : "NaN",
+                                                                                                         "taxon" : "NaN",
+                                                                                                         "common_name" : "NaN",
+                                                                                                         "seq_length" : 400,
+                                                                                                         "duplication" : "N",
+                                                                                                         "type" : "node"
+                                                                                                      },
+                                                                                                      {
+                                                                                                         "name" : "",
+                                                                                                         "children" : [
+                                                                                                            {
+                                                                                                               "common_name" : "NaN",
+                                                                                                               "seq_length" : 400,
+                                                                                                               "duplication" : "N",
+                                                                                                               "name" : "Myotis_lucifugus",
+                                                                                                               "type" : "node",
+                                                                                                               "bootstrap" : "NaN",
+                                                                                                               "taxon" : "NaN"
+                                                                                                            },
+                                                                                                            {
+                                                                                                               "common_name" : "NaN",
+                                                                                                               "seq_length" : 400,
+                                                                                                               "duplication" : "N",
+                                                                                                               "name" : "Pteropus_vampyrus",
+                                                                                                               "type" : "node",
+                                                                                                               "bootstrap" : "NaN",
+                                                                                                               "taxon" : "NaN"
+                                                                                                            }
+                                                                                                         ],
+                                                                                                         "bootstrap" : "NaN",
+                                                                                                         "taxon" : "NaN",
+                                                                                                         "common_name" : "NaN",
+                                                                                                         "seq_length" : 400,
+                                                                                                         "duplication" : "N",
+                                                                                                         "type" : "node"
+                                                                                                      }
+                                                                                                   ],
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN",
+                                                                                                   "common_name" : "NaN",
+                                                                                                   "seq_length" : 400,
+                                                                                                   "duplication" : "N",
+                                                                                                   "type" : "node"
+                                                                                                }
+                                                                                             ],
+                                                                                             "bootstrap" : "NaN",
+                                                                                             "taxon" : "NaN",
+                                                                                             "common_name" : "NaN",
+                                                                                             "seq_length" : 400,
+                                                                                             "duplication" : "N",
+                                                                                             "type" : "node"
+                                                                                          },
+                                                                                          {
+                                                                                             "name" : "",
+                                                                                             "children" : [
+                                                                                                {
+                                                                                                   "common_name" : "NaN",
+                                                                                                   "seq_length" : 400,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "Erinaceus_europaeus",
+                                                                                                   "type" : "node",
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                },
+                                                                                                {
+                                                                                                   "common_name" : "NaN",
+                                                                                                   "seq_length" : 400,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "Sorex_araneus",
+                                                                                                   "type" : "node",
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                }
+                                                                                             ],
+                                                                                             "bootstrap" : "NaN",
+                                                                                             "taxon" : "NaN",
+                                                                                             "common_name" : "NaN",
+                                                                                             "seq_length" : 400,
+                                                                                             "duplication" : "N",
+                                                                                             "type" : "node"
+                                                                                          }
+                                                                                       ],
+                                                                                       "bootstrap" : "NaN",
+                                                                                       "taxon" : "NaN",
+                                                                                       "common_name" : "NaN",
+                                                                                       "seq_length" : 400,
+                                                                                       "duplication" : "N",
+                                                                                       "type" : "node"
+                                                                                    }
+                                                                                 ],
+                                                                                 "bootstrap" : "NaN",
+                                                                                 "taxon" : "NaN",
+                                                                                 "common_name" : "NaN",
+                                                                                 "seq_length" : 400,
+                                                                                 "duplication" : "N",
+                                                                                 "type" : "node"
+                                                                              },
+                                                                              {
+                                                                                 "name" : "",
+                                                                                 "children" : [
+                                                                                    {
+                                                                                       "name" : "",
+                                                                                       "children" : [
+                                                                                          {
+                                                                                             "name" : "",
+                                                                                             "children" : [
+                                                                                                {
+                                                                                                   "common_name" : "NaN",
+                                                                                                   "seq_length" : 400,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "Loxodonta_africana",
+                                                                                                   "type" : "node",
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                },
+                                                                                                {
+                                                                                                   "common_name" : "NaN",
+                                                                                                   "seq_length" : 400,
+                                                                                                   "duplication" : "N",
+                                                                                                   "name" : "Procavia_capensis",
+                                                                                                   "type" : "node",
+                                                                                                   "bootstrap" : "NaN",
+                                                                                                   "taxon" : "NaN"
+                                                                                                }
+                                                                                             ],
+                                                                                             "bootstrap" : "NaN",
+                                                                                             "taxon" : "NaN",
+                                                                                             "common_name" : "NaN",
+                                                                                             "seq_length" : 400,
+                                                                                             "duplication" : "N",
+                                                                                             "type" : "node"
+                                                                                          },
+                                                                                          {
+                                                                                             "common_name" : "NaN",
+                                                                                             "seq_length" : 400,
+                                                                                             "duplication" : "N",
+                                                                                             "name" : "Echinops_telfairi",
+                                                                                             "type" : "node",
+                                                                                             "bootstrap" : "NaN",
+                                                                                             "taxon" : "NaN"
+                                                                                          }
+                                                                                       ],
+                                                                                       "bootstrap" : "NaN",
+                                                                                       "taxon" : "NaN",
+                                                                                       "common_name" : "NaN",
+                                                                                       "seq_length" : 400,
+                                                                                       "duplication" : "N",
+                                                                                       "type" : "node"
+                                                                                    },
+                                                                                    {
+                                                                                       "name" : "",
+                                                                                       "children" : [
+                                                                                          {
+                                                                                             "common_name" : "NaN",
+                                                                                             "seq_length" : 400,
+                                                                                             "duplication" : "N",
+                                                                                             "name" : "Dasypus_novemcinctus",
+                                                                                             "type" : "node",
+                                                                                             "bootstrap" : "NaN",
+                                                                                             "taxon" : "NaN"
+                                                                                          },
+                                                                                          {
+                                                                                             "common_name" : "NaN",
+                                                                                             "seq_length" : 400,
+                                                                                             "duplication" : "N",
+                                                                                             "name" : "Choloepus_hoffmanni",
+                                                                                             "type" : "node",
+                                                                                             "bootstrap" : "NaN",
+                                                                                             "taxon" : "NaN"
+                                                                                          }
+                                                                                       ],
+                                                                                       "bootstrap" : "NaN",
+                                                                                       "taxon" : "NaN",
+                                                                                       "common_name" : "NaN",
+                                                                                       "seq_length" : 400,
+                                                                                       "duplication" : "N",
+                                                                                       "type" : "node"
+                                                                                    }
+                                                                                 ],
+                                                                                 "bootstrap" : "NaN",
+                                                                                 "taxon" : "NaN",
+                                                                                 "common_name" : "NaN",
+                                                                                 "seq_length" : 400,
+                                                                                 "duplication" : "N",
+                                                                                 "type" : "node"
+                                                                              }
+                                                                           ],
+                                                                           "bootstrap" : "NaN",
+                                                                           "taxon" : "NaN",
+                                                                           "common_name" : "NaN",
+                                                                           "seq_length" : 400,
+                                                                           "duplication" : "N",
+                                                                           "type" : "node"
+                                                                        },
+                                                                        {
+                                                                           "name" : "",
+                                                                           "children" : [
+                                                                              {
+                                                                                 "common_name" : "NaN",
+                                                                                 "seq_length" : 400,
+                                                                                 "duplication" : "N",
+                                                                                 "name" : "Monodelphis_domestica",
+                                                                                 "type" : "node",
+                                                                                 "bootstrap" : "NaN",
+                                                                                 "taxon" : "NaN"
+                                                                              },
+                                                                              {
+                                                                                 "name" : "",
+                                                                                 "children" : [
+                                                                                    {
+                                                                                       "common_name" : "NaN",
+                                                                                       "seq_length" : 400,
+                                                                                       "duplication" : "N",
+                                                                                       "name" : "Macropus_eugenii",
+                                                                                       "type" : "node",
+                                                                                       "bootstrap" : "NaN",
+                                                                                       "taxon" : "NaN"
+                                                                                    },
+                                                                                    {
+                                                                                       "common_name" : "NaN",
+                                                                                       "seq_length" : 400,
+                                                                                       "duplication" : "N",
+                                                                                       "name" : "Sarcophilus_harrisii",
+                                                                                       "type" : "node",
+                                                                                       "bootstrap" : "NaN",
+                                                                                       "taxon" : "NaN"
+                                                                                    }
+                                                                                 ],
+                                                                                 "bootstrap" : "NaN",
+                                                                                 "taxon" : "NaN",
+                                                                                 "common_name" : "NaN",
+                                                                                 "seq_length" : 400,
+                                                                                 "duplication" : "N",
+                                                                                 "type" : "node"
+                                                                              }
+                                                                           ],
+                                                                           "bootstrap" : "NaN",
+                                                                           "taxon" : "NaN",
+                                                                           "common_name" : "NaN",
+                                                                           "seq_length" : 400,
+                                                                           "duplication" : "N",
+                                                                           "type" : "node"
+                                                                        }
+                                                                     ],
+                                                                     "bootstrap" : "NaN",
+                                                                     "taxon" : "NaN",
+                                                                     "common_name" : "NaN",
+                                                                     "seq_length" : 400,
+                                                                     "duplication" : "N",
+                                                                     "type" : "node"
+                                                                  },
+                                                                  {
+                                                                     "common_name" : "NaN",
+                                                                     "seq_length" : 400,
+                                                                     "duplication" : "N",
+                                                                     "name" : "Ornithorhynchus_anatinus",
+                                                                     "type" : "node",
+                                                                     "bootstrap" : "NaN",
+                                                                     "taxon" : "NaN"
+                                                                  }
+                                                               ],
+                                                               "bootstrap" : "NaN",
+                                                               "taxon" : "NaN",
+                                                               "common_name" : "NaN",
+                                                               "seq_length" : 400,
+                                                               "duplication" : "N",
+                                                               "type" : "node"
+                                                            },
+                                                            {
+                                                               "name" : "",
+                                                               "children" : [
+                                                                  {
+                                                                     "name" : "",
+                                                                     "children" : [
+                                                                        {
+                                                                           "name" : "",
+                                                                           "children" : [
+                                                                              {
+                                                                                 "name" : "",
+                                                                                 "children" : [
+                                                                                    {
+                                                                                       "name" : "",
+                                                                                       "children" : [
+                                                                                          {
+                                                                                             "common_name" : "NaN",
+                                                                                             "seq_length" : 400,
+                                                                                             "duplication" : "N",
+                                                                                             "name" : "Gallus_gallus",
+                                                                                             "type" : "node",
+                                                                                             "bootstrap" : "NaN",
+                                                                                             "taxon" : "NaN"
+                                                                                          },
+                                                                                          {
+                                                                                             "common_name" : "NaN",
+                                                                                             "seq_length" : 400,
+                                                                                             "duplication" : "N",
+                                                                                             "name" : "Meleagris_gallopavo",
+                                                                                             "type" : "node",
+                                                                                             "bootstrap" : "NaN",
+                                                                                             "taxon" : "NaN"
+                                                                                          }
+                                                                                       ],
+                                                                                       "bootstrap" : "NaN",
+                                                                                       "taxon" : "NaN",
+                                                                                       "common_name" : "NaN",
+                                                                                       "seq_length" : 400,
+                                                                                       "duplication" : "N",
+                                                                                       "type" : "node"
+                                                                                    },
+                                                                                    {
+                                                                                       "common_name" : "NaN",
+                                                                                       "seq_length" : 400,
+                                                                                       "duplication" : "N",
+                                                                                       "name" : "Anas_platyrhynchos",
+                                                                                       "type" : "node",
+                                                                                       "bootstrap" : "NaN",
+                                                                                       "taxon" : "NaN"
+                                                                                    }
+                                                                                 ],
+                                                                                 "bootstrap" : "NaN",
+                                                                                 "taxon" : "NaN",
+                                                                                 "common_name" : "NaN",
+                                                                                 "seq_length" : 400,
+                                                                                 "duplication" : "N",
+                                                                                 "type" : "node"
+                                                                              },
+                                                                              {
+                                                                                 "common_name" : "NaN",
+                                                                                 "seq_length" : 400,
+                                                                                 "duplication" : "N",
+                                                                                 "name" : "Taeniopygia_guttata",
+                                                                                 "type" : "node",
+                                                                                 "bootstrap" : "NaN",
+                                                                                 "taxon" : "NaN"
+                                                                              }
+                                                                           ],
+                                                                           "bootstrap" : "NaN",
+                                                                           "taxon" : "NaN",
+                                                                           "common_name" : "NaN",
+                                                                           "seq_length" : 400,
+                                                                           "duplication" : "N",
+                                                                           "type" : "node"
+                                                                        },
+                                                                        {
+                                                                           "common_name" : "NaN",
+                                                                           "seq_length" : 400,
+                                                                           "duplication" : "N",
+                                                                           "name" : "Anolis_carolinensis",
+                                                                           "type" : "node",
+                                                                           "bootstrap" : "NaN",
+                                                                           "taxon" : "NaN"
+                                                                        }
+                                                                     ],
+                                                                     "bootstrap" : "NaN",
+                                                                     "taxon" : "NaN",
+                                                                     "common_name" : "NaN",
+                                                                     "seq_length" : 400,
+                                                                     "duplication" : "N",
+                                                                     "type" : "node"
+                                                                  },
+                                                                  {
+                                                                     "common_name" : "NaN",
+                                                                     "seq_length" : 400,
+                                                                     "duplication" : "N",
+                                                                     "name" : "Pelodiscus_sinensis",
+                                                                     "type" : "node",
+                                                                     "bootstrap" : "NaN",
+                                                                     "taxon" : "NaN"
+                                                                  }
+                                                               ],
+                                                               "bootstrap" : "NaN",
+                                                               "taxon" : "NaN",
+                                                               "common_name" : "NaN",
+                                                               "seq_length" : 400,
+                                                               "duplication" : "N",
+                                                               "type" : "node"
+                                                            }
+                                                         ],
+                                                         "bootstrap" : "NaN",
+                                                         "taxon" : "NaN",
+                                                         "common_name" : "NaN",
+                                                         "seq_length" : 400,
+                                                         "duplication" : "N",
+                                                         "type" : "node"
+                                                      },
+                                                      {
+                                                         "common_name" : "NaN",
+                                                         "seq_length" : 400,
+                                                         "duplication" : "N",
+                                                         "name" : "Xenopus_tropicalis",
+                                                         "type" : "node",
+                                                         "bootstrap" : "NaN",
+                                                         "taxon" : "NaN"
+                                                      }
+                                                   ],
+                                                   "bootstrap" : "NaN",
+                                                   "taxon" : "NaN",
+                                                   "common_name" : "NaN",
+                                                   "seq_length" : 400,
+                                                   "duplication" : "N",
+                                                   "type" : "node"
+                                                },
+                                                {
+                                                   "common_name" : "NaN",
+                                                   "seq_length" : 400,
+                                                   "duplication" : "N",
+                                                   "name" : "Latimeria_chalumnae",
+                                                   "type" : "node",
+                                                   "bootstrap" : "NaN",
+                                                   "taxon" : "NaN"
+                                                }
+                                             ],
+                                             "bootstrap" : "NaN",
+                                             "taxon" : "NaN",
+                                             "common_name" : "NaN",
+                                             "seq_length" : 400,
+                                             "duplication" : "N",
+                                             "type" : "node"
+                                          },
+                                          {
+                                             "name" : "",
+                                             "children" : [
+                                                {
+                                                   "name" : "",
+                                                   "children" : [
+                                                      {
+                                                         "name" : "",
+                                                         "children" : [
+                                                            {
+                                                               "common_name" : "NaN",
+                                                               "seq_length" : 400,
+                                                               "duplication" : "N",
+                                                               "name" : "Oreochromis_niloticus",
+                                                               "type" : "node",
+                                                               "bootstrap" : "NaN",
+                                                               "taxon" : "NaN"
+                                                            },
+                                                            {
+                                                               "name" : "",
+                                                               "children" : [
+                                                                  {
+                                                                     "common_name" : "NaN",
+                                                                     "seq_length" : 400,
+                                                                     "duplication" : "N",
+                                                                     "name" : "Tetraodon_nigroviridis",
+                                                                     "type" : "node",
+                                                                     "bootstrap" : "NaN",
+                                                                     "taxon" : "NaN"
+                                                                  },
+                                                                  {
+                                                                     "common_name" : "NaN",
+                                                                     "seq_length" : 400,
+                                                                     "duplication" : "N",
+                                                                     "name" : "Takifugu_rubripes",
+                                                                     "type" : "node",
+                                                                     "bootstrap" : "NaN",
+                                                                     "taxon" : "NaN"
+                                                                  }
+                                                               ],
+                                                               "bootstrap" : "NaN",
+                                                               "taxon" : "NaN",
+                                                               "common_name" : "NaN",
+                                                               "seq_length" : 400,
+                                                               "duplication" : "N",
+                                                               "type" : "node"
+                                                            },
+                                                            {
+                                                               "name" : "",
+                                                               "children" : [
+                                                                  {
+                                                                     "name" : "",
+                                                                     "children" : [
+                                                                        {
+                                                                           "common_name" : "NaN",
+                                                                           "seq_length" : 400,
+                                                                           "duplication" : "N",
+                                                                           "name" : "Xiphophorus_maculatus",
+                                                                           "type" : "node",
+                                                                           "bootstrap" : "NaN",
+                                                                           "taxon" : "NaN"
+                                                                        },
+                                                                        {
+                                                                           "common_name" : "NaN",
+                                                                           "seq_length" : 400,
+                                                                           "duplication" : "N",
+                                                                           "name" : "Oryzias_latipes",
+                                                                           "type" : "node",
+                                                                           "bootstrap" : "NaN",
+                                                                           "taxon" : "NaN"
+                                                                        }
+                                                                     ],
+                                                                     "bootstrap" : "NaN",
+                                                                     "taxon" : "NaN",
+                                                                     "common_name" : "NaN",
+                                                                     "seq_length" : 400,
+                                                                     "duplication" : "N",
+                                                                     "type" : "node"
+                                                                  },
+                                                                  {
+                                                                     "common_name" : "NaN",
+                                                                     "seq_length" : 400,
+                                                                     "duplication" : "N",
+                                                                     "name" : "Gasterosteus_aculeatus",
+                                                                     "type" : "node",
+                                                                     "bootstrap" : "NaN",
+                                                                     "taxon" : "NaN"
+                                                                  }
+                                                               ],
+                                                               "bootstrap" : "NaN",
+                                                               "taxon" : "NaN",
+                                                               "common_name" : "NaN",
+                                                               "seq_length" : 400,
+                                                               "duplication" : "N",
+                                                               "type" : "node"
+                                                            }
+                                                         ],
+                                                         "bootstrap" : "NaN",
+                                                         "taxon" : "NaN",
+                                                         "common_name" : "NaN",
+                                                         "seq_length" : 400,
+                                                         "duplication" : "N",
+                                                         "type" : "node"
+                                                      },
+                                                      {
+                                                         "common_name" : "NaN",
+                                                         "seq_length" : 400,
+                                                         "duplication" : "N",
+                                                         "name" : "Gadus_morhua",
+                                                         "type" : "node",
+                                                         "bootstrap" : "NaN",
+                                                         "taxon" : "NaN"
+                                                      }
+                                                   ],
+                                                   "bootstrap" : "NaN",
+                                                   "taxon" : "NaN",
+                                                   "common_name" : "NaN",
+                                                   "seq_length" : 400,
+                                                   "duplication" : "N",
+                                                   "type" : "node"
+                                                },
+                                                {
+                                                   "common_name" : "NaN",
+                                                   "seq_length" : 400,
+                                                   "duplication" : "N",
+                                                   "name" : "Danio_rerio",
+                                                   "type" : "node",
+                                                   "bootstrap" : "NaN",
+                                                   "taxon" : "NaN"
+                                                }
+                                             ],
+                                             "bootstrap" : "NaN",
+                                             "taxon" : "NaN",
+                                             "common_name" : "NaN",
+                                             "seq_length" : 400,
+                                             "duplication" : "N",
+                                             "type" : "node"
+                                          }
+                                       ],
+                                       "bootstrap" : "NaN",
+                                       "taxon" : "NaN",
+                                       "common_name" : "NaN",
+                                       "seq_length" : 400,
+                                       "duplication" : "N",
+                                       "type" : "node"
+                                    },
+                                    {
+                                       "common_name" : "NaN",
+                                       "seq_length" : 400,
+                                       "duplication" : "N",
+                                       "name" : "Petromyzon_marinus",
+                                       "type" : "node",
+                                       "bootstrap" : "NaN",
+                                       "taxon" : "NaN"
+                                    }
+                                 ],
+                                 "bootstrap" : "NaN",
+                                 "taxon" : "NaN",
+                                 "common_name" : "NaN",
+                                 "seq_length" : 400,
+                                 "duplication" : "N",
+                                 "type" : "node"
+                              },
+                              {
+                                 "name" : "Cionidae",
+                                 "children" : [
+                                    {
+                                       "common_name" : "NaN",
+                                       "seq_length" : 400,
+                                       "duplication" : "N",
+                                       "name" : "Ciona_savignyi",
+                                       "type" : "node",
+                                       "bootstrap" : "NaN",
+                                       "taxon" : "NaN"
+                                    },
+                                    {
+                                       "common_name" : "NaN",
+                                       "seq_length" : 400,
+                                       "duplication" : "N",
+                                       "name" : "Ciona_intestinalis",
+                                       "type" : "node",
+                                       "bootstrap" : "NaN",
+                                       "taxon" : "NaN"
+                                    }
+                                 ],
+                                 "bootstrap" : "NaN",
+                                 "taxon" : "NaN",
+                                 "common_name" : "NaN",
+                                 "seq_length" : 400,
+                                 "duplication" : "N",
+                                 "type" : "node"
+                              }
+                           ],
+                           "bootstrap" : "NaN",
+                           "taxon" : "NaN",
+                           "common_name" : "NaN",
+                           "seq_length" : 400,
+                           "duplication" : "N",
+                           "type" : "node"
+                        },
+                        {
+                           "name" : "Endopterygota",
+                           "children" : [
+                              {
+                                 "common_name" : "NaN",
+                                 "seq_length" : 400,
+                                 "duplication" : "N",
+                                 "name" : "Apis_mellifera",
+                                 "type" : "node",
+                                 "bootstrap" : "NaN",
+                                 "taxon" : "NaN"
+                              },
+                              {
+                                 "name" : "Diptera",
+                                 "children" : [
+                                    {
+                                       "name" : "Culicinae",
+                                       "children" : [
+                                          {
+                                             "name" : "",
+                                             "children" : [
+                                                {
+                                                   "common_name" : "NaN",
+                                                   "seq_length" : 400,
+                                                   "duplication" : "N",
+                                                   "name" : "Aedes_aegypti",
+                                                   "type" : "node",
+                                                   "bootstrap" : "NaN",
+                                                   "taxon" : "NaN"
+                                                },
+                                                {
+                                                   "common_name" : "NaN",
+                                                   "seq_length" : 400,
+                                                   "duplication" : "N",
+                                                   "name" : "Culex_quinquefasciatus",
+                                                   "type" : "node",
+                                                   "bootstrap" : "NaN",
+                                                   "taxon" : "NaN"
+                                                }
+                                             ],
+                                             "bootstrap" : "NaN",
+                                             "taxon" : "NaN",
+                                             "common_name" : "NaN",
+                                             "seq_length" : 400,
+                                             "duplication" : "N",
+                                             "type" : "node"
+                                          },
+                                          {
+                                             "common_name" : "NaN",
+                                             "seq_length" : 400,
+                                             "duplication" : "N",
+                                             "name" : "Anopheles_gambiae",
+                                             "type" : "node",
+                                             "bootstrap" : "NaN",
+                                             "taxon" : "NaN"
+                                          }
+                                       ],
+                                       "bootstrap" : "NaN",
+                                       "taxon" : "NaN",
+                                       "common_name" : "NaN",
+                                       "seq_length" : 400,
+                                       "duplication" : "N",
+                                       "type" : "node"
+                                    },
+                                    {
+                                       "common_name" : "NaN",
+                                       "seq_length" : 400,
+                                       "duplication" : "N",
+                                       "name" : "Drosophila_melanogaster",
+                                       "type" : "node",
+                                       "bootstrap" : "NaN",
+                                       "taxon" : "NaN"
+                                    }
+                                 ],
+                                 "bootstrap" : "NaN",
+                                 "taxon" : "NaN",
+                                 "common_name" : "NaN",
+                                 "seq_length" : 400,
+                                 "duplication" : "N",
+                                 "type" : "node"
+                              }
+                           ],
+                           "bootstrap" : "NaN",
+                           "taxon" : "NaN",
+                           "common_name" : "NaN",
+                           "seq_length" : 400,
+                           "duplication" : "N",
+                           "type" : "node"
+                        }
+                     ],
+                     "bootstrap" : "NaN",
+                     "taxon" : "NaN",
+                     "common_name" : "NaN",
+                     "seq_length" : 400,
+                     "duplication" : "N",
+                     "type" : "node"
+                  },
+                  {
+                     "common_name" : "NaN",
+                     "seq_length" : 400,
+                     "duplication" : "N",
+                     "name" : "Caenorhabditis_elegans",
+                     "type" : "node",
+                     "bootstrap" : "NaN",
+                     "taxon" : "NaN"
+                  }
+               ],
+               "bootstrap" : "NaN",
+               "taxon" : "NaN",
+               "common_name" : "NaN",
+               "seq_length" : 400,
+               "duplication" : "N",
+               "type" : "node"
+            },
+            {
+               "common_name" : "NaN",
+               "seq_length" : 400,
+               "duplication" : "N",
+               "name" : "Saccharomyces_cerevisiae",
+               "type" : "node",
+               "bootstrap" : "NaN",
+               "taxon" : "NaN"
+            }
+         ],
+         "bootstrap" : "NaN",
+         "taxon" : "NaN",
+         "common_name" : "NaN",
+         "seq_length" : 400,
+         "duplication" : "N",
+         "type" : "node"
+      }
+   

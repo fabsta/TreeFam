@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>TreeFam tree</title>
+    
+   <!-- <script type="text/javascript" src="../../d3.v2.min.js"></script>
+    <script type="text/javascript" src="../../d3.layout.js"></script>
+    <script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script> -->
+
+
+    <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+<!--    <script type="text/javascript" src="../../d3.layout.js"></script>-->
+    <script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+
+
+<!--    <script type="text/javascript" src="treefam_tree.js"></script>-->
+ 
+ 
+ <STYLE type="text/css">
+
+text.domainlabel{
+color : white;
+}
+text {
+	font-size:2px;
+}
+path.link {
+  fill: white;
+//  stroke: black;
+//  stroke-width: 2.5px;
+
+
+
+circle {
+  fill: white;
+  stroke: black;
+  stroke-width: 2.5px;
+}
+ </STYLE>
+ 
+  </head>
+  <body>
+  <table border=1>
+  <tr>
+	  <th>internal node names:</th> 
+	  <th>species images:</th> 
+	  <th>taxonomic coloring:</th> 
+  </tr>
+  <tr>
+  	<td>
+			<a href="#" onclick="hide_internal_text();return false">hide</a>/
+			<a href="#" onclick="show_internal_text();return false">(all</a>
+			<a href="#" onclick="show_internal_text_important();return false">/selected)</a>
+			
+		</td>
+  	<td>
+				<a href="#" onclick="hide_images();return false">hide</a>/
+				<a href="#" onclick="show_images();return false">show</a><br>
+			</td>
+
+  	<td>
+				<a href="#" onclick="hide_taxon_colors();return false">hide</a>/
+				<a href="#" onclick="show_taxon_colors();return false">show</a><br>
+			</td>
+  
+	</tr>
+	</table>			
+	<div id="my_custom_menu" style="border=1; display:none; background-color:#ff0; color:#2D006B; text-decoration:none;border:1px solid #12127D;">
+	collapse nodes<br>
+	highlight stuff
+	</div>
+  <div style="width:80%;"> 
+	  <div style="float:left;   border: 3px grey solid; overflow=auto" id="tree"></div>
+</div>  
+  	
+    
+    <script type="text/javascript">
+  	
+	// Defined showable taxa
+	var show_taxa = new Object();
+	show_taxa['Metazoa'] = 1;
+	show_taxa['Bilateria'] = 1;
+	show_taxa['Mammalia'] = 1;
+	show_taxa['Dipteria'] = 1;
+	show_taxa['Primates'] = 1;
+	show_taxa['Arthropoda'] = 1;
+	show_taxa['Nematoda'] = 1;
+	show_taxa['Ascomycota'] = "red";
+	show_taxa['Codonosigidae'] = "red";
+
+
+// Outgroup
+	show_taxa['Arabidopsis_thaliana'] = 1;
+	var taxon_colors = new Object(); // or just {}
+	taxon_colors['Protostomia'] = "blue";
+	taxon_colors['Deuterostomia'] = "green";
+	taxon_colors['Mammalia'] = "darkgreen";
+
+	taxon_colors['Primates'] = "lightgreen";
+	taxon_colors['Homininae'] = "lightgreen";
+	taxon_colors['Hominidae'] = "lightgreen";
+	taxon_colors['Hominoidea'] = "lightgreen";
+	taxon_colors['Catarrhini'] = "lightgreen";
+	taxon_colors['Simiiformes'] = "lightgreen";
+	taxon_colors['Haplorrhini'] = "lightgreen";
+	taxon_colors['Strepsirrhini'] = "lightgreen";
+
+	taxon_colors['Arabidopsis_thaliana'] = "red";
+
+	taxon_colors['Ascomycota'] = "red";
+	taxon_colors['Codonosigidae'] = "red";
+
+	taxon_colors['Outgroup'] = "red";
+	
+	var image_path = "../../species_images";
+	
+	var id_label;
+	var w = "600",
+		h = "1200",
+		i = 0,
+		duration = 500,
+		root;
+	
+	var margin = {top: 0, right: 10, bottom: 0, left: 0},
+		width = 960 - margin.left - margin.right,
+		height = 500 - margin.top - margin.bottom;
+	
+	
+	var zoom = d3.behavior.zoom(), zoomFactor = 300;
+ 	//var tree = d3.layout.tree()
+ 	//.separation(function(a, b) { return a.parent === b.parent ? 0.9 : 2; })
+ 	//	.size([h, w - 160]);    
+	
+	var diagonal = d3.svg.diagonal()
+		.projection(function(d) { return [d.y, d.x]; });
+	
+	var tree = d3.layout.cluster()
+	.separation(function(a, b) { return a.parent === b.parent ? 4 : 4; })
+	//.separation(function(a, b) { return (a.parent == b.parent ? 1 : 2) / a.depth; })
+	.size([h, w - 100]);
+	
+	var domainOnlyScale = d3.scale.linear().domain([0,7]);
+	
+	
+
+	
+	
+// tree	
+	var vis = d3.select("#tree").append("svg:svg")
+		.attr("width", w)
+		.attr("height", h)
+		//.attr("viewBox","0 0 50 50")
+	  	.attr("transform", "translate(40,0)")
+		.attr("pointer-events", "all")
+	    .append('svg:g')
+    	.attr("transform", "translate(40,0)")
+		.attr("pointer-events", "all")
+        .call(d3.behavior.zoom().on("zoom", redraw))
+        .append('svg:g');
+	
+	zoom.scale(zoomFactor);
+	// vis.append('svg:rect')
+//     .attr('width', w)
+//     .attr('height', h)
+//     .attr('fill', 'white');
+// 	
+	
+	 d3.json("../data/treefam9_new.json", function(json) {
+// 	
+	
+	function collapse(d) {
+		if (d.children) {
+		  d._children = d.children;
+		  d._children.forEach(collapse);
+		  d.children = null;
+		}
+	  }
+	
+	
+	// We can try to set the tree initially
+	
+	  //json.children.forEach(collapse);
+	  //json.x0 = 800;
+	  //json.y0 = 0;
+		//json.children.forEach(toggleAll);
+	  //click(json.children[1]);
+	  //click(json.children[0].children[1]);
+	  //click(json.children[9]);
+	  //click(json.children[9].children[0]);
+	
+	  //update(root);
+	 // json = JSON.parse( myjson );
+	  update(root = json);
+	  
+	  var int_node = vis.select("g.node").filter(function(d){ return d.name == "Metazoa"});
+	  console.log(int_node);
+	  click(int_node);
+
+	});
+	
+	function update(source) {
+	
+	  // Compute the new tree layout.
+	  var nodes = tree.nodes(root);
+	  vis.attr({ width: 40000, height: 500});
+	  // Update the nodes…
+		var node = vis.selectAll("g.node").data(nodes, function(d) { return d.id || (d.id = ++i); });
+	
+		var nodeEnter = node.enter().append("svg:g")
+			.attr("class", "node")
+			.attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; });
+	 
+	  // Enter any new nodes at the parent's previous position.
+// CIRCLE	 
+		var circles = nodeEnter.append("svg:circle")
+		  .attr("r", function(d){
+		  	return d.children ? 1 : 0;
+		  })
+		//  .attr("fill", function(d){return d.duplication == "Y"? "red":"green"})
+		  .on("click", click)
+		  .on("contextmenu", function(data, index) {
+				console.log("well, in the context menu");
+				d3.select('#my_custom_menu')
+				  .style('position', 'absolute')
+				  .style('left', d3.event.x + "px")
+				  .style('top', d3.event.y + "px")
+				  .style('display', 'block');
+		    d3.event.preventDefault();
+});
+		
+		
+// green / red circle		
+		var presence_circles = nodeEnter.append("svg:circle")
+			.attr("r", function(d){
+		  			return d.children ? 0 : 2;
+			  })
+			.attr("fill", function(d){return d.duplication == "Y"? "red":"green"})
+	
+// TEXT	for presence_circles
+		var presence_circles_texts = nodeEnter.append("svg:text")
+			.attr("x", function(d) { return d.children ? -50 : -0.3; })
+			.attr("y", function(d) { return d.children ? -5 : 0.3; })
+			.style("fill", "black")
+ 						.style("font-size" ,"2px;")
+ 						.attr("class", "domainlabel")
+			.text(function(d) { 
+						if(d.children){
+						}
+						else{
+						return 2 
+						}
+			})
+			;
+
+
+// TEXT		
+		var text = nodeEnter.append("svg:text")
+			.attr("x", function(d) { return d.children ? -50 : 12; })
+			.attr("y", function(d) { return d.children ? -5 : 1; })
+			.text(function(d) { 
+						if(d.children){
+							if(show_taxa.hasOwnProperty(d.name)){
+								if(d.duplication == "Y"){return "";}
+								else{return d.name;}
+							}
+						}
+						else{return d.name; }});
+// IMAGE
+	 var images = nodeEnter.append("svg:image")
+		   .attr("x", 4.5)
+			.attr("y", -2)
+		   .attr("width", 5)
+		   .attr("height", 5)
+		   .attr("xlink:href", function(d) { 
+				//console.log("node "+d.name+"has "+d.children+" children");
+			  return d.children == null? image_path+"/thumb_"+d.name+".png" : "";
+	//         //return "http://static.ensembl.org/i/species/48/Homo_sapiens.png"; 
+		   });
+
+
+	
+	  // Transition nodes to their new position.
+		nodeEnter.transition()
+			.duration(duration)
+			.attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; })
+			.style("opacity", 1)
+		  .select("circle");
+			//.attr("cx", function(d) { return d.x; })
+			//.attr("cy", function(d) { return d.y; })
+			//.style("fill", "lightsteelblue");
+		  
+		node.transition()
+		  .duration(duration)
+		  .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; })
+		  .style("opacity", 1);
+		
+	
+		node.exit().transition()
+		  .duration(duration)
+		  .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
+		  .style("opacity", 1e-6)
+		  .remove();
+	/*
+		var nodeTransition = node.transition()
+			.duration(duration);
+	  
+	  nodeTransition.select("circle")
+		  .attr("cx", function(d) { return d.y; })
+		  .attr("cy", function(d) { return d.x; })
+		  .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+	  
+	  nodeTransition.select("text")
+		  .attr("dx", function(d) { return d._children ? -8 : 8; })
+		  .attr("dy", 3)
+		  .style("fill", function(d) { return d._children ? "lightsteelblue" : "#5babfc"; });
+	
+	  // Transition exiting nodes to the parent's new position.
+	  var nodeExit = node.exit();
+	  
+	  nodeExit.select("circle").transition()
+		  .duration(duration)
+		  .attr("cx", function(d) { return source.y; })
+		  .attr("cy", function(d) { return source.x; })
+		  .remove();
+	  
+	  nodeExit.select("text").transition()
+		  .duration(duration)
+		  .remove();
+	*/
+	  // Update the links…
+	  var link = vis.selectAll("path.link")
+		  .data(tree.links(nodes), function(d) { return d.target.id; });
+	
+	  // Enter any new links at the parent's previous position.
+	  link.enter().insert("svg:path", "g")
+		  .attr("class", "link")
+		  .attr("stroke-width", function(d){
+				return "1.5px";
+		  })
+		  .attr("stroke", function(d){
+			  //console.log("has property for "+d.source.name);
+			  if(taxon_colors.hasOwnProperty(d.source.name)){
+					console.log("has property for "+d.source.name);
+					return taxon_colors[d.source.name];
+			  }
+			  else{
+				return "black";
+			  }
+				//return taxon_colors.hasOwnProperty(d.name)? taxon_colors[d.name]: "black";
+		  })      
+		  .attr("d", elbow)
+		  //.attr("d", diagonal)
+	     //.attr("d", function(d) {
+   		 //   var o = {x: source.x0, y: source.y0};
+		 //      return diagonal({source: o, target: o});
+	     //})
+		.transition()
+		  .duration(duration)
+		  .attr("d", elbow)
+		  //.attr("d", diagonal)
+		  ;
+	
+	  // Transition links to their new position.
+	  link.transition()
+		  .duration(duration)
+		  .attr("d", elbow)
+		  //.attr("d", diagonal)
+		  ;
+	
+	  // Transition exiting nodes to the parent's new position.
+	  link.exit().transition()
+		  .duration(duration)
+		  .attr("d", elbow)
+		  //.attr("d", diagonal)
+		  //.attr("d", function(d) {
+		 	//   var o = {x: source.x, y: source.y};
+			//	return diagonal({source: o, target: o});
+		  //})
+		  .remove();
+	
+	  // Stash the old positions for transition.
+	  nodes.forEach(function(d) {
+		d.x0 = d.x;
+		d.y0 = d.y;
+	  });
+	
+	}
+
+
+
+// External functions
+
+	function toggleAll(d) {
+		if (d.children) {
+		  d.children.forEach(toggleAll);
+		  click(d);
+		}
+	  }
+	  
+	// Internal text
+	function hide_internal_text(d) {
+		vis.selectAll("text").text(function(d){
+				return d.children ? "": d.name; 
+		});
+	}
+	function show_internal_text(d) {
+		console.log("we are here");
+		vis.selectAll("text").text(function(d) { 
+		if(d.duplication == "Y"){
+				return "";
+		}
+		else{
+					return d.name; 
+		}
+		});
+	}
+	
+	function show_internal_text_important(d) {
+		vis.selectAll("text").text(function(d) { 
+		
+			//console.log("checking: "+d.name)
+			if(d.children){
+				//	console.log("[has children]")
+				if(show_taxa.hasOwnProperty(d.name)){
+				//	console.log("[is showable]")
+					if(d.duplication == "Y"){
+					//	console.log("[is duplication]")
+						return "";
+					}
+				else{
+					//	console.log("[success]")
+					return d.name;
+				}
+			}
+		}
+		else{
+			//console.log("[is child-> success]")
+		return d.name; 
+		}
+		});
+	}
+	
+	
+	// IDS
+	function show_ids(d) {
+		vis.selectAll("text").text(function(d) { 
+			return  d.name; 
+		});
+	}
+	function show_taxa(d) {
+		vis.selectAll("text").text(function(d) { 
+			return d.name; 
+		});
+	}
+	
+	
+	// Domains
+	function hide_domains(d) {
+		vis.selectAll("rect").attr("width", 0).attr("height", 0);
+	}
+	function show_domains(d) {
+		vis.selectAll("rect")
+			.attr("width", function(d){return d.children ? "":"5";})
+			.attr("height", function(d){
+				   //var randomnumber=Math.floor(Math.random()*11)
+				   return d.children ? "":domainOnlyScale(d.seq_length);
+			});
+		
+	}
+	
+	// Images
+	function hide_images(d) {
+		console.log("we are here");
+		vis.selectAll("image").attr("width", 0).attr("height", 0);
+		vis.selectAll("text").attr("x", function(d) { return d.children ? -50 : 8; });
+	}
+	function show_images(d) {
+		console.log("we are here");
+		vis.selectAll("image").attr("width", 20).attr("height", 20);
+		vis.selectAll("text").attr("x", function(d) { return d.children ? -50 : 38; });
+	}
+	
+	// evolutionary events
+	function hide_evol_nodes(d) {
+		vis.selectAll("circle")
+		.attr("r", function(d){
+		  	return d.children ? 5 : 0;
+		  })
+		.attr("fill", "black")
+		.on("click", "");
+		//attr("width", 0).attr("height", 0);
+		//vis.selectAll("text").attr("x", function(d) { return d.children ? -50 : 8; });
+	}
+	function show_evol_nodes(d) {
+		vis.selectAll("circle")
+		.attr("r", function(d){
+				if(d.children){
+					return d.duplication == "Y"? 10:5;
+				}
+		})
+		.attr("fill", function(d){return d.duplication == "Y"? "red":"green"})
+		.on("click", click);
+	}	
+	// Taxon colors
+	function show_taxon_colors(d){
+		vis.selectAll("path").attr("stroke", function(d){
+			  console.log("has property for "+d.source.name);
+			  if(taxon_colors.hasOwnProperty(d.source.name)){
+					console.log("has property for "+d.source.name);
+					return taxon_colors[d.source.name];
+			  }
+			  else{
+				return "black";
+			  }
+				//return taxon_colors.hasOwnProperty(d.name)? taxon_colors[d.name]: "black";
+		  })
+		  .attr("stroke-width", function(d){
+			  if(taxon_colors.hasOwnProperty(d.source.name)){
+				return "6.5px";
+			  }
+			  else{
+				return "3.5px";
+			  }
+		  });    
+	}
+	function hide_taxon_colors(d){
+		vis.selectAll("path")
+		.attr("stroke","black")
+		.attr("stroke-width", function(d){
+				return "3.5px";
+		  });
+	}
+	
+	
+	function toggle_ids(d){
+		vis.selectAll("text").text(function(d){
+			if(d.children){
+				return d.name;
+			}
+			else{
+				return  id_label == "taxon_name"? d.name :d.taxon
+			}
+		});
+	}
+	
+
+	function elbow(d, i) {
+		//	console.log("use M" + d.source.y + "," + d.source.x
+		//   + "H" + d.target.y + "V" + d.target.x
+		//   + (d.target.children ? "" : "h" + margin.right));
+		   
+		   return "M" + d.source.y + "," + d.source.x
+      + "V" + d.target.x + "H" + d.target.y;
+//	  return "M" + d.source.y + "," + d.source.x
+//		   + "H" + d.target.y + "V" + d.target.x
+//		   + (d.target.children ? "" : "h" + margin.right);
+	}
+	
+	function redraw() {
+ 	 //console.log("here", d3.event.translate, d3.event.scale);
+	  vis.attr("transform",
+    	  "translate(" + d3.event.translate + ")"
+	      + " scale(" + d3.event.scale + ")");
+	}
+	// Toggle children on click.
+	function click(d) {
+	  if (d.children) {
+		d._children = d.children;
+		d.children = null;
+	  } else {
+		d.children = d._children;
+		d._children = null;
+	  }
+	  console.log("now d is: ");
+	  console.log(d);
+	  // update node
+		d3.select(this)
+			.attr("r",function(d){
+			if(undefined == d){
+				return 15;}
+			else{
+				return d.duplication == "Y"? 15:8;
+			}
+			})
+			.attr("class", "collapsed")	
+			.attr("fill",function(d){return d.children? "":"white";})
+			.attr("stroke",function(d){return d.children? "":"black";})
+		    .attr("stroke-width", function(d){return d.children? "":"2.5px";});
+	  
+	  
+	  
+	  update(d);
+	}
+	
+	
+	d3.select(self.frameElement).style("height", "2000px");   
+    
+    
+    
+    </script>
+  </body>
+</html>

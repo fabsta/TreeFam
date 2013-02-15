@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>TreeFam tree</title>
+    
+   <!-- <script type="text/javascript" src="../../d3.v2.min.js"></script>
+    <script type="text/javascript" src="../../d3.layout.js"></script>
+    <script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script> -->
+
+
+    <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+<!--    <script type="text/javascript" src="../../d3.layout.js"></script>-->
+    <script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+
+
+<!--    <script type="text/javascript" src="treefam_tree.js"></script>-->
+ 
+ 
+ <STYLE type="text/css">
+
+text {
+	font-size: 5px;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node {
+  font: 10px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+
+ </STYLE>
+ 
+  </head>
+  <body>
+  <table border=1>
+  <tr>
+	  <th>internal node names:</th> 
+	  <th>species images:</th> 
+	  <th>taxonomic coloring:</th> 
+  </tr>
+  <tr>
+  	<td>
+			<a href="#" onclick="hide_internal_text();return false">hide</a>/
+			<a href="#" onclick="show_internal_text();return false">(all</a>
+			<a href="#" onclick="show_internal_text_important();return false">/selected)</a>
+			
+		</td>
+  	<td>
+				<a href="#" onclick="hide_images();return false">hide</a>/
+				<a href="#" onclick="show_images();return false">show</a><br>
+			</td>
+
+  	<td>
+				<a href="#" onclick="hide_taxon_colors();return false">hide</a>/
+				<a href="#" onclick="show_taxon_colors();return false">show</a><br>
+			</td>
+  
+	</tr>
+	</table>			
+	<div id="my_custom_menu" style="border=1; display:none; background-color:#ff0; color:#2D006B; text-decoration:none;border:1px solid #12127D;">
+	collapse nodes<br>
+	highlight stuff
+	</div>
+  <div style="width:80%;"> 
+	  <div style="float:left;   border: 3px grey solid; overflow=auto" id="tree"></div>
+</div>  
+  	
+    
+    <script type="text/javascript">
+  	
+	// Defined showable taxa
+	var show_taxa = new Object();
+	show_taxa['Metazoa'] = 1;
+	show_taxa['Bilateria'] = 1;
+	show_taxa['Mammalia'] = 1;
+	show_taxa['Dipteria'] = 1;
+	show_taxa['Primates'] = 1;
+	show_taxa['Arthropoda'] = 1;
+	show_taxa['Nematoda'] = 1;
+	show_taxa['Ascomycota'] = "red";
+	show_taxa['Codonosigidae'] = "red";
+
+
+// Outgroup
+	show_taxa['Arabidopsis_thaliana'] = 1;
+	var taxon_colors = new Object(); // or just {}
+	taxon_colors['Protostomia'] = "blue";
+	taxon_colors['Deuterostomia'] = "green";
+	taxon_colors['Mammalia'] = "darkgreen";
+
+	taxon_colors['Primates'] = "lightgreen";
+	taxon_colors['Homininae'] = "lightgreen";
+	taxon_colors['Hominidae'] = "lightgreen";
+	taxon_colors['Hominoidea'] = "lightgreen";
+	taxon_colors['Catarrhini'] = "lightgreen";
+	taxon_colors['Simiiformes'] = "lightgreen";
+	taxon_colors['Haplorrhini'] = "lightgreen";
+	taxon_colors['Strepsirrhini'] = "lightgreen";
+
+	taxon_colors['Arabidopsis_thaliana'] = "red";
+
+	taxon_colors['Ascomycota'] = "red";
+	taxon_colors['Codonosigidae'] = "red";
+
+	taxon_colors['Outgroup'] = "red";
+	
+	var image_path = "../../species_images";
+	
+	var diameter = 460;
+
+var tree = d3.layout.tree()
+    .size([360, diameter / 2 - 20])
+    .separation(function(a, b) { return (a.parent == b.parent ? 1 : 4) / a.depth; });
+
+var diagonal = d3.svg.diagonal.radial()
+    .projection(function(d) { return [d.y, d.x / 180 * Math.PI]; });
+
+var svg = d3.select("body").append("svg")
+    .attr("width", diameter)
+    .attr("height", diameter - 50)
+  .append("g")
+    .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
+
+d3.json("../data/treefam9_new.json", function(error, root) {
+  var nodes = tree.nodes(root),
+      links = tree.links(nodes);
+
+  var link = svg.selectAll(".link")
+      .data(links)
+    .enter().append("path")
+      .attr("class", "link")
+      .attr("d", diagonal);
+
+  var node = svg.selectAll(".node")
+      .data(nodes)
+    .enter().append("g")
+      .attr("class", "node")
+      .attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"; })
+
+  node.append("circle")
+      .attr("r", 1);
+
+  node.append("text")
+      .attr("dy", ".31em")
+      .attr("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
+      .attr("transform", function(d) { return d.x < 180 ? "translate(8)" : "rotate(180)translate(-8)"; })
+      .text(function(d) { return d.children ? "" : d.name; });
+});
+
+d3.select(self.frameElement).style("height", diameter - 150 + "px");
+    
+    </script>
+  </body>
+</html>

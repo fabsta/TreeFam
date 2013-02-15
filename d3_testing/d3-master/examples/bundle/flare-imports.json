@@ -1,0 +1,9 @@
+
+
+
+
+[
+{"name":"Human","size":3938,"imports":["Mouse","Rat"]},
+{"name":"Mouse","size":743,"imports":["Rat"]},
+{"name":"Rat","size":16540,"imports":["Mouse"]}
+]

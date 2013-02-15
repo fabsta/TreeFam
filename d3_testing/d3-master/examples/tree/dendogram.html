@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+//.node circle {
+//  fill: #fff;
+//  stroke: steelblue;
+//  stroke-width: 1.5px;
+//}
+
+.node {
+  font: 14px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+
+</style>
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="../../newick.js"></script>
+<script>
+var image_path = "../../species_images";
+var width = 800,
+    height = 1500;
+
+var cluster = d3.layout.cluster().size([height, width - 160]);
+
+var diagonal = d3.svg.diagonal().projection(function(d) { return [d.y, d.x]; });
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height)
+    .append("g")
+    .attr("transform", "translate(100,0)");
+
+d3.json("../data/gene_tree.json", function(error, root) {
+var nodes = cluster.nodes(root), links = cluster.links(nodes);
+//d3.text("../data/tree_of_life.nh", function(text) {
+//console.log("well at least here"+text);
+//  var x = newick.parse(text);
+//console.log("well at least here"+x);
+//  var nodes = cluster(x);
+//  var nodes = cluster.nodes(x),links = cluster.links(nodes);
+
+  var link = svg.selectAll(".link")
+      //.data(cluster.links(nodes))
+      .data(links)
+      .enter().append("path")
+      .attr("class", "link")
+      .attr("d", diagonal);
+
+  var node = svg.selectAll(".node")
+     // .data(nodes.filter(function(n) { return n.x !== undefined; }))
+      .data(nodes)
+      .enter().append("g")
+      .attr("class", "node")
+      .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; })
+
+
+  	node.append("circle")
+      .attr("r", function(d){
+      	return d.duplication == "Y"? 10:4.5;
+      })
+      .attr("fill", function(d){
+      	return d.duplication == "Y"? "red":"green"
+      });
+      
+      
+	   node.append("svg:image")
+       .attr("y", -13.5)
+      .attr("x", 10.5)
+      .attr("width", 30)
+      .attr("height", 30)
+      .attr("xlink:href", function(d) { 
+			console.log("node "+d.name+"has "+d.children+" children");
+		  return d.children == null? image_path+"/thumb_"+d.taxon+".png" : "";
+        //return "http://static.ensembl.org/i/species/48/Homo_sapiens.png"; 
+      });
+	
+  node.append("text")
+      .attr("dx", function(d) { return d.children ? -8 : 48; })
+      .attr("dy", 3)
+      .style("text-anchor", function(d) { return d.children ? "end" : "start"; })
+      .text(function(d) { return d.name+" ("+d.bootstrap+")"; });
+});
+
+d3.select(self.frameElement).style("height", height + "px");
+
+</script>
